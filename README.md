@@ -53,6 +53,7 @@ ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define
 - [Artist-owned site roadmap](docs/artist-owned-site-roadmap.md)
 - [AT Protocol publishing plan](docs/atproto-publishing-plan.md)
 - [PLYR/Suno listening test](experiments/plyr-suno-listening-test.md)
+- [Live A/B listening page](https://ibloud.github.io/50-ways-to-leave-another/#listen)
 
 ## Reusable controls
 
