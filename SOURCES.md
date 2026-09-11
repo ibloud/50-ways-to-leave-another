@@ -4,7 +4,7 @@ Public claims should be re-checked immediately before a proposal, purchase, or p
 
 | Source | Used for | Accessed | Notes |
 | --- | --- | --- | --- |
-| [Charlie J Fiverr listing](https://www.fiverr.com/musiccharliej/write-and-perform-a-rapped-verse-for-your-song) | Public package descriptions and listed prices | 2026-09-11 | A listing is not proof of availability, acceptance, attachment, or permission outside the platform/order |
+| [Charlie J Fiverr listing](https://www.fiverr.com/musiccharliej/write-and-perform-a-rapped-verse-for-your-song) | Public package descriptions and listed prices | 2026-09-11 | A listing is not proof of availability, acceptance, attachment, or permission outside the platform/order. Fiverr may display a service-fee-inclusive buyer price; the offer table records the underlying package figures used for the project comparison. |
 | [Fiverr earnings page](https://help.fiverr.com/hc/en-us/articles/9234443621137-Your-earnings-page) | Seller earnings percentage cited in the offer analysis | 2026-09-11 | Re-check current terms and account-specific conditions |
 | [Fiverr payment help](https://help.fiverr.com/hc/en-us/articles/360050216133-Paying-for-orders-extras-or-custom-offers) | Buyer service-fee analysis | 2026-09-11 | Taxes, currency conversion, and account/region differences are excluded from the example |
 | [PLYR portal](https://plyr.fm/portal) | Proposed listening and AT Protocol publication layer | 2026-09-11 | No experiment result is claimed |

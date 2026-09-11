@@ -9,7 +9,7 @@
 - [x] Rights, provenance, correction, and storage boundaries are documented
 - [x] Fiverr claims have linked sources and calculation assumptions
 - [x] README links resolve within the repository
-- [ ] Re-check live public prices and fees before sending the proposal
+- [x] Re-checked live Fiverr listing and fee documentation on 2026-09-11; re-check again immediately before purchase
 - [ ] Dominique approves repository visibility
 - [ ] Charlie approves any named case-study participation beyond analysis of the public listing
 
