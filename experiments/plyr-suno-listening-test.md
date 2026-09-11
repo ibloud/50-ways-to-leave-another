@@ -6,6 +6,13 @@ How do listeners in the ATmosphere respond to a disclosed AI-generated recording
 
 This is not a hidden detection test. Concealment would test deception. Disclosure tests informed response.
 
+## Listen to the comparison
+
+- [Human source recording on Audio.com](https://audio.com/ibloud-ivxx/audio/50-ways-to-leave-another-mix-2-11-7-24)
+- [Suno-assisted interpretation on PLYR](https://plyr.fm/track/1117?ref=7-KpL9yQ)
+
+The Audio.com item is the canonical source recording. The PLYR item is the disclosed generated interpretation. Compare creative choices, production, emotional effect, and the platforms' presentation—not merely whether a recording used AI.
+
 ## Required track label
 
 > **Human-authored, AI-generated demo.** Dominique Devereaux created the concept, source lyrics, and narrative direction. Suno generated the audible demo performance and production. This is a disclosed pre-production experiment, not a human vocal performance, finished commercial master, or autonomous AI authorship claim.
