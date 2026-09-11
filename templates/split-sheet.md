@@ -93,6 +93,9 @@ Contributors receiving a flat session fee in lieu of a royalty split will be pai
 ☐ This track contains cleared samples — see RIGHTS-AND-CLEARANCE.md for documentation.  
 ☐ Sample clearance is pending — **this sheet is not valid for distribution until clearance is confirmed.**
 
+**AI-generated compositional material:** ☐ None · ☐ Present — described in AI-DISCLOSURE.md  
+> If AI tools contributed to melody, harmony, lyrics, or arrangement, confirm that no AI-generated element is claimed as a human-authored contribution in this split. See AI-DISCLOSURE.md for the project's disclosure standards.
+
 ---
 
 ## Notes
