@@ -2,8 +2,8 @@
 
 **Documentation release:** v0.2 coordinator-role proposal  
 **Music phase:** pre-production  
-**Repository visibility:** private pending Dominique's final public-visibility action  
-**Collaboration status:** Dominique and Charlie J are in direct exploratory conversation; no commission, attachment, endorsement, or rights agreement is claimed.  
+**Repository visibility:** public as of September 11, 2026  
+**Collaboration status:** public proposal only; Charlie J is not attached and no acceptance, endorsement, commission, or rights agreement is claimed.  
 **Proposed Charlie role:** lead artist and production coordinator, able under an accepted agreement to propose and coordinate the specialists needed for delivery.  
 **Commercial status:** no final release, clearance, publishing split, or master-ownership agreement has been executed through this repository.
 
@@ -44,8 +44,8 @@ The project is designed to help Charlie expand from selling one discrete contrib
 
 ## Repository completion boundary
 
-The repository is complete as a v0.1 pre-production and evaluation package. “Complete” does not mean the EP is commissioned, cleared, recorded, delivered, or released.
+The repository is complete as a v0.2 pre-production and evaluation package. “Complete” does not mean the EP is commissioned, cleared, recorded, delivered, or released.
 
 ## Next external decision
 
-Dominique may make the repository public after reviewing `RELEASE-CHECKLIST.md`. Then review the pilot and coordinator proposal with Charlie. His paid participation, authority to coordinate contributors, public naming, case-study participation, and artist-owned website are separate opt-in decisions.
+The repository is public. Any private proposal review, paid participation, authority to coordinate contributors, public identification, case-study participation, or artist-owned website remains a separate opt-in decision.
