@@ -1,0 +1,30 @@
+# Contribution record
+
+- Track:
+- Version:
+- Contributor:
+- Professional name:
+- Contribution date:
+- Role:
+- Description of contribution:
+- Pre-existing or newly created:
+- Human-created elements:
+- AI tools used:
+- AI-generated or transformed elements:
+- Source assets:
+- Master ownership:
+- Composition ownership:
+- Publishing share:
+- Performer credit:
+- Producer credit:
+- Permitted uses:
+- Prohibited uses:
+- Voice/likeness permission:
+- AI-training permission:
+- Compensation:
+- Revenue participation:
+- Credit wording:
+- Approval evidence location:
+- Expiration or revocation:
+- Open clearance questions:
+- Contributor confirmation:
