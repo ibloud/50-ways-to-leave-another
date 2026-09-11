@@ -10,7 +10,7 @@
 - [x] Fiverr claims have linked sources and calculation assumptions
 - [x] README links resolve within the repository
 - [x] Re-checked live Fiverr listing and fee documentation on 2026-09-11; re-check again immediately before purchase
-- [ ] Dominique approves repository visibility
+- [x] Dominique approved public repository visibility on 2026-09-11
 - [ ] Charlie approves any named case-study participation beyond analysis of the public listing
 
 ## Collaboration gate
