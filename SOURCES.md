@@ -9,6 +9,7 @@ Public claims should be re-checked immediately before a proposal, purchase, or p
 | [Fiverr payment help](https://help.fiverr.com/hc/en-us/articles/360050216133-Paying-for-orders-extras-or-custom-offers) | Buyer service-fee analysis | 2026-09-11 | Taxes, currency conversion, and account/region differences are excluded from the example |
 | [PLYR portal](https://plyr.fm/portal) | Proposed listening and AT Protocol publication layer | 2026-09-11 | No experiment result is claimed |
 | [Standard.site](https://standard.site/) | Proposed portable long-form publishing layer | 2026-09-11 | Treated as a publishing schema/layer, not a substitute for contracts or protected storage |
+| [IBLoud IVXX Story Lab](https://github.com/ibloud/ibloud-ivxx-story-lab) | Sync catalogue gap analysis and agent framing | 2026-09-12 | Live repo; status changes as clearance ledger is updated |
 
 ## Calculation note
 
