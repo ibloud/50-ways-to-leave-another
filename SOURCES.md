@@ -9,6 +9,12 @@ Public claims should be re-checked immediately before a proposal, purchase, or p
 | [Fiverr payment help](https://help.fiverr.com/hc/en-us/articles/360050216133-Paying-for-orders-extras-or-custom-offers) | Buyer service-fee analysis | 2026-09-11 | Taxes, currency conversion, and account/region differences are excluded from the example |
 | [PLYR portal](https://plyr.fm/portal) | Proposed listening and AT Protocol publication layer | 2026-09-11 | No experiment result is claimed |
 | [Standard.site](https://standard.site/) | Proposed portable long-form publishing layer | 2026-09-11 | Treated as a publishing schema/layer, not a substitute for contracts or protected storage |
+| [Charlie J on AirGigs](https://www.airgigs.com/tags/hire-rappers/uk-rap) | Verified public $200 UK rap-vocal listing | 2026-09-13 | Category results identify Charlie J; availability and exact deliverables must be confirmed on-platform |
+| [AirGigs marketplace explanation](https://www.airgigs.com/tags/hire-rappers/uk-rap) | Seller commission range, protected-payment workflow and buyer/seller features | 2026-09-13 | AirGigs states seller commission varies from 8–15% |
+| [AirGigs buyer-fee help](https://help.airgigs.com/article/255-how-much-does-airgigs-charge-me-to-hire-a-studio-professional) | Buyer fee of 4.7% or $5 minimum | 2026-09-13 | Non-refundable according to the help article; re-check before ordering |
+| [Charlie J on Bandcamp](https://officialcharliej.bandcamp.com/) | Verified artist catalog, location and contact route | 2026-09-13 | Evidence of artist presence, not a commissioning or escrow service |
+| [SoundBetter](https://soundbetter.com/) | Comparison marketplace features for music professionals and hiring clients | 2026-09-13 | No Charlie profile verified; current fees require account-level confirmation |
+| [Vocalizr overview](https://support.vocalizr.com/article/160-what-is-vocalizr) | Comparison marketplace and collaborative workspace for vocalists and producers | 2026-09-13 | No Charlie profile verified |
 | [IBLoud IVXX Story Lab](https://github.com/ibloud/ibloud-ivxx-story-lab) | Sync catalogue gap analysis and agent framing | 2026-09-12 | Live repo; status changes as clearance ledger is updated |
 
 ## Calculation note
