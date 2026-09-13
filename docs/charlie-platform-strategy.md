@@ -188,7 +188,19 @@ demonstrates Charlie's sync viability with a documented, published placement.
 
 ---
 
-## 5. Sources and verification
+## 5. Proposed marketing pathway
+
+This analysis is one stage in a three-part, reviewable pathway:
+
+1. **Evidence and interpretation:** [Platform Effectiveness](platform-effectiveness.md) explains what each channel can and cannot do.
+2. **Proposed professional upgrade:** this document maps those findings into positioning, direct-to-fan, rights, and sync-readiness work; [the separate offer](charlie-offer.md) records proposed scope without treating it as accepted.
+3. **Referral destination:** [open the proposed Charlie J artist-owned growth site](../concepts/charlie-growth-site.html) to see how the recommendations could be expressed to listeners, collaborators, and qualified buyers.
+
+The concept is intentionally non-operational and marked `noindex`. It is not Charlie's official website, and Charlie has not reviewed, approved, or endorsed it. A live launch, data collection, domain choice, or public representation would require Charlie's explicit approval and agreed control.
+
+---
+
+## 6. Sources and verification
 
 | Claim | Source | Accessed | Notes |
 |---|---|---|---|
