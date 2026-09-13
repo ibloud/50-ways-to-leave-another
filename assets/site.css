@@ -267,36 +267,105 @@ nav a:focus {
   margin-top: 0;
 }
 
-/* UPDATED: Dynamic auto-fit grid for Series episodes & 6 Principles */
+/* GEOMETRIC UNIFORM GRID (Episode Series & References) */
 .principle-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   background: var(--line);
   border: 1px solid var(--line);
+  margin-bottom: 2.5rem;
 }
 
 .principle-grid article {
   background: var(--surface);
-  padding: 2rem 1.4rem;
+  padding: 2.2rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 240px;
+  position: relative;
+  transition: background 0.2s ease;
 }
 
-.principle-grid span {
+.principle-grid article:hover {
+  background: var(--surface-2);
+}
+
+.principle-grid .card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.principle-grid span.ep-num {
   color: var(--coral);
   font-family: Georgia, serif;
   font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.principle-grid span.tag {
+  color: var(--gold);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  border: 1px solid rgba(215, 168, 76, 0.3);
+  padding: 0.15rem 0.45rem;
+  border-radius: 2px;
 }
 
 .principle-grid h3 {
   font-family: Georgia, serif;
-  font-size: 1.6rem;
-  margin: .8rem 0;
+  font-size: 1.5rem;
+  margin: 0.6rem 0;
+  color: var(--cream);
+  line-height: 1.2;
 }
 
 .principle-grid p {
   color: var(--muted);
-  font-size: .92rem;
-  margin: 0;
+  font-size: 0.92rem;
+  margin: 0 0 1rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.principle-grid .card-footer {
+  margin-top: auto;
+  padding-top: 0.8rem;
+  border-top: 1px dashed var(--line);
+}
+
+.principle-grid .ctrl-link {
+  color: var(--violet);
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: color 0.2s;
+}
+
+.principle-grid .ctrl-link:hover {
+  color: var(--cream);
+}
+
+/* RESPONSIVE BREAKPOINTS FOR GEOMETRIC GRID */
+@media (max-width: 900px) {
+  .principle-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .principle-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ADDED: Callout & masterclass disclosure styling */
