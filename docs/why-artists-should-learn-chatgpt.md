@@ -25,3 +25,9 @@ This project should make the process inspectable:
 5. preserve revisions;
 6. let collaborators correct the record;
 7. measure whether the resulting system improves clarity, control, and compensation.
+
+## Platform literacy is part of artist literacy
+
+The same service can appear at different prices, with different fees and different implied rights across marketplaces. An artist should know the difference between platform gross and actual earnings; a client should know the difference between checkout price and a complete, releasable deliverable.
+
+See [Platform effectiveness for artists and clients](platform-effectiveness.md) for the verified Charlie listings, comparison channels and recommended artist-owned hub.
