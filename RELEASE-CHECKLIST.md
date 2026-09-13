@@ -25,3 +25,19 @@
 ## Track gate
 
 Use the contribution record, split sheet, rights envelope, and delivery checklist for every track. Do not treat repository completion as music clearance or collaborator acceptance.
+
+
+## Educational-package gate
+
+- [x] Start path distinguishes music, screen, independent, and community producer outcomes
+- [x] Sequenced curriculum, glossary, fictional exercise, and assessment rubric exist
+- [x] Financial waterfall separates cash from contingent income
+- [x] Platform-independence path does not require YouTube
+- [x] Accessibility and low-bandwidth requirements are documented
+- [x] Facilitator and youth-safety minimums are documented
+- [x] Fictional practice prevents forced disclosure of private work
+- [x] Professional-review and stop conditions are visible
+- [ ] Owner and counsel approve any broader educational reuse license
+- [ ] A real pilot learner completes the capstone and records usability feedback
+
+Until the final two items are complete, describe this as a complete **v0.3 pilot educational package**, not a validated or openly licensed curriculum.
