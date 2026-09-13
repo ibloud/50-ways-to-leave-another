@@ -6,7 +6,8 @@
 | --- | --- |
 | Dominique Devereaux | Project originator, source-lyrics author, creative direction, approvals |
 | Charlie J | Prospective human collaborator; no contribution is claimed until accepted and delivered |
-| ChatGPT / Codex | Research, fee calculation, document structuring, rights questions, repository implementation |
+| ChatGPT / Codex | Research, fee calculation, document structuring, rights questions, repository implementation, and the September 13, 2026 corrective reconciliation |
+| Claude and Gemini | Creator-reported intermediate tools during a model handoff; exact passage-level authorship is unresolved because no public generation log establishes it |
 | Suno | Generator used for a pre-production audio demonstration |
 | PLYR / AT Protocol | Listening and audience-response layer; not an authorship authority |
 
@@ -31,3 +32,9 @@ Preferred disclosure:
 ## Consent boundary
 
 No model may be trained or fine-tuned on a collaborator's voice, likeness, stems, sessions, or unreleased work without separate affirmative permission. AI use outside the approved scope must be disclosed before delivery.
+
+## Model-handoff and correction disclosure
+
+On September 13, 2026, Codex misread the project as only an EP archive and proposed removing intentional series-development and educational-resource functions. PR #25 was closed without merge, so it did not change the live site. The incident is documented in `docs/incident-2026-09-13-site-function-audit.md` and now serves as an acceptance test in `LLM-REVIEW-PROTOCOL.md`.
+
+Future model attribution must be based on a preserved generation record. GitHub account ownership, commit timing, or writing style alone does not verify which model produced text.
