@@ -20,6 +20,10 @@ Public claims should be re-checked immediately before a proposal, purchase, or p
 | [ABA Find Legal Help](https://www.americanbar.org/groups/legal_services/flh-home/) | How to locate counsel, verify licensing, and find referral or limited-scope resources | 2026-09-13 | General education; not project-specific legal advice |
 | [Minnesota State Bar Association](https://www.mnbar.org/) | Minnesota lawyer referral and public legal resources | 2026-09-13 | Confirm current service details with the bar association |
 
+| [The MLC — How It Works](https://www.themlc.com/how-it-works) | U.S. digital mechanical royalty flow and monthly distribution statement | 2026-09-13 | Monthly distribution is not a guaranteed first-payment date; registration and matching still matter |
+| [SoundExchange — How often do I get paid?](https://www.soundexchange.com/faq/how-often-do-i-get-paid/) | Electronic and quarterly distribution cadence and thresholds | 2026-09-13 | Applies to SoundExchange-administered eligible uses, not every stream or royalty right |
+| [RE:IMAGINE](https://reimagineatl.com/) | Comparison model for youth media training, apprenticeships, workshops, production, and career pathways | 2026-09-13 | Independent third party; no affiliation or replication right claimed; published outcomes remain its claims |
+
 ## Calculation note
 
 The Fiverr comparison in `docs/charlie-offer.md` is an illustrative calculation from the cited public figures:
