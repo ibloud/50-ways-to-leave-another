@@ -1,51 +1,43 @@
 # Project status
 
-**Documentation release:** v0.2 coordinator-role proposal  
+**Documentation release:** v0.3 public-site alignment  
+**Last reviewed:** September 13, 2026  
 **Music phase:** pre-production  
-**Repository visibility:** public as of September 11, 2026  
+**Repository visibility:** public  
+**Public site function:** project overview, disclosed listening comparison, and public-safe documentation  
 **Collaboration status:** public proposal only; Charlie J is not attached and no acceptance, endorsement, commission, or rights agreement is claimed.  
-**Proposed Charlie role:** lead artist and production coordinator, able under an accepted agreement to propose and coordinate the specialists needed for delivery.  
-**Commercial status:** no final release, clearance, publishing split, or master-ownership agreement has been executed through this repository.
+**Commercial status:** no final release, clearance, publishing split, master-ownership agreement, seminar, course, or paid service is offered through this repository.
+
+## What is live
+
+- A static GitHub Pages overview.
+- Links to one human source recording and one disclosed Suno-assisted demo.
+- Public-safe project-control, provenance, AI-use, contributor, source, and rights documentation.
+- Proposals and templates that remain nonbinding until separately accepted.
+
+The site does not collect information through a first-party form, account, analytics script, or payment flow. Its embedded PLYR player and outbound Audio.com link use third-party services whose own policies apply.
 
 ## Approval gates
 
 | Gate | Required evidence | Status |
 | --- | --- | --- |
 | Public-safe repository foundation | Brief, provenance, rights, disclosure, sources, templates, and release review | Complete |
+| Public-site claim alignment | Page describes the repository’s actual present function and limitations | Complete |
 | Archive inventory | Private assets identified without public exposure | In progress |
-| Role design | Charlie's lead-artist and production-coordinator responsibilities documented | Proposed |
+| Collaborator role | Responsibilities and terms reviewed and accepted by the person concerned | Proposed |
 | Pilot scope | One-song scope, price, team, rights, and delivery accepted | Proposed |
-| Team plan | Charlie proposes roles, estimates, schedule, and handoffs | Not started |
-| Third-party approval | Dominique approves each outside role and cost before work begins | Not started |
-| Collaborator consent | Signed agreement and permission for any named public case study | Not yet obtained |
-| Rights clearance | Every beat, sample, stem, interpolation, AI element, and contributor documented | Blocked pending review or replacement |
-| EP production | Five tracks accepted against written specifications | Not started |
-| PLYR listening test | Disclosed record, consent-safe observations, and provenance link | Test design complete; not run |
-| Artist site | Ownership, branding, and publication approved by Charlie | Roadmap only |
-| ATProto publication | Disclosure and provenance metadata verified | Plan complete; publication pending |
+| Track clearance | Contributors, splits, master ownership, licenses, AI records, and releases complete | Not cleared |
+| Commercial release | Final masters, metadata, delivery, and approvals complete | Not started |
 
-## Current working offer
+## Public-claim rules
 
-- $500 paid pilot, credited toward the EP.
-- $2,500 working base for Charlie's five-song writing/performance scope when musical foundations are supplied.
-- Up to $3,500 for an expanded creative and coordination scope agreed in writing.
-- Third-party production, engineering, mixing, mastering, studio, and clearance costs are itemized separately unless an approved agreement establishes an all-in budget.
-- Charlie may propose and coordinate his preferred specialists; Dominique approves outside roles and costs before commitments are made.
-- Eight-week target after acceptance, required inputs, approved team plan, and availability confirmation.
-- Two consolidated revision rounds per song.
-- Masters, alternate versions, stems, lyrics, credits, metadata, and agreed sessions.
-- Song-by-song publishing splits based on actual authorship.
+- “Proposed,” “planned,” and “not cleared” labels must remain visible until evidence supports a status change.
+- A public marketplace listing or artist profile is not consent, attachment, endorsement, or a rights grant.
+- Listening references are pre-production materials, not finished masters.
+- Documentation and templates are not legal, financial, or business advice.
+- No course, seminar, enrollment, payment, or platform-delivery claim may appear unless it is real, current, authorized, and linked to supporting terms.
+- Material corrections should be made in new commits so the revision trail remains intact.
 
-This is a recommendation, not an accepted contract.
+## Next valid milestone
 
-## Growth objective
-
-The project is designed to help Charlie expand from selling one discrete contribution into leading a transparent, properly credited production network. It does not require him to misrepresent technical specialties or personally perform every task.
-
-## Repository completion boundary
-
-The repository is complete as a v0.2 pre-production and evaluation package. “Complete” does not mean the EP is commissioned, cleared, recorded, delivered, or released.
-
-## Next external decision
-
-The repository is public. Any private proposal review, paid participation, authority to coordinate contributors, public identification, case-study participation, or artist-owned website remains a separate opt-in decision.
+Privately inventory source assets and generation records, then seek an explicit written pilot agreement before representing any collaborator as participating or moving any track toward commercial release.
