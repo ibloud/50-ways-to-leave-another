@@ -11,7 +11,7 @@ This project uses two systems depending on your role:
 
 | If you are a… | You are paid via… |
 |---|---|
-| Royalty split holder (songwriter, producer, artist) | **Stem** (automatic monthly royalty distribution) |
+| Master royalty split holder | **Proposed: Stem or another agreed distributor/accounting system**; verify current terms before contracting |
 | Session contributor (flat fee) | **Stripe invoice** or **PayPal** |
 | Both | Both systems |
 
@@ -33,9 +33,9 @@ Return your signed copy to Dominique Devereaux / Loptr Lab before the distributi
 
 ---
 
-## Step 2 — Create a Stem Account (Royalty Split Holders)
+## Step 2 — Confirm the Master-Royalty System (Royalty Split Holders)
 
-Stem is the platform that automatically routes your share of master income to you every month. It is free to use.
+Stem is the project’s current proposed master-royalty routing platform. Its availability, eligibility, fees, payout timing, thresholds, tax requirements, and collaboration workflow must be verified from Stem’s current written terms before the agreement names it. If another system is selected, replace this section with that provider’s verified instructions.
 
 ### How to sign up
 
@@ -54,15 +54,17 @@ Once your account is active, Loptr Lab will send you a Stem collaboration invite
 
 Check your email (including spam/junk) for an invitation from Stem after your split sheet is countersigned.
 
-### Stem payment timeline
+### Payment-timing boundary
 
-Stem distributes royalties on a **monthly cycle**. Distributor reporting typically closes 45–60 days after the end of a royalty period, so your first payment may arrive 6–8 weeks after release. Subsequent payments arrive monthly as long as the track is generating income. You will receive an itemized statement in your Stem dashboard each cycle.
+No first-payment date is promised by this guide. Receipt depends on release timing, DSP and distributor reporting, matching, account and tax completion, thresholds, holds, chargebacks, currency conversion, and the signed accounting period. The contract must identify the selected provider, statement frequency, payment threshold, permitted deductions, reserve policy, audit rights, and a conservative planning date.
+
+Do not budget personal or project obligations against expected royalties until cash is received. Use `docs/financial-waterfall-and-cash-timing.md` for the committed / receivable / reported / contingent distinction.
 
 ---
 
 ## Step 3 — Register with a PRO (Songwriters and Composers)
 
-If you have a songwriter or composer percentage on your split sheet, you must register the song with your **Performing Rights Organization (PRO)** to collect performance and mechanical royalties. Loptr Lab does not collect or distribute publishing royalties on your behalf.
+If you have a songwriter or composer percentage on your split sheet, you must register the song with your **Performing Rights Organization (PRO)** to collect the performance royalties it administers. A U.S. PRO does not replace mechanical registration or other collection systems. The MLC administers qualifying U.S. digital audio mechanical royalties; other uses and territories may require different registrations. Loptr Lab does not collect or distribute publishing royalties on your behalf unless a later signed agreement expressly says so.
 
 ### If you are already PRO-affiliated
 
@@ -116,12 +118,15 @@ If anything is missing as the distribution date approaches, Loptr Lab may need t
 
 | Resource | URL |
 |---|---|
-| Stem | stem.is |
+| Proposed master accounting/routing provider | stem.is — verify current terms before use |
+| The MLC | themlc.com |
 | ASCAP | ascap.com |
 | BMI | bmi.com |
 | Project repository | github.com/ibloud/50-ways-to-leave-another |
 | Split sheet template | templates/split-sheet.md |
 | Rights and clearance | RIGHTS-AND-CLEARANCE.md |
+| Financial waterfall | docs/financial-waterfall-and-cash-timing.md |
+| Career capital worksheet | templates/career-capital-allocation-model.md |
 | Contributor policy | CONTRIBUTOR-POLICY.md |
 
 For questions specific to this project, contact: **Dominique Devereaux / Loptr Lab**
