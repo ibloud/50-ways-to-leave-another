@@ -6,6 +6,16 @@ This repository documents how Dominique Devereaux / Loptr Lab turns a private cr
 
 > **Current status:** the v0.3 reconciliation is prepared; the music and five-part series remain in development. The public site demonstrates the process and links to time-limited external Lex Nova Lawyer educational resources. Netflix, Charlie J, Reena Sehgal, Lex Nova Lawyer, Thoolie, and other referenced parties are not represented as project partners or endorsers unless separately documented.
 
+## Charlie J: proposed analysis-to-site pathway
+
+The public-facing marketing sequence is now explicit rather than buried among archive documents:
+
+1. **Analysis:** [Platform Effectiveness](docs/platform-effectiveness.md) examines the jobs performed by marketplaces, direct-to-fan channels, social discovery, sync infrastructure, and an owned website.
+2. **Proposed upgrade:** [Charlie J Platform Strategy](docs/charlie-platform-strategy.md) explains the growth and sync-readiness case, while the [proposed role and scope](docs/charlie-offer.md) separates discussion terms from any accepted engagement.
+3. **Referral destination:** [Charlie J — Artist-Owned Growth Site Concept](concepts/charlie-growth-site.html) demonstrates the proposed visitor experience.
+
+This is a documented proposal for discussion. Charlie J has not accepted, reviewed, approved, or endorsed the strategy, offer, prototype, or project. The concept is non-operational, marked `noindex`, and does not collect inquiries.
+
 ## Learn independently
 
 Start with [START-HERE.md](START-HERE.md), then follow the [six-module curriculum](CURRICULUM.md). The package includes a [glossary](GLOSSARY.md), [fictional capstone](exercises/fictional-capstone.md), [assessment rubric](ASSESSMENT-RUBRIC.md), [accessibility standard](ACCESSIBILITY.md), [platform-independence guide](docs/platform-independence.md), [facilitator guide](FACILITATOR-GUIDE.md), and [youth safety framework](YOUTH-SAFETY-AND-ACCESS.md).
