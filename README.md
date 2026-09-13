@@ -1,14 +1,16 @@
 # 50 Ways to Leave Another
 
-A transparent, rights-aware pre-production record for a proposed five-song EP.
+A transparent, rights-aware development record for a proposed five-song EP that functions as the music-first foundation of a proposed five-part screen series.
 
-This repository documents how Dominique Devereaux / Loptr Lab turns a private creative archive into a commissionable music project while using ChatGPT/Codex for research, organization, economic analysis, documentation, and technical implementation.
+This repository documents how Dominique Devereaux / Loptr Lab turns a private creative archive into a commissionable music project and demonstrates how the EP, five-part narrative, financing, rights, clearance, delivery, professional education, and AI-assisted workflow fit together. Netflix is an intended future pitch target, not a participant, commissioner, or endorser.
 
-> **Current status:** the v0.1 repository foundation is complete; the music remains in pre-production. Charlie J is not represented as an attached artist, endorser, or rights participant unless and until he accepts an agreement and separately approves any named public participation.
+> **Current status:** the v0.3 reconciliation is prepared; the music and five-part series remain in development. The public site demonstrates the process and links to time-limited external Lex Nova Lawyer educational resources. Netflix, Charlie J, Reena Sehgal, Lex Nova Lawyer, Thoolie, and other referenced parties are not represented as project partners or endorsers unless separately documented.
 
 ## What lives here
 
 - the creative and delivery brief;
+- the music-first five-part series methodology;
+- current, time-limited external legal/business education listings with automatic expiry;
 - project status and approval gates;
 - AI-use and authorship disclosures;
 - provenance, source, and rights controls;
@@ -46,6 +48,8 @@ ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define
 - [Public sources](SOURCES.md)
 - [AI disclosure](AI-DISCLOSURE.md)
 - [Repository release checklist](RELEASE-CHECKLIST.md)
+- [LLM review and pushback protocol](LLM-REVIEW-PROTOCOL.md)
+- [September 13 audit incident and correction](docs/incident-2026-09-13-site-function-audit.md)
 
 ## Plans and experiments
 
