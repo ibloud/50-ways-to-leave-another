@@ -1,0 +1,22 @@
+# Producer glossary
+
+- **Advance:** Money paid before later earnings; recoupment depends on the agreement.
+- **Backend:** Contingent participation calculated after defined receipts, deductions, or recoupment.
+- **Cash receipt:** Cleared money actually available—not a forecast, statement, or unsigned opportunity.
+- **Composition:** Copyrightable music and lyrics, distinct from a recording.
+- **Cue sheet:** Record identifying music used in an audiovisual production.
+- **Deliverable:** A required file, document, version, approval, or item.
+- **Gross receipts:** Defined incoming revenue before permitted deductions.
+- **Master:** A particular sound recording and its associated rights.
+- **Mechanical royalty:** Payment associated with reproduction/distribution of a composition.
+- **Metadata:** Structured information identifying work, recording, contributors, rights, version, or status.
+- **Minimum guarantee:** Contracted minimum payment, sometimes credited against later amounts.
+- **Net receipts:** Gross receipts minus only contractually permitted deductions.
+- **One-stop:** One authorized party can clear all required composition and master rights for the stated use.
+- **PRO:** Performing rights organization; it does not replace every publishing collection system.
+- **Provenance:** Evidence showing what existed, when, from whom, and with what limitations.
+- **Recoupment:** Recovery of contractually defined costs from a stated revenue base.
+- **Split sheet:** Record of agreed authorship or revenue shares; not a complete agreement.
+- **Stems:** Grouped audio components delivered separately.
+- **SVOD:** Subscription video on demand.
+- **Waterfall:** Contractual order for receipts, deductions, recoupment, reserves, and distributions.
