@@ -18,6 +18,8 @@ This repository documents how Dominique Devereaux / Loptr Lab turns a private cr
 - a proposed collaborator offer;
 - the PLYR/Suno listening-test protocol;
 - the GitHub + Drive + AT Protocol publishing architecture;
+- a financial waterfall separating actual cash from contingent royalties and proposed production financing;
+- a capital/community decision model comparing ownership, rental, shared space, public access, and youth programs;
 - reusable contribution, split-sheet, rights-envelope, and delivery templates.
 
 ## What does not live here
@@ -48,6 +50,8 @@ ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define
 - [Public sources](SOURCES.md)
 - [AI disclosure](AI-DISCLOSURE.md)
 - [Repository release checklist](RELEASE-CHECKLIST.md)
+- [Financial waterfall and cash timing](docs/financial-waterfall-and-cash-timing.md)
+- [Career capital allocation worksheet](templates/career-capital-allocation-model.md)
 - [LLM review and pushback protocol](LLM-REVIEW-PROTOCOL.md)
 - [September 13 audit incident and correction](docs/incident-2026-09-13-site-function-audit.md)
 
