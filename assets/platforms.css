@@ -1,0 +1,19 @@
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.platform-grid article { background: var(--surface); padding: 1.6rem; }
+.platform-grid h3 { font-family: Georgia, serif; font-size: 1.7rem; margin: .35rem 0 1rem; }
+.platform-grid p { color: var(--muted); font-size: .9rem; }
+.platform-grid strong { color: var(--cream); }
+.platform-grid .owned-card { background: linear-gradient(145deg, rgba(156,60,241,.22), var(--surface-2)); }
+.card-kicker { color: var(--gold) !important; font-size: .7rem !important; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.platform-verdict { margin-top: 1.2rem; padding: 1.2rem 1.4rem; border-left: 3px solid var(--coral); background: var(--surface-2); color: var(--muted); }
+.platform-verdict strong { color: var(--cream); }
+
+@media (max-width: 900px) { .platform-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .platform-grid { grid-template-columns: 1fr; } }
