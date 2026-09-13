@@ -51,6 +51,7 @@ ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define
 
 - [Project status](PROJECT-STATUS.md)
 - [Creative and delivery brief](docs/creative-brief.md)
+- [Model-handoff and legal-review addendum](docs/model-handoff-and-legal-review-addendum.md)
 - [Rights and clearance](RIGHTS-AND-CLEARANCE.md)
 - [Provenance](PROVENANCE.md)
 - [Public sources](SOURCES.md)
