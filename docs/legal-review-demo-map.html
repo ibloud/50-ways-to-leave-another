@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>50 Ways — Legal Review Demo Map</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:1100px;margin:0 auto;padding:32px;line-height:1.5;background:#fafafa;color:#171717}header{border-bottom:1px solid #ccc;padding-bottom:20px;margin-bottom:24px}.notice{padding:14px;border:1px solid #bbb;background:#fff}.map{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:24px 0}.node{border:1px solid #aaa;border-radius:10px;padding:16px;background:#fff;cursor:pointer}.node:hover,.node:focus{outline:3px solid #777}.status{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}.blocked{border-left:6px solid #333}.open{border-left:6px solid #888}.panel{border:1px solid #bbb;background:#fff;padding:20px;border-radius:10px;min-height:120px}.small{color:#555;font-size:.92rem}a{color:inherit}.legend span{display:inline-block;margin-right:18px}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#777;margin-right:6px}.dot.block{background:#222}
+</style>
+</head>
+<body>
+<header>
+<h1>Legal Review Demonstration Map</h1>
+<p>A dependency-free navigation layer for the connected story / DJ / PIXIE / rights architecture.</p>
+<div class="notice"><strong>Demonstration only.</strong> This map is not a contract, clearance, approval, or evidence of real-world participation. The canonical continuity record and executed agreements control.</div>
+</header>
+
+<section aria-labelledby="chain"><h2 id="chain">Trace the transaction</h2>
+<div class="map" role="list">
+<button class="node open" data-id="signal"><span class="status">Documented / attributed</span><h3>1. Public signal</h3><p>What was actually observed?</p></button>
+<button class="node open" data-id="dj"><span class="status">Fictionalized</span><h3>2. Social-network DJ</h3><p>Who is the in-world witness?</p></button>
+<button class="node open" data-id="pixie"><span class="status">Operational layer</span><h3>3. PIXIE session</h3><p>What did the workstation record?</p></button>
+<button class="node open" data-id="asset"><span class="status">Proposed / recorded</span><h3>4. Creative asset</h3><p>What changed or was created?</p></button>
+<button class="node blocked" data-id="rights"><span class="status">Gate</span><h3>5. Rights evidence</h3><p>Who authorized the intended use?</p></button>
+<button class="node blocked" data-id="deal"><span class="status">Contingent</span><h3>6. Hypothetical deal</h3><p>What would an operative agreement require?</p></button>
+<button class="node blocked" data-id="release"><span class="status">Blocked until cleared</span><h3>7. Release</h3><p>Can the intended exploitation proceed?</p></button>
+</div>
+</section>
+
+<section aria-labelledby="details"><h2 id="details">Selected node</h2><div id="panel" class="panel" tabindex="0">Select a node above.</div></section>
+
+<section class="legend" aria-label="Legend"><p><span><i class="dot"></i>workflow / informational</span><span><i class="dot block"></i>rights or acceptance gate</span></p></section>
+
+<section><h2>Reviewer controls</h2>
+<ul>
+<li>Association is allowed as form; assertion requires evidence.</li>
+<li>PIXIE records workflow state; it does not determine ownership.</li>
+<li>Public availability is not permission.</li>
+<li>Offer/proposal is not acceptance.</li>
+<li>Named public case-study use requires its own authorization.</li>
+<li>Missing or disputed rights stop distribution, licensing, pitching, or named case-study publication.</li>
+</ul>
+<p><a href="series-bible.md">Open canonical Series Bible &amp; Continuity Record</a> · <a href="../RIGHTS-AND-CLEARANCE.md">Open Rights &amp; Clearance</a></p>
+</section>
+
+<script>
+const data={
+ signal:{title:'Public signal',status:'Documented / attributed',body:'Record the dated public source and classify it. Do not convert a public signal into a private fact.'},
+ dj:{title:'Social-network DJ',status:'Fictionalized',body:'The DJ is an in-world character. Her role is to observe, curate, and create; the role itself grants no ownership or third-party permission.'},
+ pixie:{title:'PIXIE session',status:'Operational layer',body:'PIXIE Creator OS is the workstation used by the DJ. A stable pixie_id and session/object record provide traceability, not copyright ownership.'},
+ asset:{title:'Creative asset',status:'Proposed / recorded',body:'Identify the human creative contribution, pre-existing material, versions, and sources. AI-assisted material receives separate provenance and terms review.'},
+ rights:{title:'Rights evidence',status:'Gate',body:'Composition, master, performance, beat, sample/interpolation, voice/likeness, AI, and promotion/case-study rights are evaluated separately. Sync/master media, territory, and term must align.'},
+ deal:{title:'Hypothetical deal',status:'Contingent',body:'A real transaction requires parties, authority, scope, consideration, acceptance, rights language, delivery, representations/warranties as negotiated, termination/remedies, dispute terms, governing law, and signatures.'},
+ release:{title:'Release',status:'Blocked until cleared',body:'If required evidence is missing, disputed, or narrower than intended use, stop. Resolve, expand, replace, or obtain counsel review before release.'}
+};
+function show(id){const d=data[id];document.querySelector('#panel').innerHTML='<h3>'+d.title+'</h3><p class="small">'+d.status+'</p><p>'+d.body+'</p>';document.querySelector('#panel').focus()}
+document.querySelectorAll('.node').forEach(b=>b.addEventListener('click',()=>show(b.dataset.id)));
+</script>
+</body>
+</html>
