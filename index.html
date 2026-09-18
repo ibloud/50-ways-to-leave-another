@@ -660,4 +660,23 @@
       const seminarCards = document.querySelectorAll('.seminar-card');
       let visibleSeminars = seminarCards.length;
 
-      seminarCards.forEach(card => {
+      seminarCards.forEach(card => {      seminarCards.forEach(card => {
+        const expiry = new Date(card.getAttribute('data-expires'));
+        // Expiry timestamps include an explicit offset so visitors' local time zones do not change the result.
+        if (Number.isNaN(expiry.getTime()) || now >= expiry) {
+          card.style.display = 'none';
+          visibleSeminars--;
+        }
+      });
+
+      // If all seminars have passed, hide the entire Seminars section
+      if (visibleSeminars === 0) {
+        const seminarSection = document.getElementById('seminars');
+        if (seminarSection) {
+          seminarSection.style.display = 'none';
+        }
+      }
+    });
+  </script>
+</body>
+</html>
