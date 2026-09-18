@@ -21,6 +21,11 @@ This file records where project claims came from and separates verified facts, c
 | Recommendation | A proposed term, workflow, price, or architecture; not an accepted fact |
 | Pending evidence | A claim requiring a contract, receipt, source file, permission, or contributor confirmation |
 
+## External professional resources
+
+- **Producer Dojo / ill.Gates** — professional music-production education and ecosystem resource relevant to the Making Waves programming record. Relationship is informational/prospective only; no partnership, endorsement, authorship, license, or participation is claimed. See `docs/professional-resources.md` and `docs/program-making-waves.md`.
+- **Lex Nova Lawyer** — external legal/business education resource. Relationship remains a professional resource; no attorney-client relationship or project endorsement is claimed.
+
 ## Current claim register
 
 | Claim | Class | Evidence or status |

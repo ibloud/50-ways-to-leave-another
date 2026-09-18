@@ -17,6 +17,7 @@ Public claims should be re-checked immediately before a proposal, purchase, or p
 | [Vocalizr overview](https://support.vocalizr.com/article/160-what-is-vocalizr) | Comparison marketplace and collaborative workspace for vocalists and producers | 2026-09-13 | No Charlie profile verified |
 | [IBLoud IVXX Story Lab](https://github.com/ibloud/ibloud-ivxx-story-lab) | Sync catalogue gap analysis and agent framing | 2026-09-12 | Live repo; status changes as clearance ledger is updated |
 | [Lex Nova Lawyer resource hub](https://linktr.ee/lexnovalawyer) | Current external legal/business education referrals shown on the site | 2026-09-13 | Verify dates, price, availability, provider terms, and credentials before relying or enrolling; listing does not create an attorney-client relationship |
+| [Producer Dojo](https://www.producerdojo.com/) | Public-source description of the Producer Dojo education/community ecosystem and its current public positioning | 2026-09-18 | Used to document the professional-resource relationship; public ecosystem information is not permission to reproduce protected materials or imply partnership |
 | [ABA Find Legal Help](https://www.americanbar.org/groups/legal_services/flh-home/) | How to locate counsel, verify licensing, and find referral or limited-scope resources | 2026-09-13 | General education; not project-specific legal advice |
 | [Minnesota State Bar Association](https://www.mnbar.org/) | Minnesota lawyer referral and public legal resources | 2026-09-13 | Confirm current service details with the bar association |
 

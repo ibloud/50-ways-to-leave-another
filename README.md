@@ -80,6 +80,12 @@ ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define
 - [Live A/B listening page](https://ibloud.github.io/50-ways-to-leave-another/#listen)
 - [Charlie J platform strategy and sync agent proposal](docs/charlie-platform-strategy.md)
 
+## Professional resources and programming
+
+- [Professional resources and ecosystem relationships](docs/professional-resources.md)
+- [Making Waves — canonical program record](docs/program-making-waves.md)
+- [Event programming architecture](docs/event-programming.md)
+
 ## Reusable controls
 
 - [Contributor policy](CONTRIBUTOR-POLICY.md)
