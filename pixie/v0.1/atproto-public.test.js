@@ -26,7 +26,7 @@ const fakeResponse = {
 };
 
 const adapter = createPublicAdapter({
-  service: "https://public.example.test",
+  service: "https://public.example.test",\n  allowCustomService: true,
   fetchImpl: async (url, init) => {
     requests.push({ url: String(url), init });
     return fakeResponse;
@@ -39,7 +39,7 @@ assert.deepEqual(records[0].topics.sort(), ["ai", "indie"]);
 assert.equal(requests.length, 1);
 assert.equal(new URL(requests[0].url).pathname, SEARCH_METHOD);
 assert.equal(new URL(requests[0].url).searchParams.get("q"), "AI");
-assert.equal(requests[0].init.method, "GET");
+assert.equal(requests[0].init.method, "GET");\nassert.equal(requests[0].init.headers.accept, "application/json");\nassert.ok(requests[0].init.signal instanceof AbortSignal);\n\nlet rejectedCustom = false;\ntry { createPublicAdapter({ service: "http://localhost:9999", fetchImpl: async () => fakeResponse }); }\ncatch (error) { rejectedCustom = /HTTPS/.test(error.message); }\nassert.equal(rejectedCustom, true);\n\nlet rejectedUnapproved = false;\ntry { createPublicAdapter({ service: "https://other.example.test", fetchImpl: async () => fakeResponse }); }\ncatch (error) { rejectedUnapproved = /allowCustomService/.test(error.message); }\nassert.equal(rejectedUnapproved, true);
 
 const journey = await adapter.discoverTopic(
   "AI",
