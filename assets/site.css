@@ -88,8 +88,63 @@ nav a {
 }
 
 nav a:hover,
-nav a:focus {
+nav a:focus,
+nav summary:hover,
+nav summary:focus-visible {
   color: var(--cream);
+}
+
+.nav-more {
+  position: relative;
+}
+
+.nav-more summary {
+  color: var(--muted);
+  cursor: pointer;
+  list-style: none;
+  font-size: .86rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.nav-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.nav-more summary::after {
+  content: "▾";
+  margin-left: .35rem;
+  font-size: .7em;
+}
+
+.nav-more[open] summary::after {
+  content: "▴";
+}
+
+.nav-submenu {
+  position: absolute;
+  top: calc(100% + .7rem);
+  right: 0;
+  z-index: 20;
+  min-width: 230px;
+  display: grid;
+  gap: .15rem;
+  padding: .6rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, .35);
+}
+
+.nav-submenu a {
+  display: block;
+  padding: .55rem .7rem;
+  white-space: nowrap;
+}
+
+.nav-submenu a:hover,
+.nav-submenu a:focus {
+  background: var(--surface-2);
 }
 
 .nav-cta {
