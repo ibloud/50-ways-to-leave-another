@@ -1,0 +1,23 @@
+name: Pixie v0.1
+
+on:
+  push:
+    branches: [main, pixie-v0.1-atproto-adapter]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  pixie-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run Pixie core tests
+        run: node pixie/v0.1/index.test.js
+      - name: Run Pixie public ATProto adapter tests
+        run: node pixie/v0.1/atproto-public.test.js
