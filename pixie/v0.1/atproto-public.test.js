@@ -2,7 +2,7 @@ const assert = require("node:assert/strict");
 const { createPublicAdapter, SEARCH_METHOD } = require("./atproto-public.js");
 const { discover } = require("./index.js");
 
-const requests = [];
+(async () => {\nconst requests = [];
 const fakeResponse = {
   ok: true,
   status: 200,
@@ -59,4 +59,4 @@ try {
 }
 assert.equal(threw, true);
 
-console.log("Pixie ATProto public adapter tests passed.");
+console.log("Pixie ATProto public adapter tests passed.");\n})().catch(error => { console.error(error); process.exitCode = 1; });
