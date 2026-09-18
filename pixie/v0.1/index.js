@@ -8,7 +8,7 @@ function setOf(values = []) { return new Set(values.map(normalize).filter(Boolea
 function overlap(a, b) { let n = 0; for (const value of a) if (b.has(value)) n++; return n; }
 function evidence(type, detail, source) { return { type, detail, source }; }
 
-export function discover(start, candidates = [], options = {}) {
+function discover(start, candidates = [], options = {}) {
   const now = options.now instanceof Date ? options.now : new Date();
   const ttlMs = Number.isFinite(options.ttlMs) ? options.ttlMs : DEFAULT_TTL_MS;
   const limit = Number.isFinite(options.limit) ? Math.max(1, options.limit) : 5;
@@ -28,7 +28,6 @@ export function discover(start, candidates = [], options = {}) {
       const adjacentCommunity = communityOverlap === 0 && topicOverlap > 0 && communities.size > 0;
       const signals = [];
       let raw = 0;
-
       if (topicOverlap) {
         raw += Math.min(topicOverlap, 3) * 0.30;
         signals.push(evidence("shared_topic", topicOverlap + " shared topic" + (topicOverlap === 1 ? "" : "s"), candidate.uri ?? candidate.id));
@@ -46,7 +45,6 @@ export function discover(start, candidates = [], options = {}) {
         signals.push(evidence("shared_community", communityOverlap + " shared communit" + (communityOverlap === 1 ? "y" : "ies"), candidate.uri ?? candidate.id));
       }
       if (!signals.length) return null;
-
       return {
         subject: candidate.uri ?? candidate.id,
         confidence: Math.min(0.99, Number(raw.toFixed(2))),
@@ -61,14 +59,14 @@ export function discover(start, candidates = [], options = {}) {
     .slice(0, limit)
     .map(({ _rank, ...result }) => result);
 }
-
-export function dismiss(discoveryState, subject) {
+function dismiss(discoveryState, subject) {
   return { ...discoveryState, dismissed: [...new Set([...(discoveryState.dismissed ?? []), subject])] };
 }
-export function release() {
+function release() {
   return { status: "released", message: "You found what you came for.", autonomousAction: false };
 }
-export function tour(start, steps, maxSteps = 5) {
+function tour(start, steps, maxSteps = 5) {
   const bound = Math.max(1, maxSteps);
   return { start, steps: steps.slice(0, bound), bounded: true, maxSteps: bound };
 }
+module.exports = { discover, dismiss, release, tour };
