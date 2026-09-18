@@ -91,3 +91,16 @@ ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define
 ## License and permissions
 
 Repository documentation is not permission to use any underlying music, lyrics, voice, likeness, brand, recording, stem, or composition. See [LICENSE.md](LICENSE.md) and [RIGHTS-AND-CLEARANCE.md](RIGHTS-AND-CLEARANCE.md).
+
+
+## Pixie / ATProto experimental build
+
+Pixie is now part of the public 50 Ways development record. It is an experimental, read-only ATProto discovery prototype: **50 Ways maps patterns of co-dependence; Interdependence defines the transition; Pixie operationalizes the transition on ATProto.**
+
+- [Pixie / ATProto specification](docs/pixie-atproto.md)
+- [Pixie v0.1 stable release contract](docs/pixie-stable-release.md)
+- [Pixie v0.1 pilot and open verification questions](docs/pixie-v0.1-pilot.md)
+- [Pixie v0.1 web prototype](pixie/demo/index.html)
+- [Safe ATProto adapter PR #38](https://github.com/ibloud/50-ways-to-leave-another/pull/38)
+
+**Status:** experimental implementation and community-review handoff. Not an official ATProto or Bluesky project and not represented as production-ready. External browser testing, GitHub CI execution, and ATProto community review remain explicitly open verification steps.
