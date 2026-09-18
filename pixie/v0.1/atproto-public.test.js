@@ -2,7 +2,8 @@ const assert = require("node:assert/strict");
 const { createPublicAdapter, SEARCH_METHOD } = require("./atproto-public.js");
 const { discover } = require("./index.js");
 
-(async () => {\nconst requests = [];
+(async () => {
+const requests = [];
 const fakeResponse = {
   ok: true,
   status: 200,
@@ -26,7 +27,8 @@ const fakeResponse = {
 };
 
 const adapter = createPublicAdapter({
-  service: "https://public.example.test",\n  allowCustomService: true,
+  service: "https://public.example.test",
+  allowCustomService: true,
   fetchImpl: async (url, init) => {
     requests.push({ url: String(url), init });
     return fakeResponse;
@@ -39,7 +41,19 @@ assert.deepEqual(records[0].topics.sort(), ["ai", "indie"]);
 assert.equal(requests.length, 1);
 assert.equal(new URL(requests[0].url).pathname, SEARCH_METHOD);
 assert.equal(new URL(requests[0].url).searchParams.get("q"), "AI");
-assert.equal(requests[0].init.method, "GET");\nassert.equal(requests[0].init.headers.accept, "application/json");\nassert.ok(requests[0].init.signal instanceof AbortSignal);\n\nlet rejectedCustom = false;\ntry { createPublicAdapter({ service: "http://localhost:9999", fetchImpl: async () => fakeResponse }); }\ncatch (error) { rejectedCustom = /HTTPS/.test(error.message); }\nassert.equal(rejectedCustom, true);\n\nlet rejectedUnapproved = false;\ntry { createPublicAdapter({ service: "https://other.example.test", fetchImpl: async () => fakeResponse }); }\ncatch (error) { rejectedUnapproved = /allowCustomService/.test(error.message); }\nassert.equal(rejectedUnapproved, true);
+assert.equal(requests[0].init.method, "GET");
+assert.equal(requests[0].init.headers.accept, "application/json");
+assert.ok(requests[0].init.signal instanceof AbortSignal);
+
+let rejectedCustom = false;
+try { createPublicAdapter({ service: "http://localhost:9999", fetchImpl: async () => fakeResponse }); }
+catch (error) { rejectedCustom = /HTTPS/.test(error.message); }
+assert.equal(rejectedCustom, true);
+
+let rejectedUnapproved = false;
+try { createPublicAdapter({ service: "https://other.example.test", fetchImpl: async () => fakeResponse }); }
+catch (error) { rejectedUnapproved = /allowCustomService/.test(error.message); }
+assert.equal(rejectedUnapproved, true);
 
 const journey = await adapter.discoverTopic(
   "AI",
@@ -59,4 +73,5 @@ try {
 }
 assert.equal(threw, true);
 
-console.log("Pixie ATProto public adapter tests passed.");\n})().catch(error => { console.error(error); process.exitCode = 1; });
+console.log("Pixie ATProto public adapter tests passed.");
+})().catch(error => { console.error(error); process.exitCode = 1; });
