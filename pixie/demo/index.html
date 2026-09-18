@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pixie v0.1 — Experimental ATProto Discovery</title>
+  <meta name="description" content="Read-only experimental Pixie discovery prototype for the ATProto ecosystem.">
+  <style>
+    body{font-family:system-ui,sans-serif;max-width:900px;margin:0 auto;padding:2rem;line-height:1.5;background:#faf8f2;color:#171717}
+    main{background:#fff;padding:2rem;border:1px solid #ddd;border-radius:12px}
+    input,button{font:inherit;padding:.7rem;border-radius:8px;border:1px solid #aaa}
+    input{width:min(100%,520px)} button{cursor:pointer;margin-left:.4rem}
+    .notice{background:#f2eee2;padding:1rem;border-radius:8px;margin:1rem 0}
+    .card{border-top:1px solid #ddd;padding:1rem 0}.muted{color:#666}.error{color:#8b0000}
+    a{color:inherit}.actions{display:flex;gap:.5rem;flex-wrap:wrap}
+  </style>
+</head>
+<body>
+<main>
+  <p><strong>PIXIE v0.1</strong> · Experimental ATProto Discovery Prototype</p>
+  <h1>Find something outside your usual neighborhood.</h1>
+  <div class="notice">
+    Pixie reads public ATProto data and makes bounded, explainable suggestions. Recommendations are inferences and may be wrong; they are not facts, endorsements, compatibility judgments, or claims about a person's identity or interests.
+    Pixie does not automatically follow, post, reply, introduce, or contact anyone. Dismiss or stop at any time.
+  </div>
+  <form id="search">
+    <label for="topic"><strong>Start with a topic</strong></label><br>
+    <input id="topic" name="topic" placeholder="e.g. independent film, open source, AI" required>
+    <button type="submit">Discover</button>
+  </form>
+  <p id="status" class="muted"></p>
+  <section id="results" aria-live="polite"></section>
+  <p><a href="../v0.1/README.md">Implementation notes</a> · <a href="../../">50 Ways to Leave Another</a></p>
+</main>
+<script>
+const API='https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts';
+const form=document.getElementById('search'), status=document.getElementById('status'), results=document.getElementById('results');
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function normalize(post){
+  const record=post.record||{};
+  const text=record.text||'';
+  const tags=[...(text.matchAll(/(^|\s)#([\p{L}\p{N}_-]+)/gu))].map(m=>m[2].toLowerCase());
+  return {uri:post.uri, author:post.author?.handle||post.author?.did||'unknown', text, tags};
+}
+function render(items,topic){
+  if(!items.length){results.innerHTML='<p>No public results returned for that topic.</p>';return;}
+  results.innerHTML=items.map((x,i)=>`<article class="card"><h2>Candidate ${i+1}</h2>
+    <p>${escapeHtml(x.text||'(no text)')}</p>
+    <p class="muted">Public author: ${escapeHtml(x.author)}</p>
+    <p><strong>Why surfaced:</strong> shared topic search for “${escapeHtml(topic)}”${x.tags.length?'; public hashtag context: '+escapeHtml(x.tags.join(', ')):''}. This is an observed retrieval signal, not a claim about the person.</p>
+    <div class="actions"><button type="button" onclick="this.closest('article').remove()">Dismiss</button>
+    ${x.uri?'<a href="'+escapeHtml(x.uri)+'" target="_blank" rel="noopener">Open record</a>':''}</div></article>`).join('');
+}
+form.addEventListener('submit',async e=>{
+  e.preventDefault(); const topic=form.topic.value.trim(); if(!topic)return;
+  status.textContent='Reading public ATProto search results…'; results.innerHTML='';
+  try{
+    const url=API+'?q='+encodeURIComponent(topic)+'&limit=10';
+    const r=await fetch(url,{headers:{accept:'application/json'}});
+    if(!r.ok) throw new Error('ATProto public API returned HTTP '+r.status);
+    const data=await r.json();
+    const items=(data.posts||[]).map(normalize);
+    render(items,topic); status.textContent='Done. Pixie is read-only in this prototype.';
+  }catch(err){status.textContent='';results.innerHTML='<p class="error">Could not reach the public ATProto endpoint. '+escapeHtml(err.message)+'</p>';}
+});
+</script>
+</body>
+</html>
