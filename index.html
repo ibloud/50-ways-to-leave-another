@@ -556,6 +556,69 @@
     
 
 
+
+    <section class="section" id="ecosystem-principle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PIXIE / 50 Ways · ecosystem principle</p>
+          <h2>Make extraction harder. Make attribution easier.</h2>
+        </div>
+        <p>The same design question appears across creative work, licensing, collaboration, education, platforms, and technical systems: can the ecosystem preserve who contributed what, under what authority, and with what rights?</p>
+      </div>
+
+      <div class="principle-grid">
+        <article>
+          <div class="card-head"><span class="ep-num">01</span><span class="tag">Provenance</span></div>
+          <h3>Keep the origin attached</h3>
+          <p>A media file, asset, chart, or public profile is not the whole rights record. Preserve source, contributor, authority, permissions, and evidence alongside the implementation.</p>
+        </article>
+        <article>
+          <div class="card-head"><span class="ep-num">02</span><span class="tag">Attribution</span></div>
+          <h3>Make contribution legible</h3>
+          <p>Credits should survive team changes, transformations, distribution, and reuse. The system should make it easier to answer who created, contributed, authorized, reviewed, and delivered each part.</p>
+        </article>
+        <article>
+          <div class="card-head"><span class="ep-num">03</span><span class="tag">Participation</span></div>
+          <h3>Make consent specific</h3>
+          <p>Separate participation, ownership, credit, compensation, licensing scope, reputational review, and exit. A creative collaboration should not become an accidental indefinite grant.</p>
+        </article>
+        <article>
+          <div class="card-head"><span class="ep-num">04</span><span class="tag">Reuse</span></div>
+          <h3>Don't confuse protection with prohibition</h3>
+          <p>Reuse, remixing, adaptation, teaching, performance, and distribution can remain possible when provenance and authorization travel with the work. The target is untraceable extraction, not creative circulation.</p>
+        </article>
+        <article>
+          <div class="card-head"><span class="ep-num">05</span><span class="tag">Architecture</span></div>
+          <h3>Keep authority upstream</h3>
+          <p>Authoritative reality should determine presentation and experience. A renderer, animation, platform surface, or media package should not silently acquire authority over the underlying state or rights record.</p>
+        </article>
+        <article>
+          <div class="card-head"><span class="ep-num">06</span><span class="tag">PIXIE</span></div>
+          <h3>Design the ecosystem</h3>
+          <p>PIXIE treats attribution, provenance, compensation, participation, consent, accessibility, and exit as system properties—not paperwork added after value has already been extracted.</p>
+        </article>
+      </div>
+
+      <div class="split" style="margin-top: 2rem;">
+        <div>
+          <p class="eyebrow">Continuity map</p>
+          <h3>One principle, many failure modes.</h3>
+        </div>
+        <div class="prose">
+          <p><strong>Music:</strong> the media file is not the rights record. <strong>Collaboration:</strong> a project ending should not erase contribution. <strong>Licensing:</strong> the requested use and the work's provenance both matter. <strong>Sponsorship:</strong> inquiry, response, terms, and consent must remain distinct. <strong>Accessibility:</strong> participation should create pathways rather than extract labor. <strong>Technical art:</strong> artists own expression of state, not determination of state.</p>
+          <p>The operating principle is simple: <strong>make extraction harder and attribution easier.</strong> That means preserving provenance, contribution, authority, compensation, consent, and exit as first-class records wherever the project moves value between people, works, platforms, and systems.</p>
+        </div>
+      </div>
+
+      <aside class="disclosure">
+        <strong>Build status:</strong> This is an ecosystem design principle and open research record, not a legal conclusion or guarantee. The 50 Ways site has <strong>not been legally cleared</strong>; rights-dependent uses remain subject to applicable agreements and review by an attorney retained for the project.
+      </aside>
+
+      <div class="actions" style="margin-top: 1.5rem;">
+        <a href="docs/pixie-ecosystem.md" class="button primary">Read the ecosystem research record</a>
+      </div>
+    </section>
+
     <section class="section" id="pixie">
       <div class="section-heading">
         <div>
@@ -598,22 +661,3 @@
       let visibleSeminars = seminarCards.length;
 
       seminarCards.forEach(card => {
-        const expiry = new Date(card.getAttribute('data-expires'));
-        // Expiry timestamps include an explicit offset so visitors' local time zones do not change the result.
-        if (Number.isNaN(expiry.getTime()) || now >= expiry) {
-          card.style.display = 'none';
-          visibleSeminars--;
-        }
-      });
-
-      // If all seminars have passed, hide the entire Seminars section
-      if (visibleSeminars === 0) {
-        const seminarSection = document.getElementById('seminars');
-        if (seminarSection) {
-          seminarSection.style.display = 'none';
-        }
-      }
-    });
-  </script>
-</body>
-</html>
