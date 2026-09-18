@@ -60,9 +60,21 @@ function normalizeSearchResult(post, explicitTopics = []) {
  * fetchImpl is injectable for deterministic tests. In production it defaults
  * to globalThis.fetch.
  */
+function validateService(value, allowCustomService) {
+  const url = new URL(String(value));
+  if (url.protocol !== "https:") throw new Error("ATProto service must use HTTPS.");
+  if (url.username || url.password) throw new Error("ATProto service must not contain credentials.");
+  if (!allowCustomService && url.origin !== DEFAULT_SERVICE) {
+    throw new Error("Custom ATProto services require allowCustomService: true.");
+  }
+  return url.origin;
+}
+
 function createPublicAdapter(options = {}) {
-  const service = String(options.service ?? DEFAULT_SERVICE).replace(/\/$/, "");
+  const requestedService = String(options.service ?? DEFAULT_SERVICE).replace(/\/$/, "");
+  const service = validateService(requestedService, options.allowCustomService === true);
   const fetchImpl = options.fetchImpl ?? globalThis.fetch;
+  const timeoutMs = Number.isFinite(options.timeoutMs) ? Math.max(1000, options.timeoutMs) : 10000;
   if (typeof fetchImpl !== "function") {
     throw new Error("A fetch implementation is required.");
   }
@@ -76,10 +88,18 @@ function createPublicAdapter(options = {}) {
     url.searchParams.set("q", q);
     url.searchParams.set("limit", String(limit));
 
-    const response = await fetchImpl(url, {
-      method: "GET",
-      headers: { accept: "application/json" }
-    });
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    let response;
+    try {
+      response = await fetchImpl(url, {
+        method: "GET",
+        headers: { accept: "application/json" },
+        signal: controller.signal
+      });
+    } finally {
+      clearTimeout(timer);
+    }
 
     if (!response.ok) {
       throw new Error(`ATProto public search failed: HTTP ${response.status}`);
