@@ -8,8 +8,12 @@ Designed for self-paced, offline-friendly study.
 | 2. Design | Music-first story structure and creative briefs | Track/episode map and brief | No third-party material treated as cleared |
 | 3. Organize | Credits, files, versions, metadata, backups | Folder map, naming rules, contribution log | Private evidence stays private |
 | 4. Budget | Costs, milestones, cash timing, recoupment | Budget plus three planning cases | Contingent income equals $0 in operating plan |
-| 5. Protect | Rights, consent, AI, publicity, youth safety | Rights envelope, split draft, risk list | Professional review where required |
+| 5. Protect | Rights, consent, AI, publicity, youth safety; choice-and-consequence issue spotting through *Battle the Beast* | Rights envelope, split draft, pathway decision record, risk list | Professional review where required |
 | 6. Deliver | Technical package, public page, owned distribution | Fictional capstone package | Rubric passed; unresolved items visible |
+
+## Choose-your-path legal practice
+
+Use [Battle the Beast legal pathways](docs/battle-the-beast-legal-pathways.md) before the fictional capstone. The exercise connects branching narrative decisions to source tracing, collaborator terms, permission scope, provenance, and stop-for-review gates. It teaches issue spotting—not legal advice or clearance.
 
 ## Professional-resource programming
 

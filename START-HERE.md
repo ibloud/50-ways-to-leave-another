@@ -14,11 +14,12 @@ This package teaches a creator-producer how to move a music-first screen concept
 ## Order of work
 
 1. Read [Curriculum](CURRICULUM.md) and [Glossary](GLOSSARY.md).
-2. Use the fictional [capstone exercise](exercises/fictional-capstone.md); do not begin with private or disputed material.
-3. Complete the creative brief, contribution record, rights envelope, split sheet, delivery checklist, financial waterfall, and capital worksheet.
-4. Follow [Accessibility](ACCESSIBILITY.md), [Youth safety](YOUTH-SAFETY-AND-ACCESS.md), and [Platform independence](docs/platform-independence.md).
-5. Score the work with the [assessment rubric](ASSESSMENT-RUBRIC.md).
-6. Stop at every legal, tax, safeguarding, rights, or consent gate and obtain qualified help.
+2. Use the [Battle the Beast legal pathways](docs/battle-the-beast-legal-pathways.md) to practice seeing how creative choices change rights, evidence, agreement, and professional-review requirements.
+3. Use the fictional [capstone exercise](exercises/fictional-capstone.md); do not begin with private or disputed material.
+4. Complete the creative brief, contribution record, rights envelope, split sheet, delivery checklist, financial waterfall, and capital worksheet.
+5. Follow [Accessibility](ACCESSIBILITY.md), [Youth safety](YOUTH-SAFETY-AND-ACCESS.md), and [Platform independence](docs/platform-independence.md).
+6. Score the work with the [assessment rubric](ASSESSMENT-RUBRIC.md).
+7. Stop at every legal, tax, safeguarding, rights, or consent gate and obtain qualified help.
 
 ## Minimum tools
 
