@@ -70,6 +70,7 @@ ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define
 - [Career capital allocation worksheet](templates/career-capital-allocation-model.md)
 - [LLM review and pushback protocol](LLM-REVIEW-PROTOCOL.md)
 - [September 13 audit incident and correction](docs/incident-2026-09-13-site-function-audit.md)
+- [Legacy project validation](docs/legacy-project-validation.md) — the reusable validation pattern for bringing older projects forward while preserving provenance, rights, evidence, and production boundaries.
 
 ## Plans and experiments
 
