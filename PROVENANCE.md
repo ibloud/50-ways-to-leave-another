@@ -11,6 +11,16 @@ This file records where project claims came from and separates verified facts, c
 - **Creative source archive:** private and not reproduced here
 - **Prospective collaborator:** Charlie J; no attachment, endorsement, delivery, or rights grant is claimed
 
+## Legacy-project validation continuity
+
+The project now records a reusable validation pattern for bringing older or previously paused projects forward. The pattern extends this repository's rights/provenance discipline into game-development validation without treating the repository as a rights authority:
+
+~~~
+DISCOVERY → ASSUMPTION → VERIFICATION → CORRECTION → CONTROL → RETEST
+~~~
+
+Paragon ReBorn / Return to the Void is one controlled game-development sandbox for applying that pattern. Its role is validation and proving, not automatic rights clearance, canon, ownership transfer, or production acceptance. See [Legacy Project Validation](docs/legacy-project-validation.md).
+
 ## Evidence classes
 
 | Label | Meaning |
