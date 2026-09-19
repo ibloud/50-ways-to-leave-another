@@ -58,3 +58,41 @@ Paragon ReBorn / Return to the Void is one controlled game-development sandbox f
 6. Record each accepted track with the contribution, split-sheet, rights-envelope, and delivery templates.
 
 This record documents provenance; it does not itself prove ownership or grant permission.
+
+## Battle the Beast as a historical interactive-narrative case
+
+The repository's legacy-project validation model can include **Battle the Beast** as a historical validation case: an early participatory/transmedia narrative experiment whose surviving record can be used to study the transition from prose into interactive narrative structure.
+
+This is not a dependency or authority for current 50 Ways production.
+
+The useful lineage is:
+
+```text
+HISTORICAL SOURCE / PROJECT RECORD
+        ↓
+PROVENANCE
+        ↓
+RIGHTS / PERMISSION REVIEW
+        ↓
+TECHNICAL LESSON
+        ↓
+CONTROLLED REBUILD
+        ↓
+DOCUMENTED RESULT
+```
+
+For the Ink-specific training exercise, the transferable lesson is **narrative continuity under code change**: how scene structure, choices, variables, and handoffs can be changed while preserving a coherent player experience.
+
+The historical Battle the Beast material should therefore be treated as an **origin artifact / case study**, while actual training implementations should use original or appropriately cleared material.
+
+See the training repository's `docs/NARRATIVE_CONTINUITY_INK.md` for the exercise specification.
+
+### Evidence boundary
+
+A historical project record can establish that a creative/technical experiment occurred and can document its development lineage. It does not, by itself, establish present-day permission to reuse third-party characters, dialogue, terminology, recordings, images, brands, or other protected material.
+
+The 50 Ways rule remains:
+
+> Preserve the history. Extract the technique. Verify the rights. Rebuild the technique in a controlled environment. Document what changed.
+
+This keeps historical provenance useful without turning the archive into an implied rights grant.
