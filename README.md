@@ -26,6 +26,7 @@ The learning materials are text-first, self-paced, and do not require YouTube or
 
 - the creative and delivery brief;
 - the music-first five-part series methodology;
+- the *Battle the Beast* choose-your-path legal issue-spotting bridge, connecting creative decisions to rights, contribution, clearance, and professional-review gates;
 - current, time-limited external legal/business education listings with automatic expiry;
 - project status and approval gates;
 - AI-use and authorship disclosures;
@@ -61,6 +62,7 @@ ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define
 - [Project status](PROJECT-STATUS.md)
 - [Creative and delivery brief](docs/creative-brief.md)
 - [Proposed Charlie offer](docs/charlie-offer.md)
+- [Battle the Beast legal pathways](docs/battle-the-beast-legal-pathways.md)
 - [Rights and clearance](RIGHTS-AND-CLEARANCE.md)
 - [Provenance](PROVENANCE.md)
 - [Public sources](SOURCES.md)
