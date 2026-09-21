@@ -4,6 +4,12 @@ Date: 2026-09-21
 Author: Dominique Devereaux / Loptr Lab
 Status: Documented transformation from source to proposed module
 
+## Recording pointers
+
+- Original commit: f4b155089762a47a561f344fe320649c01089b9b
+- Pull request: #52
+- PR URL: https://github.com/ibloud/50-ways-to-leave-another/pull/52
+
 ## Source
 
 A research conversation examining FanzPro (fanzpro.com) as a
@@ -36,6 +42,7 @@ This is a proposed module stub. No implementation has occurred.
 - docs/architecture/creator-rights-layer.md
 - Rights Contract v0.2 (existing)
 - Clearance Gate (existing)
+- PR #52
 
 ## What this provenance entry does not establish
 
