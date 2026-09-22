@@ -13,7 +13,7 @@ This package teaches a creator-producer how to move a music-first screen concept
 
 ## Order of work
 
-1. Read [Curriculum](CURRICULUM.md) and [Glossary](GLOSSARY.md).
+1. Read the [Independent Creator Guide](docs/INDEPENDENT-CREATOR-GUIDE.md), [Curriculum](CURRICULUM.md), and [Glossary](GLOSSARY.md).
 2. Use the [Battle the Beast legal pathways](docs/battle-the-beast-legal-pathways.md) to practice seeing how creative choices change rights, evidence, agreement, and professional-review requirements.
 3. Use the fictional [capstone exercise](exercises/fictional-capstone.md); do not begin with private or disputed material.
 4. Complete the creative brief, contribution record, rights envelope, split sheet, delivery checklist, financial waterfall, and capital worksheet.
