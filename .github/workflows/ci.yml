@@ -48,6 +48,6 @@ jobs:
       - name: Validate Pixie demo HTML
         run: |
           test -f pixie/demo/index.html
-          grep -q '<!DOCTYPE html>' pixie/demo/index.html
+          grep -qi '<!DOCTYPE html>' pixie/demo/index.html
           grep -q '</html>' pixie/demo/index.html
           echo "PASS: Pixie demo HTML"
