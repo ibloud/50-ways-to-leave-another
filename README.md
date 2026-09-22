@@ -18,7 +18,7 @@ This is a documented proposal for discussion. Charlie J has not accepted, review
 
 ## Learn independently
 
-Start with [START-HERE.md](START-HERE.md), then follow the [six-module curriculum](CURRICULUM.md). The package includes a [glossary](GLOSSARY.md), [fictional capstone](exercises/fictional-capstone.md), [assessment rubric](ASSESSMENT-RUBRIC.md), [accessibility standard](ACCESSIBILITY.md), [platform-independence guide](docs/platform-independence.md), [facilitator guide](FACILITATOR-GUIDE.md), and [youth safety framework](YOUTH-SAFETY-AND-ACCESS.md).
+Start with the [Independent Creator Guide](docs/INDEPENDENT-CREATOR-GUIDE.md) and [START-HERE.md](START-HERE.md), then follow the [six-module curriculum](CURRICULUM.md). The package includes a [glossary](GLOSSARY.md), [fictional capstone](exercises/fictional-capstone.md), [assessment rubric](ASSESSMENT-RUBRIC.md), [accessibility standard](ACCESSIBILITY.md), [platform-independence guide](docs/platform-independence.md), [facilitator guide](FACILITATOR-GUIDE.md), and [youth safety framework](YOUTH-SAFETY-AND-ACCESS.md).
 
 The learning materials are text-first, self-paced, and do not require YouTube or a specific paid production platform. Completion demonstrates process literacy, not professional licensure, rights clearance, employment, income, or Netflix participation. See [Educational use notice](EDUCATIONAL-USE-NOTICE.md).
 
