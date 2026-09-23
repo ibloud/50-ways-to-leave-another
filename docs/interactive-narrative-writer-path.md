@@ -19,6 +19,22 @@ The Yellow Door provides a compact, inspectable example of:
 
 The case study is **independent educational material**. It does not imply affiliation, endorsement, participation, or permission from any third party referenced by the project.
 
+## What the Ink / interactive track covers
+
+This track can be used from several roles without creating a separate production permission or access path:
+
+| Use case | What the learner studies | Evidence of work |
+| --- | --- | --- |
+| Interactive writer | Choices, knots/stitches, variables, conditional text, convergence, endings | Ink source + state map |
+| Narrative designer | Pacing, branch shape, consequence visibility, midpoint/reframe, replay paths | Branch map + playtest notes |
+| Producer | Source → compile → runtime → browser handoff, versions, ownership, delivery | Handoff/checklist record |
+| Narrative QA | Branch coverage, restart behavior, state changes, ending conditions, regression checks | Test matrix + issue log |
+| Accessibility reviewer | Linear rendering, keyboard use, low-demand participation, readable choice structure | Accessibility review |
+| Rights/provenance reviewer | Original source boundaries, credits, permissions, disclosure, correction/withdrawal records | Rights/provenance checklist |
+| Creative/technical learner | How an Ink story becomes a browser experience without coupling story text to UI | Small original browser-ready exercise |
+
+The same source can therefore support writing, design, production, QA, and review exercises. The track does **not** grant repository permissions, contributor status, collaboration rights, or rights to third-party material.
+
 ## Writer path
 
 ### 1. Learn the narrative language
@@ -105,6 +121,63 @@ Minimum exercise:
 - a short playtest note.
 
 Keep the exercise original and rights-safe. Do not begin by adapting private, disputed, or uncleared material.
+
+## Current implementation map
+
+The repositories currently demonstrate two different levels of readiness:
+
+### Playable / compiled case study
+
+**Inpatient Corridors: The Yellow Door** contains:
+
+- the `.ink` narrative source;
+- compiled story JSON;
+- a browser runtime using `inkjs`;
+- a GitHub Actions build/verification path;
+- browser-facing documentation and accessibility-oriented review material.
+
+Its current conceptual pipeline is:
+
+**`.ink` → compiled `.json` → local `inkjs` runtime → browser UI**
+
+This is the implementation to study when the exercise requires a real compile/runtime handoff.
+
+### Source-only 50 Ways music/Ink pilot
+
+The `proposal/ink-music-chapter-pilot` material in **50 Ways to Leave Another** is different. It is explicitly a fictional, source-only pilot: the Ink source and creative brief describe possible music/interactive use, but they do not constitute a playable production release, sponsor agreement, music release, distributor delivery, or production integration.
+
+That distinction is part of the training: **a source file is not the same thing as a compiled release, a cleared recording, or an implemented player.**
+
+No narrator/audio track is treated as implemented merely because a track brief or Ink source exists. Any future audio use remains subject to its own rights, credits, and implementation checks.
+
+## Controlled training boundary
+
+This specialization is additive documentation and training material. It does not:
+
+- change game rules or endings;
+- bypass event or participant gates;
+- grant Discord access;
+- create contributor status;
+- change Pixie controls;
+- alter safety or provenance lockouts;
+- grant permission to reuse third-party music, likenesses, writing, recordings, or other protected material;
+- turn a proposal/source-only pilot into a production claim.
+
+Learners should work from original, public-safe materials and stop for qualified review when a legal, rights, consent, safeguarding, or accessibility question requires it.
+
+## Suggested assessment
+
+A learner can demonstrate the track by submitting:
+
+1. a one-page branch/state map;
+2. a small original `.ink` story;
+3. a compile or browser-playtest record;
+4. a branch/ending test matrix;
+5. an accessibility check;
+6. a short rights/provenance note;
+7. a brief reflection on one revision made after playtesting.
+
+Completion demonstrates process literacy. It is not professional certification, rights clearance, contributor status, or permission to publish someone else's material.
 
 ## Repository handoff
 
