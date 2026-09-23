@@ -6,12 +6,18 @@ VAR evidence = false
 VAR permission = false
 VAR sponsor_control = false
 
+-> restart
+
+=== restart ===
+~ evidence = false
+~ permission = false
+~ sponsor_control = false
 -> opening
 
 === opening ===
 # chapter:THE OFFER
 # type:fictional
-A song is ready for a private listening test. A brand offers to fund the chapter page.
+A fictional song is proposed for a private listening test. A brand offers to fund the chapter page.
 The offer mentions a logo, an early listen, and a say in the ending.
 You are the independent producer. Which part do you examine first?
 
@@ -33,7 +39,7 @@ It does not automatically buy the composition, master, or the right to change th
 
 === song ===
 # chapter:WHO CAN RELEASE
-The streaming link points to a recording only after its contributors, source elements,
+A streaming link can point to a recording only after its contributors, source elements,
 splits, master owner, performer permissions, metadata, and distributor delivery are checked.
 
 * [Record each right and ask each contributor for the required permission.]
@@ -75,7 +81,7 @@ Record what changed, who is affected, and which decision must pause.
     Funding scope and sponsor authority are still unknown.
 }
 { permission:
-    Rights evidence has been requested for the recording.
+    Rights evidence has been requested for the recording; this is not clearance.
 - else:
     Recording permission has not been established.
 }
@@ -87,5 +93,5 @@ Record what changed, who is affected, and which decision must pause.
 A public recap can show this fictional choice and its consequences.
 It must not expose private agreements or claim that a real sponsor or collaborator agreed.
 
-* [Restart and examine another path.] -> opening
+* [Restart and examine another path.] -> restart
 * [Finish the pilot.] -> END
