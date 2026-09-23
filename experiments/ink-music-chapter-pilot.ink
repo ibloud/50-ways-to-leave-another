@@ -63,7 +63,7 @@ Editorial review can check factual claims; it cannot silently rewrite the ending
 The listener may use a service link, an authorized preview, or the text-only route.
 A subscription, account, email address, or stream is never required to continue.
 
-* [Continue with the transcript and credits.] -> record
+* [Continue with the story text and approved credits.] -> record
 * [Return to the rights questions.] -> song
 
 === consequence ===
