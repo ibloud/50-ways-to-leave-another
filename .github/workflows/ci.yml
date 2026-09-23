@@ -1,0 +1,53 @@
+name: Repository checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate local Markdown links
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import pathlib
+          import re
+          import sys
+
+          errors = []
+          link_pattern = re.compile(r'(?<!!)\[[^]]*\]\(([^)#][^)]*)\)')
+
+          for path in pathlib.Path(".").rglob("*.md"):
+              if ".git" in path.parts:
+                  continue
+              text = path.read_text(encoding="utf-8", errors="replace")
+              for target in link_pattern.findall(text):
+                  if "://" in target or target.startswith("mailto:"):
+                      continue
+                  target = target.split("#", 1)[0].strip()
+                  if not target:
+                      continue
+                  if not (path.parent / target).resolve().exists():
+                      errors.append(f"{path}: missing link target {target}")
+
+          if errors:
+              print("\n".join(errors))
+              sys.exit(1)
+          print("PASS: local Markdown links")
+          PY
+      - name: Validate Pixie demo HTML
+        run: |
+          test -f pixie/demo/index.html
+          grep -qi '<!DOCTYPE html>' pixie/demo/index.html
+          grep -q '</html>' pixie/demo/index.html
+          echo "PASS: Pixie demo HTML"
