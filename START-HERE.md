@@ -28,3 +28,8 @@ A text editor, ledger, secure file storage, backup, headphones or speakers, and 
 ## Completion boundary
 
 Completion demonstrates process literacy. It is not a degree, professional license, rights clearance, distribution agreement, Netflix relationship, or guarantee of employment or income.
+
+
+## Interactive narrative specialization
+
+For the interactive-writer track, continue to the [Interactive Narrative Writer Path](docs/interactive-narrative-writer-path.md). It uses **Inpatient Corridors: The Yellow Door** as a hands-on case study in branching narrative, state, consequence, convergence, endings, playtesting, and the Ink-to-browser production handoff.
