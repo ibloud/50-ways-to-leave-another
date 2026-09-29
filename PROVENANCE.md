@@ -96,3 +96,16 @@ The 50 Ways rule remains:
 > Preserve the history. Extract the technique. Verify the rights. Rebuild the technique in a controlled environment. Document what changed.
 
 This keeps historical provenance useful without turning the archive into an implied rights grant.
+
+
+## Rights-contract review provenance
+
+The proposed rights-contract v0.3 draft and rule catalog were developed through iterative human review with AI-assisted drafting and critique.
+
+- **Accepted review inputs:** recursive derivation, explicit derivation completeness, fixed gate status vocabulary with reason codes, sync-specific scope checks, halt-on-control-document-conflict behavior, and separate sync versus post-exit commercial-use rules.
+- **Corrected AI claim:** a SuperMe review stated that source documents were missing; repository inspection corrected that factual claim. The error is retained in disclosure rather than erased.
+- **Rejected/superseded proposal:** the Hercules integration PDF is retained as review input rather than authority. Its Google AI origin is inferred from the PDF footer and is not independently confirmed.
+- **Practitioner input:** consultation may inform rule design, but individual comments must not be quoted or attributed without permission.
+- **Repository state note:** no `docs/architecture/rights-contract-v0.2.md` file was present on the `main` branch when the 2026-09-28 review branch was created. The v0.3 draft therefore records that missing public baseline explicitly instead of reconstructing it silently.
+
+Material mistakes are corrected additively and remain part of the provenance trail.
