@@ -107,5 +107,7 @@ The proposed rights-contract v0.3 draft and rule catalog were developed through 
 - **Rejected/superseded proposal:** the Hercules integration PDF is retained as review input rather than authority. Its Google AI origin is inferred from the PDF footer and is not independently confirmed.
 - **Practitioner input:** consultation may inform rule design, but individual comments must not be quoted or attributed without permission.
 - **Repository state note:** no `docs/architecture/rights-contract-v0.2.md` file was present on the `main` branch when the 2026-09-28 review branch was created. The v0.3 draft therefore records that missing public baseline explicitly instead of reconstructing it silently.
+- **Identity provenance:** PR #58 is AI-authored under the maintainer identity, before the identity split. The commits therefore appear under the maintainer account even though the implementation work was performed with Codex assistance.
+- **Merge provenance:** If PR #58 is merged, record it as a maintainer-bypass merge of AI work authored before the identity split; do not describe repository protections as having independently enforced review for this PR.
 
 Material mistakes are corrected additively and remain part of the provenance trail.
