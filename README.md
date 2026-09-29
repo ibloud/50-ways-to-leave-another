@@ -57,6 +57,15 @@ No masters, stems, sessions, private messages, contracts, personal data, access-
 
 ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define complete scopes, preserve decisions, and build infrastructure they control. Human contributors retain authorship, consent, credit, and final creative judgment.
 
+## Rights data contract — review stage
+
+The proposed rights data contract and rule catalog are defined for human review and are **not automated**. The catalog operationalizes existing rights controls; it does not replace `RIGHTS-AND-CLEARANCE.md` or independently determine ownership, licensing, or disputes.
+
+- [Rights contract v0.3 draft](docs/architecture/rights-contract-v0.3-draft.md)
+- [Rule catalog](docs/architecture/rule-catalog.md)
+
+If project control documents conflict, implementation stops for human review until the contradiction is recorded and the relevant documents are reconciled.
+
 ## Start here
 
 - [Project status](PROJECT-STATUS.md)
