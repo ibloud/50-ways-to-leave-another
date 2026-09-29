@@ -19,6 +19,7 @@
 | Third-party approval | Dominique approves each outside role and cost before work begins | Not started |
 | Collaborator consent | Signed agreement and permission for any named public case study | Not yet obtained |
 | Rights clearance | Every beat, sample, stem, interpolation, AI element, and contributor documented | Blocked pending review or replacement |
+| Rights data contract | Proposed v0.3 schema and rule catalog reconciled against control files; human review only | Public review; defined, not automated |
 | EP production | Five tracks accepted against written specifications | Not started |
 | PLYR listening test | Disclosed record, consent-safe observations, and provenance link | Test design complete; not run |
 | Artist site | Ownership, branding, and publication approved by Charlie | Roadmap only |
