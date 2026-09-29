@@ -7,10 +7,27 @@
 **Proposed Charlie role:** lead artist and production coordinator, able under an accepted agreement to propose and coordinate the specialists needed for delivery.  
 **Commercial status:** no final release, clearance, publishing split, or master-ownership agreement has been executed through this repository.
 
+## Human governance gate — LOCKED
+
+The human governance gate remains **LOCKED** until a second qualified human administrator has accepted admin access to this repository, independently reviewed its current state, explicitly accepted the governance responsibility, and recorded a decision. Informal advice, Discord feedback, AI review, or non-admin collaborator access does not unlock it. Documentation and review work may continue while the gate is locked; no claim of independent governance approval may be made.
+
+A qualified second administrator has an established, attributable GitHub identity; relevant technical, production, accessibility, release, security, or governance competence; a demonstrated ability to question the project's assumptions independently; and an individual account secured with 2FA or a passkey. The role is substantive authority over repository settings, access, and releases, not an honorary designation. The candidate must understand and accept the duty to preserve the lock when requirements are unmet. A shared account or a person expected to rubber-stamp the owner's decisions does not qualify.
+
+To unlock, record the sequence in a visible issue, PR, or commit:
+
+1. Identify the candidate and document the qualification basis without publishing private correspondence.
+2. Grant admin access and verify that the candidate accepted it with their own GitHub account.
+3. Have that administrator review the current repository state and record findings or required changes.
+4. Obtain their explicit acceptance of the governance role and a recorded decision on the gate, including any conditions.
+5. Change this status from **LOCKED** only in a visible repository change that links the decision record.
+
+The minimum public record is the GitHub username, qualification basis, accepted permission level and date, review scope and date, decision, and link to the issue or PR. The September 22–23 Discord feedback is human review input with findings to address; it is not admin acceptance or gate approval. Keep private DM content out of the public repository.
+
 ## Approval gates
 
 | Gate | Required evidence | Status |
 | --- | --- | --- |
+| Human governance | Second qualified human GitHub admin accepts access and role, reviews current state, and records a decision | LOCKED — second admin and decision pending |
 | Public-safe repository foundation | Brief, provenance, rights, disclosure, sources, templates, and release review | Complete |
 | Archive inventory | Private assets identified without public exposure | In progress |
 | Role design | Charlie's lead-artist and production-coordinator responsibilities documented | Proposed |
