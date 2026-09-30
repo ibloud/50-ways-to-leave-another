@@ -3,22 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pixie v0.1 — Experimental ATProto Discovery</title>
-  <meta name="description" content="Read-only experimental Pixie discovery prototype for the ATProto ecosystem.">
+  <title>PIXIE — Public Discovery and Story Finder</title>
+  <meta name="description" content="Explore public ATProto topics or open Story Finder to search an author feed and select story sources.">
   <style>
+    *{box-sizing:border-box}
     body{font-family:system-ui,sans-serif;max-width:900px;margin:0 auto;padding:2rem;line-height:1.5;background:#faf8f2;color:#171717}
     main{background:#fff;padding:2rem;border:1px solid #ddd;border-radius:12px}
     input,button{font:inherit;padding:.7rem;border-radius:8px;border:1px solid #aaa}
     input{width:min(100%,520px)} button{cursor:pointer;margin-left:.4rem}
     .notice{background:#f2eee2;padding:1rem;border-radius:8px;margin:1rem 0}
     .card{border-top:1px solid #ddd;padding:1rem 0}.muted{color:#666}.error{color:#8b0000}
-    a{color:inherit}.actions{display:flex;gap:.5rem;flex-wrap:wrap}
+    a{color:inherit}.actions{display:flex;gap:.75rem;flex-wrap:wrap;align-items:center}
+    .tool-nav{display:flex;gap:.75rem;flex-wrap:wrap;margin:1rem 0}
+    .tool-nav a,.tool-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.7rem 1rem;border:1px solid #171717;border-radius:8px;font-weight:750;text-decoration:none}
+    .tool-link.primary{background:#b5cc18}
+    .story-finder{padding:1.5rem;margin:2rem 0 1rem;background:#faf8f2;border:1px solid #ddd;border-radius:12px}
+    .story-finder h2{margin:0 0 .75rem}.story-finder p{max-width:65ch}
+    :focus-visible{outline:3px solid #4967d6;outline-offset:3px}
+    @media(max-width:600px){body{padding:1rem}main{padding:1.25rem}.story-finder{padding:1rem}.tool-nav a,.tool-link{width:100%}input{width:100%;min-width:0}form>button{margin:.75rem 0 0}}
+
   </style>
 </head>
 <body>
 <main>
   <p><strong>PIXIE v0.1</strong> · Experimental ATProto Discovery Prototype</p>
-  <h1>Find something outside your usual neighborhood.</h1>
+  <nav class="tool-nav" aria-label="PIXIE discovery tools"><a href="#topic-discovery">Discover topics</a><a href="#story-finder">Story Finder</a></nav>
+  <h1 id="topic-discovery">Find something outside your usual neighborhood.</h1>
   <div class="notice">
     Pixie reads public ATProto data and makes bounded, explainable suggestions. Recommendations are inferences and may be wrong; they are not facts, endorsements, compatibility judgments, or claims about a person's identity or interests.
     Pixie does not automatically follow, post, reply, introduce, or contact anyone. Dismiss or stop at any time.
@@ -30,6 +40,16 @@
   </form>
   <p id="status" class="muted"></p>
   <section id="results" aria-live="polite"></section>
+  <section class="story-finder" id="story-finder" aria-labelledby="story-finder-title">
+    <h2 id="story-finder-title">Find the story in an author’s feed.</h2>
+    <p>Search one public Bluesky author feed by words, phrase, and date. Select the posts you want to use and export them as a story ledger.</p>
+    <div class="actions">
+      <a class="tool-link primary" href="https://made-sick.org/story-finder.html">Open Story Finder</a>
+      <a class="tool-link" href="https://ibloud.github.io/pixie-creator-os/">Open Creator OS</a>
+    </div>
+    <p class="muted">In Creator OS, open Atmosphere and import the ledger from Files. Choose where the story belongs, add your context, and review its public representation. Routing currently uses local simulations; live publishing is not connected.</p>
+    <p class="muted">Story Finder opens as a separate tool. Exporting a selection does not publish it or grant consent to reshare.</p>
+  </section>
   <p><a href="../v0.1/README.md">Implementation notes</a> · <a href="../../">50 Ways to Leave Another</a></p>
 </main>
 <script>
