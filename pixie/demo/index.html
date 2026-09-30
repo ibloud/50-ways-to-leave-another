@@ -19,13 +19,16 @@
     .tool-link.primary{background:#b5cc18}
     .story-finder{padding:1.5rem;margin:2rem 0 1rem;background:#faf8f2;border:1px solid #ddd;border-radius:12px}
     .story-finder h2{margin:0 0 .75rem}.story-finder p{max-width:65ch}
+    .skip-link{position:absolute;left:1rem;top:0;transform:translateY(-150%);padding:.75rem 1rem;background:#fff;color:#171717;z-index:10}
+    .skip-link:focus{transform:translateY(0)}
     :focus-visible{outline:3px solid #4967d6;outline-offset:3px}
     @media(max-width:600px){body{padding:1rem}main{padding:1.25rem}.story-finder{padding:1rem}.tool-nav a,.tool-link{width:100%}input{width:100%;min-width:0}form>button{margin:.75rem 0 0}}
 
   </style>
 </head>
 <body>
-<main>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<main id="main-content" tabindex="-1">
   <p><strong>PIXIE v0.1</strong> · Experimental ATProto Discovery Prototype</p>
   <nav class="tool-nav" aria-label="PIXIE discovery tools"><a href="#topic-discovery">Discover topics</a><a href="#story-finder">Story Finder</a></nav>
   <h1 id="topic-discovery">Find something outside your usual neighborhood.</h1>
@@ -53,14 +56,18 @@
   <p><a href="../v0.1/README.md">Implementation notes</a> · <a href="../../">50 Ways to Leave Another</a></p>
 </main>
 <script>
-const API='https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts';
+const API='https://api.bsky.app/xrpc/app.bsky.feed.searchPosts';
 const form=document.getElementById('search'), status=document.getElementById('status'), results=document.getElementById('results');
 function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function postWebUrl(uri){
+  const match=/^at:\/\/(did:[a-z0-9]+:[A-Za-z0-9._:%-]+)\/app\.bsky\.feed\.post\/([A-Za-z0-9._~:-]+)$/.exec(uri||'');
+  return match?'https://bsky.app/profile/'+encodeURIComponent(match[1])+'/post/'+encodeURIComponent(match[2]):null;
+}
 function normalize(post){
   const record=post.record||{};
   const text=record.text||'';
   const tags=[...(text.matchAll(/(^|\s)#([\p{L}\p{N}_-]+)/gu))].map(m=>m[2].toLowerCase());
-  return {uri:post.uri, author:post.author?.handle||post.author?.did||'unknown', text, tags};
+  return {url:postWebUrl(post.uri), author:post.author?.handle||post.author?.did||'unknown', text, tags};
 }
 function render(items,topic){
   if(!items.length){results.innerHTML='<p>No public results returned for that topic.</p>';return;}
@@ -69,7 +76,7 @@ function render(items,topic){
     <p class="muted">Public author: ${escapeHtml(x.author)}</p>
     <p><strong>Why surfaced:</strong> shared topic search for “${escapeHtml(topic)}”${x.tags.length?'; public hashtag context: '+escapeHtml(x.tags.join(', ')):''}. This is an observed retrieval signal, not a claim about the person.</p>
     <div class="actions"><button type="button" onclick="this.closest('article').remove()">Dismiss</button>
-    ${x.uri?'<a href="'+escapeHtml(x.uri)+'" target="_blank" rel="noopener">Open record</a>':''}</div></article>`).join('');
+    ${x.url?'<a href="'+escapeHtml(x.url)+'" target="_blank" rel="noopener noreferrer">Open record</a>':''}</div></article>`).join('');
 }
 form.addEventListener('submit',async e=>{
   e.preventDefault(); const topic=form.topic.value.trim(); if(!topic)return;
