@@ -42,7 +42,9 @@ The minimum public record is the GitHub username, qualification basis, accepted 
 | Artist site | Ownership, branding, and publication approved by Charlie | Roadmap only |
 | ATProto publication | Disclosure and provenance metadata verified | Plan complete; publication pending |
 
-## Current working offer
+## Proposed commission budget — not an open paid role
+
+The figures below are planning recommendations for a separately agreed artist commission. Funding is not confirmed in this public record. They do not offer compensation to open reviewers or contributors.
 
 - $500 paid pilot, credited toward the EP.
 - $2,500 working base for Charlie's five-song writing/performance scope when musical foundations are supplied.
