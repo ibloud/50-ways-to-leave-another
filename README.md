@@ -100,7 +100,7 @@ If project control documents conflict, implementation stops for human review unt
 - [Artist-owned site roadmap](docs/artist-owned-site-roadmap.md)
 - [AT Protocol publishing plan](docs/atproto-publishing-plan.md)
 - [PLYR/Suno listening test](experiments/plyr-suno-listening-test.md)
-- [Live A/B listening page](https://ibloud.github.io/50-ways-to-leave-another/#listen)
+- [Live A/B listening page](https://50ways.loptrlab.com/#listen)
 - [Charlie J platform strategy and sync agent proposal](docs/charlie-platform-strategy.md)
 
 ## Professional resources and programming
