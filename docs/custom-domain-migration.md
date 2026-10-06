@@ -7,9 +7,9 @@ Hosting remains GitHub Pages in ibloud/50-ways-to-leave-another.
 
 Canonical URL, Open Graph URL and image, structured data, sitemap, and README listening link use the new host. WebSite metadata supplies the project name at the new subdomain root. Relative asset, document, and PIXIE links remain unchanged. CNAME supports branch-based GitHub Pages publishing; robots.txt advertises the sitemap at the new domain root.
 
-## Activation pending
+## Activation status
 
-Public DNS lookup on October 6, 2026 returned NXDOMAIN for 50ways.loptrlab.com. loptrlab.com nameservers are Porkbun. The current GitHub connector cannot read or update Pages settings; no Porkbun DNS connector is available.
+On October 6, 2026, initial public DNS lookup returned NXDOMAIN. The owner then configured Pages and DNS: subsequent public DNS resolved 50ways.loptrlab.com as a CNAME to ibloud.github.io, and the HTTPS homepage and sitemap returned HTTP 200. The main-branch CNAME file is preserved exactly. The previously served canonical URL and sitemap still pointed to the old GitHub address; this migration corrects them. Post-deployment metadata, redirect, and asset verification remains required.
 
 1. Verify the existing GitHub Pages publishing source in repository Settings > Pages. Set Custom domain to `50ways.loptrlab.com`. If GitHub creates a CNAME commit, reconcile the matching CNAME file before merging this migration.
 2. In Porkbun DNS for loptrlab.com, add exactly this record: type CNAME, host `50ways`, answer `ibloud.github.io`, TTL 600 (or provider default). Use the hostname only, with no protocol or repository path. Do not change root, mail, or other subdomain records.
