@@ -2,7 +2,7 @@
 
 **Purpose:** a research reference for the Interactive & Narrative Writing path in *50 Ways to Leave Another*. These cases illuminate recurring questions when narrative work moves into games, interactive media, AI-assisted production, music generation, or licensed audiovisual experiences.
 
-This is an educational research index, not legal advice. Court rulings are fact-specific; some matters remain on appeal or in active litigation. Status is presented as of **September 25, 2026**.
+This is an educational research index, not legal advice. Court rulings are fact-specific; some matters remain on appeal or in active litigation. The original entries retain their **September 25, 2026** review baseline. Entry 9 was added after a separate source check on **October 18, 2026**; this does not reverify the older entries.
 
 ## Why this belongs in the interactive-writing curriculum
 
@@ -104,6 +104,12 @@ REN's model is especially useful because it separates **concept → reference �
 **Source:** [Lionsgate announcement, September 18, 2024](https://investors.lionsgate.com/news-events/news/news-details/2024/Runway-Partners-with-Lionsgate-in-First-of-its-Kind-AI-Collaboration/default.aspx).
 
 ---
+
+## 9. Demo authorship and contribution records — reported pending dispute
+
+**Source check: 18 October 2026. Allegations disputed; no ruling reviewed.**
+
+Read the [dated case note](demo-authorship-dispute.html) for attributed reporting, source limitations and learning questions about delivery records, permission, credit and payment. This entry is a pending-dispute reference, not judicial precedent.
 
 ## How these map to REN's Rhapsody
 
