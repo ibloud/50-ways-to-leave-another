@@ -1,5 +1,30 @@
 # 50 Ways to Leave Another
 
+## Website presentation and review status
+
+Preserve the existing visual style: palette, typography, artwork and homepage
+layout are intentional. Reader-facing documents use the same visual system;
+this is not a redesign. See [maintainer instructions](https://github.com/ibloud/50-ways-to-leave-another/blob/main/AGENTS.md).
+
+Markdown remains the editable source. Static HTML pages provide the public
+reading experience, including links between guides, research and templates.
+An explicitly labelled Markdown source link remains on each generated page.
+File format does not indicate legal review: HTML is not attorney approval and
+Markdown is not a queue for counsel. Existing legal qualifications remain in force.
+
+After editing a document:
+
+```sh
+python3 -m pip install -r requirements-docs.txt
+python3 scripts/build_documents.py
+python3 scripts/build_documents.py --check
+```
+
+Commit both source and generated pages. The check verifies reproducibility and
+local HTML links, assets and fragments; it does not verify external sites,
+legal accuracy, accessibility conformance or live deployment. Report those
+checks separately. Bespoke HTML pages are preserved by the generator.
+
 ## Loptr Lab mission and participation
 
 Loptr Lab is a pre-seed, people-over-profit, accessibility-first venture working toward a self-sustaining model within a capitalist economy. Money sustains the work; meaningful change for people is its purpose. We accept funding only on terms that keep people and accessibility first. Our long-term vision includes universal basic income. We aim to bring change to life and leave a transparent record of what we tried, what worked, and what failed so others can carry it forward. This mission governs our projects, funding decisions, and partnerships; it is not a temporary marketing position.
