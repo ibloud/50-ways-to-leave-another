@@ -64,6 +64,62 @@ Apple says small independent catalogs generally go through a distributor. Apple 
 
 A user-provided synthesis of five external review comments informed the text-first route, measurement priorities, rights gate, sponsor terms, and recap plan. The reviewers' identities, exact statements, and independent participation have **not** been verified for this repository; no endorsement, accepted role, or formal approval is claimed. This document records proposed design choices rather than attributing claims to those people. It is not evidence of their approval.
 
+## The artist we are designing with
+
+A solo artist may be songwriter, performer, producer, administrator and release manager at once. Accessibility assistance may be how they work, not an optional marketing novelty. Corporate-trained, artist at heart means translating between creative intention and business systems while leaving the artist in control of both the work and the decision to use AI.
+
+The barriers below are workflow hypotheses to test with artists, not findings that EVEN is inaccessible. No keyboard, screen-reader, voice-control or cognitive-access audit of EVEN has been completed here. Describe functional needs; no diagnosis is required.
+
+| Possible challenge | Proposed bridge | What remains with the artist or EVEN |
+| --- | --- | --- |
+| Fatigue, executive-function load or unfamiliar release terminology | One task at a time, plain-language explanations, a resumable checklist and artist-reviewed drafts | Artist chooses pace, confirms facts and decides when to proceed |
+| Dictating ideas but struggling to structure forms and files | Turn the artist’s notes into a brief, metadata draft and file manifest; mark missing fields | Confirm actual upload requirements and accessible input methods with EVEN |
+| Moving between ChatGPT and a release dashboard | A clear manual handoff with named files, destination fields and completion status | No existing account connection or automatic submission is claimed |
+| Understanding fees and contributor payments | Explain a worked net-receipts example and compare payout settings with the agreed split record | Artist verifies agreements; EVEN confirms applicable terms and account configuration |
+| Describing photographs without losing artistic meaning | Draft image-specific visual descriptions separately from credits and optional interpretation; artist reviews them | Confirm image provenance, intended meaning and use permissions |
+| Using AI for access while preserving authorship | Record whether AI helped organize, transcribe, edit or generate content; preserve original source and corrections | Ask EVEN how its AI disclosure applies to each use; assistance is not automatically AI-generated music |
+| Knowing which product is appropriate | Explain marketplace versus STUDIO before planning integrations | EVEN confirms STUDIO eligibility, support and any custom-build scope |
+
+EVEN’s public documentation distinguishes a self-serve marketplace from STUDIO’s team-supported custom campaigns. Its release workflow also involves uploads, metadata, review and support handoffs. Our proposed contribution is preparation and continuity around that process, not replacing EVEN’s team or claiming access to its systems.
+
+### Optional ChatGPT assistance
+
+Start with artist-selected material and a manual review/export workflow. Reading, story completion and access to educational materials must work without ChatGPT. Never request shared credentials or automatically copy fan records, private contracts or unreleased assets. An API connection is a separate proposal requiring EVEN-authorized access, scoped permissions, accessible error recovery and artist approval of consequential actions.
+
+EVEN publishes distribution API documentation mentioning developer access keys, but we have not verified authorization, account scopes or supported STUDIO operations. This does not establish a working ChatGPT connector. Ask EVEN whether an artist-authorized draft/read workflow is supported before commissioning integration work.
+
+## Beginner prompt: start with your story, not software
+
+Copy the prompt below into ChatGPT and replace the bracketed parts. You do not need to know Ink or have an EVEN account. Share only material you are entitled and comfortable to share.
+
+> I am an independent artist developing a small pilot story around [my original theme, song idea or project]. I have never used Ink or EVEN STUDIO. Help me work as an artist first. My preferred working format is [short text / dictation-friendly questions / a numbered checklist / another format]. My access needs for this task are [optional functional needs; no diagnosis needed].
+>
+> Start by asking no more than three short questions about the feeling I want to create, what the audience should choose, and the original material I already have. Wait for my answers. Let me skip questions and keep a short checkpoint so I can return later.
+>
+> Then propose a three-to-five-minute plain-language story with two or three meaningful choices, visible consequences and a complete text-only ending. Keep my supplied facts and creative choices separate from your invented suggestions. Mark inventions as proposals for my approval. Do not imitate a named artist or import their lyrics, photographs or biography.
+>
+> If I provide photos, describe only visible details first, then separately suggest possible story connections. Do not infer emotions, diagnosis or intent from appearance. If I provide my own lyrics or a permitted summary, show a small evidence table connecting each proposed scene to that material. Mark missing evidence instead of inventing a connection.
+>
+> Show me the outline and one sample scene before drafting the whole story. After I approve, provide a linear reading version, a choice map, a source/credit list and unresolved questions. Explain Ink as the tool that can turn this approved structure into branching text. Only generate Ink source if I ask; label it uncompiled until it has actually been compiled and tested.
+>
+> Finally suggest one optional listening or purchase handoff and explain what I would need to confirm with EVEN. Do not claim a platform integration, publish, contact anyone, create accounts, collect fan data or promise earnings. Finish with the next small action and what I should save.
+
+A useful result is an editable starting point with the artist’s approval history. It is not automatically a playable, cleared or commercially validated release. A facilitator can help with the handoff without taking over artistic authority.
+
+## Yellow Door example review — 19 October 2026
+
+The existing example is valuable for studying a working story interface, but it does not yet demonstrate a verified photo-to-lyric narrative translation.
+
+- The six entry photographs and closing photograph in `interactive/yellow-door/docs/app.js` receive the same generic source-credit alt text. This identifies origin, but does not describe the distinct visible images.
+- The six entry titles follow the supplied music sequence. Their prompts are editorial framing, not a documented lyrical analysis.
+- The Ink narrative concerns an unexplained door restriction, information, support, challenge and shared decision-making. Its source does not map passages to photographs or lyrics.
+- `VIDEO-ENCOUNTERS.md` explicitly calls the still-to-screen assignments provisional pending visual review. `MUSIC-BREADCRUMB.md` describes an independent listening breadcrumb, not artist authorship or approval of the narrative.
+- Visual inspection shows materially different settings and actions across the photographs; repeating one source caption does not provide equivalent access to those differences. No verified lyric text or audio comparison was available in this review, so lyrical fidelity remains unverified.
+
+**Proposed follow-up in the owning repository:** supply image-specific alt text, retain separate source credits, and create an owner-reviewed image → intended theme → story passage → lyric-source/summary mapping. Keep observed image content, Dominique’s interpretation and AI suggestions separate. Correct misleading framing where the map fails; do not invent relationships to make it fit. This PR records the gap and does not change Yellow Door’s story or image assignments.
+
+Sources: [Yellow Door app](https://github.com/ibloud/inpatient-corridors-review/blob/main/interactive/yellow-door/docs/app.js), [Ink story](https://github.com/ibloud/inpatient-corridors-review/blob/main/interactive/yellow-door/story/yellow-door-alpha.ink), [visual encounter record](https://github.com/ibloud/inpatient-corridors-review/blob/main/interactive/yellow-door/docs/VIDEO-ENCOUNTERS.md), [music breadcrumb](https://github.com/ibloud/inpatient-corridors-review/blob/main/interactive/yellow-door/docs/MUSIC-BREADCRUMB.md).
+
 ## Platform fit and partner conversation — reviewed 19 October 2026
 
 Keep the existing site as the initial home for the proposed Ink experience. A story recap can offer an optional official listening or purchase route. Returning for the next chapter must remain possible without an account or marketing signup. No platform migration or new integration is part of this source-only proposal.
@@ -111,3 +167,10 @@ Platform references checked 19 October 2026 (capabilities and terms can change):
 - Laylo drop destinations: https://docs.laylo.com/en/articles/6429096-creating-a-drop
 - Laylo subscription API: https://docs.laylo.com/en/articles/6520155-laylo-api
 - EVEN collaborator payouts: https://help.even.biz/en/articles/16302214-revenue-splits-and-collaborator-payouts
+
+Accessibility-assistance workflow references checked 19 October 2026:
+
+- STUDIO audience and support model: https://studio.even.biz/help/articles/who-is-even-studio-for
+- Release workflow: https://help.even.biz/en/articles/16973307-what-happens-after-you-upload-a-release
+- AI/content disclosure: https://help.even.biz/en/articles/16894164-terms-of-use
+- Distribution API (scope/access not verified): https://api.docs.even.biz/
