@@ -2,6 +2,22 @@
 
 **Status:** source-only fictional pilot. No player, sponsor agreement, music release, distributor delivery, or production integration is implemented. The five-song EP remains in pre-production.
 
+## The artist leads; AI handles the supporting work
+
+**ChatGPT does not replace the artist.** Our purpose is to help with the analytical, organizational and technical work an artist may not want—or may find difficult—to carry alone. “Left-brained work” is shorthand for those tasks, not a neurological claim or a division of people into creative and logical types.
+
+The artist supplies intention, lived meaning, voice and final creative judgment. AI can organize an approved lyric/source record, draft metadata, map story choices, compare evidence, prepare budgets and handoffs, flag gaps and assist with technical checks. Any proposed scene or interpretation remains a suggestion the artist can change or reject. Using AI for accessibility or administration does not transfer authorship or creative authority.
+
+### Clear limitation of the Yellow Door example
+
+**Yellow Door is an independent institutional-process story. It is not a faithful adaptation of Sick Sick Soul (Vol. 1), and the current revision does not make it one.** Better image descriptions and official store links improve access and navigation, not narrative fidelity. The EP’s lyric themes and the existing story only partly overlap.
+
+ChatGPT can propose an original short story exploring broad themes such as nightlife, defiance, escape, intimacy and loss. It cannot infer the artists’ intended meaning, claim their approval, verify unheard audio, or make a faithful artist-led treatment from titles and third-party lyric transcriptions alone. A lyric listing is evidence to examine, not permission to reproduce or adapt the song.
+
+For an artist’s own project, begin with their approved material and intent; produce a source-to-scene map and one sample scene; let the artist correct it before expansion. Keep visible details, sourced information, artist decisions and AI inventions separate. Do not force a weak image/song pairing or call generated Ink a final release. Compilation, playtesting, accessibility review and intended-use permissions are separate work.
+
+See the [artist starter guide proposed for Yellow Door](https://github.com/ibloud/inpatient-corridors-review/blob/fix/yellow-door-visual-clarity/interactive/yellow-door/docs/ARTIST-STARTER.md). Its branch status is proposal/review, not live publication. The beginner prompt below is also usable without Ink or EVEN experience.
+
 ## Placement
 
 Use Ink as the interaction layer on the artist-owned 50 Ways site, following the source → compiled JSON → inkjs browser handoff in the [Interactive Narrative Writer Path](../docs/interactive-narrative-writer-path.md), whose compiled case study is Inpatient Corridors. A chapter must make sense as a text-first story even if no one plays audio. A released song can enrich the chapter only after the track's rights and public use are cleared. The chapter ends in a public-safe recap and a next-chapter link when another chapter exists. Never require a subscription, stream, account, email, or sponsor interaction.
