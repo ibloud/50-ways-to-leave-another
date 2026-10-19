@@ -12,6 +12,18 @@ A resource can inform the project without becoming a project partner, endorser, 
 | Producer Dojo / ill.Gates | Music-production education, sound-design and professional-development ecosystem | Professional resource; potential future programming/collaboration opportunity; no partnership claimed | Attribute public-source material; do not reproduce proprietary course/newsletter material; obtain permission for protected materials, branding, appearances, recordings, or co-branded programming |
 | Thoolie | Music-clearance educational reference | Professional/reference resource | Attribute the source; project controls remain project documentation, not legal advice |
 
+## Trademark clearance / Before you launch
+
+### [Thanks Mom — U.S. trademark clearance](https://www.thanksmom.ai/)
+
+A paid service that describes its offering as AI-assisted trademark searches with attorney review and a clearance report. Relevant when considering a name, slogan, or logo before investing in a launch.
+
+Listed as an external professional resource; service quality has not been independently evaluated by 50 Ways. No partnership, endorsement, or attorney-client relationship with the project is implied.
+
+The provider states that its trademark assessment covers the United States only, its operator is not a law firm, and results cannot be guaranteed. Trademark clearance is separate from permission to use music, recordings, artwork, or other copyrighted material.
+
+**Source:** [Thanks Mom's public service description and disclosures](https://www.thanksmom.ai/), reviewed 19 October 2026. Check the provider's current scope, terms, and pricing before purchasing.
+
 ## Integration rule
 
 Professional resources are treated as **named external nodes** in the project architecture.
