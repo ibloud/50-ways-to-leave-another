@@ -21,3 +21,8 @@ Maintain a canonical domain, downloadable public-safe portfolio, text transcript
 Export permitted data; inventory titles, captions, thumbnails, dates, URLs, credits, and licenses; preserve historical locators where appropriate; publish the accessible replacement; update owned profiles; explain the new canonical path; review embeds and dead links; and retain rollback until verified.
 
 Platform independence does not expand copyright or publicity rights.
+
+
+## Distribution accountability: applied discussion
+
+The [dated DistroKid case note](../research/distrokid-distribution-accountability.md) separates copyright removals, artificial-streaming policy actions and payment reconciliation. It includes opposing positions, relevant decisions, source limitations and a fictional evidence exercise. Use this with existing preservation and rights records; no finding about an individual artist's account is implied.

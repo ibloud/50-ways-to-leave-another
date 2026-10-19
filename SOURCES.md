@@ -47,3 +47,8 @@ The [case note](research/demo-authorship-dispute.html) distinguishes reported al
 - [CaseMagic](https://www.casemagic.ai/case/cacd/2-26-cv-12115): third-party court-feed listing, not the official docket.
 
 The complaint, exhibits and underlying creative records were not obtained. No independent audio comparison, metadata authentication, clearance verification or judicial finding is claimed. Older source entries retain their existing review dates.
+
+
+## DistroKid research thread — 19 October 2026
+
+The [case note](research/distrokid-distribution-accountability.md) links the filed complaint, dated third-party docket snapshot, DistroKid's reported denial, three decision texts, Copyright Office inquiry and official DistroKid guidance. It states which sources were retrieved and which remain unverified. Dominique's reported Skinner Brothers Instagram observation is research provenance, not independently verified nonpayment or evidence of a connection to UMG's suit. The video summary supplied by Dominique is not a reviewed full video. See the note for source-specific limits and correction procedure.

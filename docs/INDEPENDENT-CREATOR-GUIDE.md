@@ -285,3 +285,8 @@ Passing this check does not mean the real EP or series is cleared, financed, com
 - Private planning records are intentionally excluded from this public guide; only the reusable privacy and approval boundaries are stated here.
 - AARP access and SuperMe.ai development support are creator statements recorded September 22, 2026; they do not establish sponsorship, endorsement, or partnership.
 - [Project public-source log](../SOURCES.md): Charlie J public listings, marketplace fee sources, professional-resource links, and verification boundaries.
+
+
+## Distribution accountability: applied discussion
+
+The [dated DistroKid case note](../research/distrokid-distribution-accountability.md) separates copyright removals, artificial-streaming policy actions and payment reconciliation. It includes opposing positions, relevant decisions, source limitations and a fictional evidence exercise. Use this with existing preservation and rights records; no finding about an individual artist's account is implied.

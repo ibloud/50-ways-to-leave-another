@@ -111,6 +111,16 @@ REN's model is especially useful because it separates **concept → reference �
 
 Read the [dated case note](demo-authorship-dispute.html) for attributed reporting, source limitations and learning questions about delivery records, permission, credit and payment. This entry is a pending-dispute reference, not judicial precedent.
 
+## 10. Distribution accountability — UMG / DistroKid research thread
+
+**Source check: 19 October 2026; disputed allegations, current docket status not fully verified.**
+
+The [distribution, payment and takedown case note](distrokid-distribution-accountability.md) records Dominique's research sequence, separates an unretrieved Skinner Brothers payment post from UMG's complaint, presents DistroKid's reported denial, and compares *Lenz*, *Viacom* and *Grokster*. Includes a fictional evidence exercise and official response guidance.
+
+## Read each source by its actual status
+
+Entries 1–4 discuss litigation and rulings with differing procedural histories; entries 5–6 concern allegations; entries 7–8 concern commercial licensing announcements, not judicial precedent. Entry 9 is a reported pending dispute. Entry 10 distinguishes a filed complaint, reported response, older decisions and an industry inquiry. Inclusion does not imply equal authority or a fresh review of older entries.
+
 ## How these map to REN's Rhapsody
 
 | REN question | Reference lesson |
