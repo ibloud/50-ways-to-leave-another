@@ -100,3 +100,10 @@ Public GitHub holds only public-safe documentation. Protected storage holds sour
 Do not release, license, pitch as attached talent, train on a contributor, or publish a named case study when required evidence is missing or disputed. Escalate unresolved ownership or contract questions to qualified counsel.
 
 *Source: sync/master scope alignment framework informed by Thoolie — Music Clearance for Independent Filmmakers (thoolie.com/creator_resource/music-clearance-independent-filmmakers/, accessed September 13, 2026). This is project-control documentation, not legal advice.*
+
+
+## Rule catalog relationship
+
+The proposed `docs/architecture/rule-catalog.md` operationalizes controls in this file for human review. It does not replace this document or create independent rights requirements.
+
+If the rule catalog, this file, `PROJECT-STATUS.md`, `PROVENANCE.md`, or `AI-DISCLOSURE.md` conflict, implementation stops. Record the contradiction, reconcile the applicable control documents, and only then resume the gate. No control file silently overrides another at runtime.

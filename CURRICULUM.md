@@ -28,3 +28,8 @@ A learner can separate evidence from inference; distinguish composition, master,
 ## Evidence of completion
 
 A charter, creative brief, story/music map, budget, cash ledger, contributor record, rights envelope, delivery manifest, accessibility review, platform-exit plan, and unresolved-issues log.
+
+
+## Interactive narrative writer path
+
+The curriculum now includes an interactive-narrative specialization using **[Inpatient Corridors: The Yellow Door](https://github.com/ibloud/inpatient-corridors-review)** as a concrete case study. See [Interactive Narrative Writer Path](docs/interactive-narrative-writer-path.md) for the Ink → compiled story → inkjs/browser workflow, source tracing exercise, controlled narrative modifications, playtesting, and original-story capstone. The case study is educational and independent; it does not imply third-party affiliation, endorsement, participation, or permission.

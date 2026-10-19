@@ -6,7 +6,9 @@
 | --- | --- |
 | Dominique Devereaux | Project originator, source-lyrics author, creative direction, approvals |
 | Charlie J | Prospective human collaborator; no contribution is claimed until accepted and delivered |
-| ChatGPT / Codex | Research, fee calculation, document structuring, rights questions, repository implementation, and the September 13, 2026 corrective reconciliation |
+| ChatGPT / Codex | Research, fee calculation, document structuring, rights questions, repository implementation, schema/rule-language refinement, and the September 13, 2026 corrective reconciliation |
+| SuperMe agent | Review input on schema mismatches, authority-order conflicts, recursive derivation, and provenance completeness; one review incorrectly stated source documents were missing and was corrected against the repository |
+| Google AI-generated Hercules proposal (inferred) | Source proposal reviewed and rejected/superseded; AI origin is inferred from the PDF footer and not independently confirmed |
 | Claude and Gemini | Creator-reported intermediate tools during a model handoff; exact passage-level authorship is unresolved because no public generation log establishes it |
 | Suno | Generator used for a pre-production audio demonstration |
 | PLYR / AT Protocol | Listening and audience-response layer; not an authorship authority |
@@ -38,3 +40,15 @@ No model may be trained or fine-tuned on a collaborator's voice, likeness, stems
 On September 13, 2026, Codex misread the project as only an EP archive and proposed removing intentional series-development and educational-resource functions. PR #25 was closed without merge, so it did not change the live site. The incident is documented in `docs/incident-2026-09-13-site-function-audit.md` and now serves as an acceptance test in `LLM-REVIEW-PROTOCOL.md`.
 
 Future model attribution must be based on a preserved generation record. GitHub account ownership, commit timing, or writing style alone does not verify which model produced text.
+
+
+## Rights-contract review disclosure
+
+The rights-contract and rule-catalog review used multiple AI-assisted inputs:
+
+- **ChatGPT / Codex** assisted with rule-language refinement, schema consistency review, edge-case analysis, repository inspection, and implementation.
+- **SuperMe agent** identified schema and governance issues, including recursive-derivation and completeness gaps. One SuperMe review also made a factual error by stating that source documents were missing; that claim was corrected against repository evidence and is retained as part of the review record.
+- **Hercules integration PDF** was reviewed as an AI-generated proposal. Attribution to Google AI is **inferred from the PDF footer** and is not otherwise independently confirmed. The proposal is not authoritative and should be recorded as rejected or superseded where it conflicts with verified project controls.
+- **Practitioner consultation** informed the review process. Do not quote or attribute individual practitioner comments without permission consistent with `CONTRIBUTOR-POLICY.md`.
+
+AI-assisted and practitioner-supplied material remains input to human review. No AI output becomes authoritative solely because an AI system produced it.

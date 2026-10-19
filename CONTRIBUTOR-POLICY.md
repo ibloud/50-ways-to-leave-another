@@ -1,12 +1,12 @@
 # Contributor policy
 
-A contributor must know what is being requested, how they will be paid, what rights are requested, how AI may be used, and what will be public before work begins.
+A contributor must know what is being requested, whether the role is paid under a signed agreement or voluntary, what rights are requested, how AI may be used, and what will be public before work begins.
 
 ## Commitments
 
 - Persistent, accurate credit.
 - Written scope, milestones, revision limits, and delivery standards.
-- Payment for accepted work.
+- Payment for commissioned work according to its signed agreement; voluntary contributions carry no promise of pay.
 - Song-by-song authorship and publishing decisions.
 - No private evidence or unpublished work in the public repository without permission.
 - No model training on voice, likeness, stems, sessions, or unreleased work without affirmative consent.

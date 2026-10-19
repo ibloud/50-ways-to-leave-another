@@ -1,5 +1,41 @@
 # 50 Ways to Leave Another
 
+## Website presentation and review status
+
+Preserve the existing visual style: palette, typography, artwork and homepage
+layout are intentional. Reader-facing documents use the same visual system;
+this is not a redesign. See [maintainer instructions](https://github.com/ibloud/50-ways-to-leave-another/blob/main/AGENTS.md).
+
+Markdown remains the editable source. Static HTML pages provide the public
+reading experience, including links between guides, research and templates.
+An explicitly labelled Markdown source link remains on each generated page.
+File format does not indicate legal review: HTML is not attorney approval and
+Markdown is not a queue for counsel. Existing legal qualifications remain in force.
+
+After editing a document:
+
+```sh
+python3 -m pip install -r requirements-docs.txt
+python3 scripts/build_documents.py
+python3 scripts/build_documents.py --check
+```
+
+Commit both source and generated pages. The check verifies reproducibility and
+local HTML links, assets and fragments; it does not verify external sites,
+legal accuracy, accessibility conformance or live deployment. Report those
+checks separately. Bespoke HTML pages are preserved by the generator.
+
+## Loptr Lab mission and participation
+
+Loptr Lab is a pre-seed, people-over-profit, accessibility-first venture working toward a self-sustaining model within a capitalist economy. Money sustains the work; meaningful change for people is its purpose. We accept funding only on terms that keep people and accessibility first. Our long-term vision includes universal basic income. We aim to bring change to life and leave a transparent record of what we tried, what worked, and what failed so others can carry it forward. This mission governs our projects, funding decisions, and partnerships; it is not a temporary marketing position.
+
+Current open review and contribution opportunities are voluntary and unpaid. Before work begins, agree in writing on scope, time, what will be public, credit preferences, and an exit path. You can stop at any point. Participation does not promise employment, ownership, revenue share, academic credit, or future pay. Any paid commission or other formal arrangement requires a separate signed agreement before work begins. External assistance or benefits belong to the participant and are not compensation from Loptr Lab.
+
+Financial support is optional and sustains infrastructure, maintenance, accessibility work, and documented development. Paying does not buy contributor status, canon authority, approvals, ownership, or employment. Participation and accessibility are not sponsorship rewards. Project-specific licenses and existing signed agreements continue to apply.
+
+[Full mission and participation terms](https://github.com/ibloud/ibloud.github.io/blob/main/MISSION.md).
+
+
 A transparent, rights-aware development record for a proposed five-song EP that functions as the music-first foundation of a proposed five-part screen series.
 
 This repository documents how Dominique Devereaux / Loptr Lab turns a private creative archive into a commissionable music project and demonstrates how the EP, five-part narrative, financing, rights, clearance, delivery, professional education, and AI-assisted workflow fit together. Netflix is an intended future pitch target, not a participant, commissioner, or endorser.
@@ -57,6 +93,15 @@ No masters, stems, sessions, private messages, contracts, personal data, access-
 
 ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define complete scopes, preserve decisions, and build infrastructure they control. Human contributors retain authorship, consent, credit, and final creative judgment.
 
+## Rights data contract — review stage
+
+The proposed rights data contract and rule catalog are defined for human review and are **not automated**. The catalog operationalizes existing rights controls; it does not replace `RIGHTS-AND-CLEARANCE.md` or independently determine ownership, licensing, or disputes.
+
+- [Rights contract v0.3 draft](docs/architecture/rights-contract-v0.3-draft.md)
+- [Rule catalog](docs/architecture/rule-catalog.md)
+
+If project control documents conflict, implementation stops for human review until the contradiction is recorded and the relevant documents are reconciled.
+
 ## Start here
 
 - [Project status](PROJECT-STATUS.md)
@@ -80,7 +125,7 @@ ChatGPT is not the artist. It helps artists inspect fees, clarify rights, define
 - [Artist-owned site roadmap](docs/artist-owned-site-roadmap.md)
 - [AT Protocol publishing plan](docs/atproto-publishing-plan.md)
 - [PLYR/Suno listening test](experiments/plyr-suno-listening-test.md)
-- [Live A/B listening page](https://ibloud.github.io/50-ways-to-leave-another/#listen)
+- [Live A/B listening page](https://50ways.loptrlab.com/#listen)
 - [Charlie J platform strategy and sync agent proposal](docs/charlie-platform-strategy.md)
 
 ## Professional resources and programming

@@ -36,3 +36,14 @@ The Fiverr comparison in `docs/charlie-offer.md` is an illustrative calculation 
 - difference between buyer total and seller earnings = approximately $446.25.
 
 This is not a quote from Fiverr and does not include taxes, currency conversion, withdrawals, optional services, refunds, or later changes to fees.
+
+
+## Demo provenance case note — source check 18 October 2026
+
+The [case note](research/demo-authorship-dispute.html) distinguishes reported allegations from findings. Sources inspected:
+
+- [AllHipHop](https://allhiphop.com/news/drake-sued-over-janice-stfu-by-songwriter-behind-beyonces-heated/), published 17 October 2026: secondary reporting, not our review of the complaint.
+- [TMZ](https://www.tmz.com/2026/10/16/drake-responds-to-lawsuit-over-janice-stfu/), published 16 October 2026.
+- [CaseMagic](https://www.casemagic.ai/case/cacd/2-26-cv-12115): third-party court-feed listing, not the official docket.
+
+The complaint, exhibits and underlying creative records were not obtained. No independent audio comparison, metadata authentication, clearance verification or judicial finding is claimed. Older source entries retain their existing review dates.

@@ -39,8 +39,9 @@ It does not automatically buy the composition, master, or the right to change th
 
 === song ===
 # chapter:WHO CAN RELEASE
-A streaming link can point to a recording only after its contributors, source elements,
-splits, master owner, performer permissions, metadata, and distributor delivery are checked.
+Linking to an existing official release is different from uploading a demo or pairing
+music with this chapter. For the proposed chapter use, identify contributors, source elements,
+splits, master ownership, performer permissions, and any additional permissions required.
 
 * [Record each right and ask each contributor for the required permission.]
     ~ permission = true

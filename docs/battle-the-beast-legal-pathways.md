@@ -47,6 +47,8 @@ If the answer is unknown, the pathway outcome is **pause and document**, not “
 
 ## Connected examples
 
+- The [demo provenance case note](../research/demo-authorship-dispute.html) asks what evidence and agreements to preserve before using a contribution. Its reported allegations remain disputed.
+
 - The Ren + KujoBeats counterpoint shows why a downstream license may carry an upstream provenance problem.
 - The Peloton example shows why permission depends on the actual use.
 - The collaboration question shows why contribution, ownership, approval, reputation, timing, and exit should not collapse into one indefinite yes/no decision.
