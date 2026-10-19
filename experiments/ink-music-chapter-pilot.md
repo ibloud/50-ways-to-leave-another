@@ -137,6 +137,36 @@ EVEN STUDIO documents custom sections and artist domains; Laylo documents signup
 
 These are prospective roles, not partnerships, endorsements, financing commitments or verified integrations. Keep the EP production proposal, studio workflow pilot and PIXIE verification separate. This comparison does not change Holdings or establish an artist-retention programme.
 
+## Collector-edition concept — proposal for artist review
+
+**Working title: Sick Sick Soul: The After-Hours Edition.** This is a Loptr Lab concept, not an approved Ren / The Skinner Brothers product, preorder, manufacturing commitment or license. No order, payment or signup is enabled here. Artists may reject or revise the concept.
+
+The proposed object is a numbered, record-sized fold-out story sleeve containing the release and a complete set of six artist-approved scene cards. Arranged together, the cards reveal a continuous image; their reverse carries approved production notes or original narrative fragments. A printed address and QR code can lead to an optional branching experience. Include a complete printed story so the physical edition retains value without a functioning website. Supply an accessible digital reading version; puzzle solving and AI use are optional.
+
+| Edition | Proposed contents | Indicative price, not a quote |
+| --- | --- | --- |
+| Standard release | Existing music formats remain available separately | Existing artist-store prices |
+| After-Hours Edition | Vinyl, numbered fold-out sleeve, complete six-card set, printed story and optional interactive experience | GBP 55–65 |
+| Artist Proof Edition | Same contents, jointly signed print and genuinely hand-finished detail | GBP 95–120 |
+
+Price ranges require supplier quotes, artist-approved compensation, platform deductions, packing, fulfillment, tax treatment and clear shipping charges before an offer. Hand-finishing and signatures are paid workload, not free extras. Do not use view counts as a manufacturing forecast.
+
+A demand-test hypothesis is around 300 numbered copies, with perhaps 30 Artist Proof copies **included within that total**, not an additional edition. Neither quantity is approved. Show an honest prototype and proposed price to assess qualified interest, then cost and approve the actual run. Use an announcement request before accepting paid preorders; a streaming pre-save is a different action. Do not turn this proposal into a new data-collection implementation.
+
+### Authentic scarcity and long-term value
+
+- Identify the edition by catalogue number, quantity, production date, credits and distinctive treatment. Record any proofs, replacements or artist copies separately.
+- Approve and publish the reprint policy before sale. A proposed policy is that the exact numbered treatment will not return, while music and differently presented standard editions can remain available.
+- Every buyer receives the complete card set; no random packs, concealed odds or need to buy multiple copies.
+- Maintain a public edition archive and an accessible printed alternative to web-only content.
+- Use truthful stock counts and dates; do not manufacture urgency or imply resale appreciation.
+
+Scarcity can contribute to collector interest only when demand persists. Third-party asking prices do not establish completed-sale value or liquidity. Resale proceeds normally go to the reseller unless a separate arrangement establishes otherwise. Artist sustainability must rest on the original sale’s net economics. Measure completed sales, fulfillment, net receipts and later verified resale observations separately; never advertise this as an investment or guaranteed route to cult status.
+
+Token’s retailer-listed color-in-cover/crayon edition is a design reference for meaningful participation, not an instruction to copy its artwork or evidence of profitable resale. Yellow Door contributes a possible interaction method; its existing story and photographs are not automatically authorized for this commercial bundle. Commission or clear the exact artwork, music, writing, names and signatures before using them in promotion or sale.
+
+Reference points checked 19 October 2026: [Token deluxe edition, retailer lists 300 copies](https://www.fatbeats.com/products/token-im-not-supposed-to-be-here-2xlp-opaque-white-vinyl-w-crayons); [The Skinner Brothers official products](https://theskinnerbrothers.com/collections/all); [Ren official Sick Sick Soul collection](https://renmakesmerch.com/collections/sick-sick-soul). Retail prices and availability can change. No third-party resale valuation was established.
+
 ## Pitch positioning and readiness
 
 Owner-approved positioning: **Corporate-trained, artist at heart.** Loptr Lab aims to bridge independent artistic intent and professional delivery through clear scope, budgets, credits, permissions, accessible experiences and workable release plans. Replication and self-sustainability remain goals to test.
