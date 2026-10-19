@@ -8,6 +8,10 @@ Use Ink as the interaction layer on the artist-owned 50 Ways site, following the
 
 The accompanying source is [ink-music-chapter-pilot.ink](ink-music-chapter-pilot.ink). It tests one fictional producer decision about funding, recording permissions, and sponsor editorial control. It does not name Charlie J or any sponsor as a participant. Its variables record fictional choices, not actual rights clearance.
 
+## See an existing browser example
+
+[Open The Yellow Door browser-story alpha](https://ibloud.github.io/inpatient-corridors-review/interactive/yellow-door/docs/). It is a separate, existing Ink-based learning example, not the proposed music chapter or evidence of EVEN integration. Participation is optional. See its own content and accessibility guidance before playing.
+
 ## Proposed visitor route
 
 1. Open the chapter on the owned site. Show a fiction notice, content note, any actual sponsor disclosure, and a visible Read linear version link.
