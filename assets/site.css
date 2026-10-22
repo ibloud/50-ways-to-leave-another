@@ -623,3 +623,9 @@ footer {
   50% { transform: scale(1.025); box-shadow: 0 0 0 1px rgba(215, 168, 76, .14), 0 0 24px rgba(156, 60, 241, .28); }
 }
 @media(prefers-reduced-motion:reduce) { .pixie-breathe { animation: none; } }
+
+/* Optional external media: explicit connection, reversible unload. */
+.media-choice button{font:inherit;padding:.75rem 1rem;min-height:44px;cursor:pointer;background:var(--paper,#f4ebdd);color:#242321;border:2px solid currentColor;margin:.5rem .5rem .5rem 0}
+.media-choice [hidden]{display:none!important}
+.media-choice p{margin-block:.75rem}
+.media-choice button:focus-visible{outline:3px solid #e8b949;outline-offset:3px}

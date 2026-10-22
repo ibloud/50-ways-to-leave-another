@@ -52,3 +52,11 @@ The rights-contract and rule-catalog review used multiple AI-assisted inputs:
 - **Practitioner consultation** informed the review process. Do not quote or attribute individual practitioner comments without permission consistent with `CONTRIBUTOR-POLICY.md`.
 
 AI-assisted and practitioner-supplied material remains input to human review. No AI output becomes authoritative solely because an AI system produced it.
+
+## Privacy and external-media update — October 22, 2026
+
+Dominique supplied draft privacy and terms HTML and requested additions after a review of automated scan results. ChatGPT/Codex compared those drafts with the site code, identified an automatic Metricool loader and PLYR iframe, and prepared their removal/replacement with explicit load and unload controls. The original uploaded files are preserved; readable policy pages are derived from editable Markdown using the existing document builder. Dominique requested confirmation before publication.
+
+The revised drafts describe public-search queries sent to Bluesky, provider connection data, optional PLYR loading, private correspondence and existing reuse restrictions. This work is AI-assisted drafting and implementation, not attorney review, clearance or a compliance certification. An automated scanner's score is not proof that its operator identification or legal conclusions are correct.
+
+The accompanying local browser review checked no initial iframe, explicit creation of the PLYR frame, removal on unload, focus restoration and readable privacy/terms links. It did not establish third-party retention, guarantee player availability, audit every network request, or replace disabled-user and legal review.
