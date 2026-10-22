@@ -52,8 +52,9 @@
   <form id="search">
     <label for="topic"><strong>Start with a topic</strong></label><br>
     <input id="topic" name="topic" placeholder="e.g. independent film, open source, AI" required>
-    <button type="submit">Discover</button>
+    <button type="submit" aria-describedby="search-privacy">Discover</button>
   </form>
+  <p id="search-privacy" class="muted">Submitting sends your topic and connection data to the Bluesky API at api.bsky.app. Do not enter private information. <a href="../../privacy.html">Privacy details</a>.</p>
   <p id="status" class="muted"></p>
   <section id="results" aria-live="polite"></section>
   <section class="story-finder" id="story-finder" aria-labelledby="story-finder-title">
@@ -67,6 +68,7 @@
     <p class="muted">Story Finder opens as a separate tool. Exporting a selection does not publish it or grant consent to reshare.</p>
   </section>
   <p><a href="https://github.com/ibloud/50-ways-to-leave-another/blob/main/pixie/v0.1/README.md">Implementation notes</a> · <a href="../../">50 Ways to Leave Another</a></p>
+<p><a href="../../privacy.html">Privacy</a> · <a href="../../terms.html">Terms</a></p>
 </main>
 <script>
 const API='https://api.bsky.app/xrpc/app.bsky.feed.searchPosts';

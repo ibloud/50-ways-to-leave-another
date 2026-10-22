@@ -66,7 +66,7 @@ def render(path):
 {body}
 <p class="document-source"><a data-source-link="true" href="{esc(path.name, quote=True)}">View Markdown source</a> · Presentation does not indicate legal review or clearance. See the document's stated status.</p>
 </article></main>
-<footer><span>&copy; 2026 Dominique Devereaux / Loptr Lab</span><span>Open development record · Not legal advice</span></footer>
+<footer><span><a href="{prefix}privacy.html">Privacy</a> · <a href="{prefix}terms.html">Terms</a> · <a href="{prefix}AI-DISCLOSURE.html">AI disclosure</a></span><span>&copy; 2026 Dominique Devereaux / Loptr Lab</span><span>Open development record · Not legal advice</span></footer>
 </body></html>
 '''
 
