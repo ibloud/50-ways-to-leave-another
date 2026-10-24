@@ -637,3 +637,13 @@ body.classroom button,body.classroom select{min-height:44px;padding:.55rem .8rem
 body.classroom button:focus-visible,body.classroom select:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 body.classroom #result{padding:1rem;border:1px solid var(--gold)}
 @media(max-width:600px){body.classroom .classroom-actions button{width:100%}}
+
+/* Classroom peer-review form: accessible and in existing shared stylesheet. */
+body.classroom #feedback{margin-block:2rem;padding:1.25rem;border:1px solid var(--line);border-radius:12px}
+body.classroom #review-form{display:grid;gap:.8rem}
+body.classroom #review-form label{display:block}
+body.classroom #review-form input[type=email],body.classroom #review-form textarea,body.classroom #review-form select{width:100%;max-width:100%;min-height:44px;padding:.6rem;border:1px solid var(--gold);background:var(--surface);color:var(--cream);font:inherit}
+body.classroom #review-form fieldset{border:1px solid var(--line);display:flex;flex-wrap:wrap;gap:.8rem}
+body.classroom #review-form fieldset label,body.classroom #review-form .classroom-consent{display:flex;align-items:flex-start;gap:.5rem}
+body.classroom #review-form input:focus-visible,body.classroom #review-form textarea:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+body.classroom #review-message{min-height:2rem}
