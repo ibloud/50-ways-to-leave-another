@@ -8,6 +8,16 @@
 <p class="eyebrow">Synthetic demonstration only</p><h1>Professional classroom pilot</h1>
 <p>No real learner records, educators, credentials, grants, invitations or publications are used. Governance is <strong>LOCKED</strong>. This page does not authenticate anyone or protect confidential information.</p>
 <p><a href="../../exercises/fictional-capstone.html">Read the existing fictional capstone</a> · <a href="../../CURRICULUM.html">Curriculum</a> · <a href="../../ASSESSMENT-RUBRIC.html">Assessment rubric</a></p>
+<section aria-labelledby="review-intro">
+<h2 id="review-intro">Review this prototype in two minutes</h2>
+<p><strong>For artists, managers and professional advisers:</strong> This is a fictional demonstration of how PIXIE could organize creative-rights questions before an artist speaks with qualified counsel. It is not a publishing-rights determination, case intake or legal service.</p>
+<ol>
+<li><strong>Read the example:</strong> a fictional creator needs to check ownership, permission and royalty questions before release. No real artist's records are used.</li>
+<li><strong>Try the roles:</strong> choose “Educator A (fictional)” and select a classroom action. Notice which actions are blocked and why.</li>
+<li><strong>Give us one practical suggestion:</strong> answer the short feedback questions below. You do not need a GitHub account or programming knowledge.</li>
+</ol>
+<p><strong>UK reviewers:</strong> We especially welcome comments on how a UK music-publishing solicitor or royalty specialist would want a future evidence checklist organized. Do not upload or describe confidential disputes.</p>
+</section>
 <h2>Choose a simulated role</h2><label for="role">Persona</label>
 <select id="role"><option value="visitor">Public visitor</option><option value="learner">Learner</option><option value="professional">Educator A (fictional)</option><option value="editor">Editor</option><option value="owner">Project steward</option></select>
 <h2>Actions</h2><div class="classroom-actions">
@@ -29,9 +39,47 @@
 <p id="result" role="status" aria-live="polite" aria-atomic="true">No action has executed.</p>
 <h2>Current simulated state</h2><p id="state">draft</p>
 <p>This preview makes no network calls or local storage writes. Refresh resets the scenario. Approval and publication cannot occur.</p>
+<section aria-labelledby="feedback-title" id="feedback">
+<h2 id="feedback-title">Help improve this classroom</h2>
+<p>Three short answers are enough. No account is required to use this page. Please do not include agreements, royalty statements, names of clients, or private dispute details.</p>
+<form id="review-form">
+<label for="review-role">Your perspective</label>
+<select id="review-role" name="role" required>
+<option value="">Choose one</option><option value="artist-manager">Artist / manager</option><option value="uk-law">UK legal professional</option><option value="finance">Royalty / finance professional</option><option value="educator">Educator / accessibility reviewer</option><option value="other">Other</option>
+</select>
+<fieldset><legend>Would this help someone prepare for professional advice?</legend>
+<label><input type="radio" name="usefulness" value="yes" required> Yes</label>
+<label><input type="radio" name="usefulness" value="partly"> Partly</label>
+<label><input type="radio" name="usefulness" value="no"> No</label>
+</fieldset>
+<label for="review-need">What is the most important missing step? <span>(optional, 300 characters)</span></label>
+<textarea id="review-need" name="suggestion" maxlength="300" rows="3"></textarea>
+<label for="review-contact">Email for follow-up <span>(optional)</span></label>
+<input id="review-contact" type="email" name="email" autocomplete="email" maxlength="120">
+<label class="classroom-consent"><input id="review-consent" type="checkbox" required> I understand this is product feedback, not confidential legal advice or case intake.</label>
+<button type="submit">Submit feedback</button>
+<p id="review-message" role="status" aria-live="polite"></p>
+</form>
+<p>Feedback submission requires a secure receiver. If the service is not configured, the page will explain that your response has <strong>not</strong> been sent.</p>
+</section>
 </article></main>
 <script src="index.js"></script>
 <script>
 (function(){const demo=window.PixieClassroom.create();const out=document.getElementById("result"),state=document.getElementById("state");
 document.querySelectorAll("[data-action]").forEach(button=>button.addEventListener("click",()=>{const op=button.dataset.action;const actor=document.getElementById("role").value;const r=demo.act(op,actor);out.textContent=r.ok?"Synthetic step acknowledged; nothing was published.":r.reason;state.textContent=demo.state.seminar;}));})();
+</script>
+<script>
+document.getElementById("review-form").addEventListener("submit",async function(e){
+e.preventDefault();
+const out=document.getElementById("review-message");
+const form=new FormData(this);
+const payload={role:form.get("role"),usefulness:form.get("usefulness"),suggestion:String(form.get("suggestion")||"").slice(0,300),email:String(form.get("email")||"").slice(0,120),agreed:form.get("review-consent")!==null};
+out.textContent="Submitting feedback…";
+try{
+const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),12000);
+let response;try{response=await fetch("/api/classroom-feedback",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload),signal:controller.signal});}finally{clearTimeout(timeout);}
+if(!response.ok)throw Error("Feedback receiver unavailable");
+out.textContent="Feedback received. Thank you.";this.reset();
+}catch(error){out.textContent="Feedback was NOT sent. The secure receiver is unavailable; please try again later.";}
+});
 </script></body></html>
