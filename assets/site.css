@@ -629,3 +629,11 @@ footer {
 .media-choice [hidden]{display:none!important}
 .media-choice p{margin-block:.75rem}
 .media-choice button:focus-visible{outline:3px solid #e8b949;outline-offset:3px}
+
+/* Synthetic professional classroom — scoped within the existing site stylesheet. */
+body.classroom .document-page{max-width:980px;margin:0 auto;padding:2rem 1rem}
+body.classroom .classroom-actions{display:flex;flex-wrap:wrap;gap:.65rem}
+body.classroom button,body.classroom select{min-height:44px;padding:.55rem .8rem;font:inherit;border:1px solid var(--gold);background:var(--surface);color:var(--cream)}
+body.classroom button:focus-visible,body.classroom select:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+body.classroom #result{padding:1rem;border:1px solid var(--gold)}
+@media(max-width:600px){body.classroom .classroom-actions button{width:100%}}
