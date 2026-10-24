@@ -27,7 +27,15 @@ module.exports = async function handler(req,res) {
       method:"POST",headers:{"Authorization":"Bearer "+key,"Content-Type":"application/json"},
       body:JSON.stringify({from,to:["questions@loptrlab.com"],subject:"50 Ways classroom peer feedback",text:body})
     });
-    if(!response.ok)return res.status(502).json({error:"Email delivery failed"});
+    if(!response.ok){
+      console.error("Classroom mail provider HTTP status:", response.status);
+      const cause = response.status === 401 || response.status === 403
+        ? "Email sender rejected the API key or its permissions"
+        : response.status === 422
+        ? "Email sender rejected the from/to configuration"
+        : "Email sender rejected the request";
+      return res.status(502).json({error: cause + " (provider HTTP " + response.status + ")"});
+    }
     return res.status(200).json({ok:true});
   }catch{return res.status(502).json({error:"Email delivery unavailable"});}
 };
