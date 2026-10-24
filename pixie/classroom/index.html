@@ -52,8 +52,8 @@
 <label><input type="radio" name="usefulness" value="partly"> Partly</label>
 <label><input type="radio" name="usefulness" value="no"> No</label>
 </fieldset>
-<label for="review-need">What is the most important missing step? <span>(optional, 300 characters)</span></label>
-<textarea id="review-need" name="suggestion" maxlength="300" rows="3"></textarea>
+<label for="review-need">What is the most important missing step? <span>(optional, 1,000 characters)</span></label>
+<textarea id="review-need" name="suggestion" maxlength="1000" rows="3"></textarea>
 <label for="review-contact">Email for follow-up <span>(optional)</span></label>
 <input id="review-contact" type="email" name="email" autocomplete="email" maxlength="120">
 <label class="classroom-consent"><input id="review-consent" name="review-consent" type="checkbox" required> I understand this is product feedback, not confidential legal advice or case intake.</label>
@@ -73,13 +73,13 @@ document.getElementById("review-form").addEventListener("submit",async function(
 e.preventDefault();
 const out=document.getElementById("review-message");
 const form=new FormData(this);
-const payload={role:form.get("role"),usefulness:form.get("usefulness"),suggestion:String(form.get("suggestion")||"").slice(0,300),email:String(form.get("email")||"").slice(0,120),agreed:form.get("review-consent")!==null};
+const payload={role:form.get("role"),usefulness:form.get("usefulness"),suggestion:String(form.get("suggestion")||"").slice(0,1000),email:String(form.get("email")||"").slice(0,120),agreed:form.get("review-consent")!==null};
 out.textContent="Submitting feedback…";
 try{
 const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),12000);
 let response;try{response=await fetch("/api/classroom-feedback",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload),signal:controller.signal});}finally{clearTimeout(timeout);}
-if(!response.ok)throw Error("Feedback receiver unavailable");
+if(!response.ok){let detail={};try{detail=await response.json();}catch{}throw Error((detail.error||"Server error")+" (HTTP "+response.status+")");}
 out.textContent="Feedback received. Thank you.";this.reset();
-}catch(error){out.textContent="Feedback was NOT sent. The secure receiver is unavailable; please try again later.";}
+}catch(error){out.textContent="Feedback was NOT sent: "+(error && error.message ? error.message : "Connection error")+". Please try again after the issue is fixed.";}
 });
 </script></body></html>
