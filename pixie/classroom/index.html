@@ -5,9 +5,9 @@
 <body class="classroom"><a class="skip" href="#main">Skip to main content</a>
 <header class="site-header"><a class="wordmark" href="../../index.html">50 Ways to Leave Another</a></header>
 <main id="main" class="document-page"><article>
-<p class="eyebrow">Synthetic demonstration only</p><h1>Professional classroom pilot</h1>
-<p>No real learner records, educators, credentials, grants, invitations or publications are used. Governance is <strong>LOCKED</strong>. This page does not authenticate anyone or protect confidential information.</p>
-<p><a href="../../exercises/fictional-capstone.html">Read the existing fictional capstone</a> · <a href="../../CURRICULUM.html">Curriculum</a> · <a href="../../ASSESSMENT-RUBRIC.html">Assessment rubric</a></p>
+<div class="classroom-hero"><p class="eyebrow">Loptr Lab / 50 Ways / PIXIE · Early peer review</p><h1>Help creators ask better rights questions.</h1><p class="classroom-lede">Explore a fictional creative-rights review workflow, then tell us what an artist, manager or qualified adviser would need before using it.</p><div class="classroom-hero-actions"><a class="classroom-primary" href="#review-intro">Explore the 2-minute review ↓</a><a href="#feedback">Go straight to feedback</a></div><p class="classroom-meta">No account · No real client material · UK perspectives welcome</p></div>
+<p class="classroom-notice"><strong>Preview only:</strong> Every role and action is simulated. No real educator, learner, private records or publishing decisions are involved. Governance remains <strong>LOCKED</strong>.</p>
+<details class="classroom-resources"><summary>Background: curriculum and existing fictional capstone</summary><p><a href="../../exercises/fictional-capstone.html">Existing fictional capstone</a> · <a href="../../CURRICULUM.html">Curriculum</a> · <a href="../../ASSESSMENT-RUBRIC.html">Assessment rubric</a></p><p>The existing capstone is not a UK publishing-dispute case. A dedicated clearance case remains in development.</p></details>
 <section aria-labelledby="review-intro">
 <h2 id="review-intro">Review this prototype in two minutes</h2>
 <p><strong>For artists, managers and professional advisers:</strong> This is a fictional demonstration of how PIXIE could organize creative-rights questions before an artist speaks with qualified counsel. It is not a publishing-rights determination, case intake or legal service.</p>
@@ -18,9 +18,9 @@
 </ol>
 <p><strong>UK reviewers:</strong> We especially welcome comments on how a UK music-publishing solicitor or royalty specialist would want a future evidence checklist organized. Do not upload or describe confidential disputes.</p>
 </section>
-<h2>Choose a simulated role</h2><label for="role">Persona</label>
+<section class="classroom-demo" aria-labelledby="demo-heading"><div class="classroom-section-label">02 / EXPLORE</div><h2 id="demo-heading">Try a simulated classroom decision</h2><p>Choose a role, then select an action. The response below explains what would happen and which safeguards block it.</p><h3>Choose a simulated role</h3><label for="role">Persona</label>
 <select id="role"><option value="visitor">Public visitor</option><option value="learner">Learner</option><option value="professional">Educator A (fictional)</option><option value="editor">Editor</option><option value="owner">Project steward</option></select>
-<h2>Actions</h2><div class="classroom-actions">
+<h3>Try an action</h3><p class="classroom-hint">Start with <strong>Educator A</strong> and “Submit seminar.” Some actions need an earlier synthetic credential and access grant.</p><div class="classroom-actions">
 <button type="button" data-action="review-credential">Review credential (synthetic)</button>
 <button type="button" data-action="grant">Grant case access (synthetic)</button>
 <button type="button" data-action="correct">Correct case (synthetic)</button>
@@ -36,12 +36,10 @@
 <button type="button" data-action="connect">Connect identity</button>
 <button type="button" data-action="revoke">Revoke synthetic access</button>
 </div>
-<p id="result" role="status" aria-live="polite" aria-atomic="true">No action has executed.</p>
-<h2>Current simulated state</h2><p id="state">draft</p>
-<p>This preview makes no network calls or local storage writes. Refresh resets the scenario. Approval and publication cannot occur.</p>
+<div class="classroom-result"><strong>Result</strong><p id="result" role="status" aria-live="polite" aria-atomic="true">Choose a role and action above to see the simulated outcome.</p><small>Seminar state: <span id="state">draft</span></small></div><p class="classroom-hint">The role demonstration makes no network requests or storage writes. Refresh resets it. Only the separate feedback form sends information you choose to submit.</p></section>
 <section aria-labelledby="feedback-title" id="feedback">
-<h2 id="feedback-title">Help improve this classroom</h2>
-<p>Three short answers are enough. No account is required to use this page. Please do not include agreements, royalty statements, names of clients, or private dispute details.</p>
+<div class="classroom-section-label">03 / RESPOND</div><h2 id="feedback-title">Your perspective will shape the next version</h2>
+<p>About two minutes. No GitHub account, signup or coding knowledge. Choose your perspective, answer one question and share an improvement. Please do not include real contracts, client names, royalty statements or private dispute details.</p>
 <form id="review-form">
 <label for="review-role">Your perspective</label>
 <select id="review-role" name="role" required>
@@ -52,15 +50,15 @@
 <label><input type="radio" name="usefulness" value="partly"> Partly</label>
 <label><input type="radio" name="usefulness" value="no"> No</label>
 </fieldset>
-<label for="review-need">What is the most important missing step? <span>(optional, 1,000 characters)</span></label>
-<textarea id="review-need" name="suggestion" maxlength="1000" rows="3"></textarea>
-<label for="review-contact">Email for follow-up <span>(optional)</span></label>
+<label for="review-need">What would make this useful in your work? <span>(optional, up to 1,000 characters)</span></label><p class="classroom-hint" id="feedback-example">Example: “As a UK music manager, I’d need a checklist of publishing agreements, collection societies and outstanding royalty questions before briefing a solicitor.”</p>
+<textarea id="review-need" name="suggestion" maxlength="1000" rows="5" aria-describedby="feedback-example review-count"></textarea><small id="review-count">0 / 1,000 characters</small>
+<label for="review-contact">Email for one-to-one follow-up <span>(optional; not added to a marketing list)</span></label>
 <input id="review-contact" type="email" name="email" autocomplete="email" maxlength="120">
 <label class="classroom-consent"><input id="review-consent" name="review-consent" type="checkbox" required> I understand this is product feedback, not confidential legal advice or case intake.</label>
 <button type="submit">Submit feedback</button>
 <p id="review-message" role="status" aria-live="polite"></p>
 </form>
-<p>Feedback submission requires a secure receiver. If the service is not configured, the page will explain that your response has <strong>not</strong> been sent.</p>
+<p class="classroom-privacy">Feedback is delivered to questions@loptrlab.com for pilot review. For a privacy or deletion request, contact compliance@loptrlab.com. Do not submit confidential material. We are still finalizing a formal retention schedule.</p>
 </section>
 </article></main>
 <script src="index.js"></script>
@@ -69,6 +67,7 @@
 document.querySelectorAll("[data-action]").forEach(button=>button.addEventListener("click",()=>{const op=button.dataset.action;const actor=document.getElementById("role").value;const r=demo.act(op,actor);out.textContent=r.ok?"Synthetic step acknowledged; nothing was published.":r.reason;state.textContent=demo.state.seminar;}));})();
 </script>
 <script>
+document.getElementById("review-need").addEventListener("input", function(){document.getElementById("review-count").textContent=this.value.length+" / 1,000 characters";});
 document.getElementById("review-form").addEventListener("submit",async function(e){
 e.preventDefault();
 const out=document.getElementById("review-message");
