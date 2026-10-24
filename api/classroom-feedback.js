@@ -8,10 +8,11 @@ module.exports = async function handler(req,res) {
   if(req.method!=="POST"){res.setHeader("Allow","POST");return res.status(405).json({error:"Method not allowed"});}
   const origin=req.headers.origin||"";
   const host=req.headers.host||"";
-  if(!origin||!host||new URL(origin).host!==host) return res.status(403).json({error:"Invalid origin"});
+  let originHost; try { originHost=new URL(origin).host; } catch { return res.status(403).json({error:"Invalid origin"}); }
+  if(!host||originHost!==host) return res.status(403).json({error:"Invalid origin"});
   const raw=req.body;
   if(Number(req.headers["content-length"]||0)>4096) return res.status(413).json({error:"Form too large"});
-  const data=typeof raw==="string"?JSON.parse(raw):raw;
+  let data; try { data=typeof raw==="string"?JSON.parse(raw):raw; } catch { return res.status(400).json({error:"Invalid JSON"}); }
   if(!data||typeof data!=="object"||!ROLES.has(data.role)||!ANSWERS.has(data.usefulness)||data.agreed!==true) return res.status(400).json({error:"Invalid form"});
   for(const k of ["suggestion","email"])if(data[k]!=null&&typeof data[k]!=="string")return res.status(400).json({error:"Invalid field"});
   const suggestion=(data.suggestion||"").trim();
