@@ -17,7 +17,7 @@ module.exports = async function handler(req,res) {
   for(const k of ["suggestion","email"])if(data[k]!=null&&typeof data[k]!=="string")return res.status(400).json({error:"Invalid field"});
   const suggestion=(data.suggestion||"").trim();
   const email=(data.email||"").trim();
-  if(suggestion.length>300||email.length>120||email&& !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))return res.status(400).json({error:"Invalid input"});
+  if(suggestion.length>1000||email.length>120||email&& !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))return res.status(400).json({error:"Invalid input"});
   // Separate secret configuration from iCloud+ receiving mailbox.
   const key=process.env.RESEND_API_KEY,from=process.env.FEEDBACK_FROM_EMAIL;
   if(!key||!from)return res.status(503).json({error:"Feedback is not accepting submissions yet"});
