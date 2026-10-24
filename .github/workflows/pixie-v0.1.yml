@@ -21,3 +21,5 @@ jobs:
         run: node pixie/v0.1/index.test.js
       - name: Run Pixie public ATProto adapter tests
         run: node pixie/v0.1/atproto-public.test.js
+      - name: Run synthetic classroom regression tests
+        run: node --test pixie/classroom/index.test.js
