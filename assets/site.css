@@ -296,7 +296,7 @@ nav summary:focus-visible {
 .section {
   max-width: var(--max);
   margin: auto;
-  padding: 6rem 1.5rem;
+  padding: clamp(2.5rem, 5vw, 4rem) 1.5rem;
   border-bottom: 1px solid var(--line);
 }
 
@@ -442,8 +442,8 @@ nav summary:focus-visible {
 .section-heading {
   display: flex;
   justify-content: space-between;
-  align-items: end;
-  gap: 2rem;
+  align-items: start;
+  gap: clamp(1rem, 3vw, 2rem);
   margin-bottom: 2rem;
 }
 
@@ -527,7 +527,11 @@ footer {
   margin: auto;
   padding: 2rem 1.5rem 3rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: .65rem;
+  text-align: center;
   color: var(--muted);
   font-size: .78rem;
   text-transform: uppercase;
@@ -629,3 +633,44 @@ footer {
 .media-choice [hidden]{display:none!important}
 .media-choice p{margin-block:.75rem}
 .media-choice button:focus-visible{outline:3px solid #e8b949;outline-offset:3px}
+
+/* Synthetic professional classroom — scoped within the existing site stylesheet. */
+body.classroom .document-page{max-width:980px;margin:0 auto;padding:2rem 1rem}
+body.classroom .classroom-actions{display:flex;flex-wrap:wrap;gap:.65rem}
+body.classroom button,body.classroom select{min-height:44px;padding:.55rem .8rem;font:inherit;border:1px solid var(--gold);background:var(--surface);color:var(--cream)}
+body.classroom button:focus-visible,body.classroom select:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+body.classroom #result{padding:1rem;border:1px solid var(--gold)}
+@media(max-width:600px){body.classroom .classroom-actions button{width:100%}}
+
+/* Classroom peer-review form: accessible and in existing shared stylesheet. */
+body.classroom #feedback{margin-block:2rem;padding:1.25rem;border:1px solid var(--line);border-radius:12px}
+body.classroom #review-form{display:grid;gap:.8rem}
+body.classroom #review-form label{display:block}
+body.classroom #review-form input[type=email],body.classroom #review-form textarea,body.classroom #review-form select{width:100%;max-width:100%;min-height:44px;padding:.6rem;border:1px solid var(--gold);background:var(--surface);color:var(--cream);font:inherit}
+body.classroom #review-form fieldset{border:1px solid var(--line);display:flex;flex-wrap:wrap;gap:.8rem}
+body.classroom #review-form fieldset label,body.classroom #review-form .classroom-consent{display:flex;align-items:flex-start;gap:.5rem}
+body.classroom #review-form input:focus-visible,body.classroom #review-form textarea:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+body.classroom #review-message{min-height:2rem}
+
+/* Classroom review flow: existing site tokens and stylesheet, no competing design system */
+body.classroom .document-page{max-width:1120px}
+body.classroom .classroom-hero{padding:clamp(1.5rem,5vw,3.5rem);margin:1rem 0 1.5rem;border:1px solid var(--line);border-radius:18px;background:linear-gradient(135deg,var(--surface),var(--surface-2))}
+body.classroom .classroom-hero h1{max-width:17ch;line-height:1.12;font-size:clamp(2.2rem,5vw,4rem);margin:.5rem 0 1rem}
+body.classroom .classroom-lede{font-size:clamp(1.1rem,2vw,1.35rem);max-width:65ch}
+body.classroom .classroom-hero-actions{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;margin:1.5rem 0}
+body.classroom .classroom-primary{display:inline-block;padding:.75rem 1rem;background:var(--gold);color:var(--ink);font-weight:700;border-radius:6px;text-decoration:none}
+body.classroom .classroom-meta,body.classroom .classroom-hint,body.classroom .classroom-privacy{font-size:.9rem;color:var(--muted)}
+body.classroom .classroom-notice{border-left:3px solid var(--gold);padding:.9rem 1.1rem;background:var(--surface)}
+body.classroom .classroom-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;padding-left:0;list-style:none;counter-reset:review}
+body.classroom .classroom-steps li{counter-increment:review;background:var(--surface);padding:1.1rem;border:1px solid var(--line);border-radius:10px}
+body.classroom .classroom-steps li::before{content:"0" counter(review);display:block;font-size:.8rem;font-weight:700;letter-spacing:.12em;color:var(--gold);margin-bottom:.6rem}
+body.classroom .classroom-demo{margin:2rem 0;padding:clamp(1rem,3vw,2rem);border:1px solid var(--line);border-radius:14px}
+body.classroom .classroom-section-label{font-size:.8rem;letter-spacing:.12em;font-weight:700;color:var(--gold);margin-bottom:.5rem}
+body.classroom .classroom-result{padding:1rem;border-radius:8px;background:var(--surface-2);border:1px solid var(--gold);margin-top:1.2rem}
+body.classroom .classroom-result p{margin:.5rem 0}
+body.classroom .classroom-resources{padding:.8rem 1rem;border:1px solid var(--line);border-radius:8px}
+body.classroom .classroom-resources summary{cursor:pointer}
+body.classroom #feedback{max-width:850px;margin:2rem auto}
+body.classroom #review-count{justify-self:end;color:var(--muted)}
+body.classroom #review-form input[type=email]{background:var(--surface);color:var(--cream)}
+@media(max-width:750px){body.classroom .classroom-steps{grid-template-columns:1fr}body.classroom .classroom-hero-actions{align-items:stretch;flex-direction:column}body.classroom .classroom-primary{text-align:center}}

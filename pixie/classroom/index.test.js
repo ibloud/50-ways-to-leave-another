@@ -1,0 +1,11 @@
+"use strict";
+const test=require("node:test"),assert=require("node:assert/strict"),fs=require("node:fs"),path=require("node:path");
+const P=require("./index.js");
+test("governance remains locked in project record",()=>{assert.match(fs.readFileSync(path.join(__dirname,"../../PROJECT-STATUS.md"),"utf8"),/LOCKED/);assert.equal(P.GOVERNANCE,"LOCKED")});
+test("all publication and approval actions refuse",()=>{const c=P.create();for(const a of ["approve","publish"])assert.equal(c.act(a,"owner").reason,P.DENIAL)});
+test("no private actions execute in simulation",()=>{const c=P.create();for(const a of ["save","invite","share","upload","record","connect"])assert.equal(c.act(a).ok,false)});
+test("identity alone does not confer qualifications or access",()=>{const c=P.create();assert.equal(c.act("correct","professional").ok,false);assert.equal(c.act("grant","professional").ok,false)});
+test("scoped access is steward-controlled",()=>{const c=P.create();assert.equal(c.act("grant","owner").ok,false);assert.equal(c.act("review-credential","owner").ok,true);assert.equal(c.act("grant","owner").ok,true)});
+test("simulated educator edits require review",()=>{const c=P.create();c.act("review-credential","owner");c.act("grant","owner");assert.equal(c.act("correct","professional").ok,true);assert.equal(c.act("submit","professional").ok,true);assert.equal(c.state.seminar,"in_review");assert.equal(c.act("request-changes","editor").ok,true);assert.equal(c.act("submit","professional").ok,true)});
+test("corrections append instead of overwriting",()=>{const c=P.create();c.act("review-credential","owner");c.act("grant","owner");c.act("correct","professional");c.act("correct","professional");assert.equal(c.state.corrections[1].supersedes,c.state.corrections[0].id);assert.equal(c.state.corrections.length,2)});
+test("revocation clears grants and prevents future correction",()=>{const c=P.create();c.act("review-credential","owner");c.act("grant","owner");c.act("revoke","owner");assert.equal(c.state.grant,false);assert.equal(c.act("correct","professional").ok,false)});
