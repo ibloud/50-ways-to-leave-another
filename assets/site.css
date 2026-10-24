@@ -296,7 +296,7 @@ nav summary:focus-visible {
 .section {
   max-width: var(--max);
   margin: auto;
-  padding: 6rem 1.5rem;
+  padding: clamp(2.5rem, 5vw, 4rem) 1.5rem;
   border-bottom: 1px solid var(--line);
 }
 
@@ -442,8 +442,8 @@ nav summary:focus-visible {
 .section-heading {
   display: flex;
   justify-content: space-between;
-  align-items: end;
-  gap: 2rem;
+  align-items: start;
+  gap: clamp(1rem, 3vw, 2rem);
   margin-bottom: 2rem;
 }
 
@@ -527,7 +527,11 @@ footer {
   margin: auto;
   padding: 2rem 1.5rem 3rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: .65rem;
+  text-align: center;
   color: var(--muted);
   font-size: .78rem;
   text-transform: uppercase;
