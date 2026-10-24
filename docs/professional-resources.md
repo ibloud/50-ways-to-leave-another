@@ -24,6 +24,33 @@ The provider states that its trademark assessment covers the United States only,
 
 **Source:** [Thanks Mom's public service description and disclosures](https://www.thanksmom.ai/), reviewed 19 October 2026. Check the provider's current scope, terms, and pricing before purchasing.
 
+## Artist rights: from a concern to a policy question
+
+**Working proposal for professional and public review · 24 October 2026.** This is an educational preparation path, not a finding of misconduct or a legally reviewed reform package.
+
+Start with the [existing Made-Sick resource cards](https://made-sick.org/directory.html#resources):
+
+| Need | Existing directory route | Boundary |
+| --- | --- | --- |
+| Check musical-work data and unmatched usage | [The MLC](https://made-sick.org/directory.html#resource-mlc-tools) | U.S. digital mechanical royalties; not every royalty stream or a contract audit |
+| Prepare contract questions | [Musicians’ Union](https://made-sick.org/directory.html#resource-musicians-union-contracts) | UK guidance; individual advice depends on membership and eligibility |
+| Compare transparency standards | [UK transparency code](https://made-sick.org/directory.html#resource-uk-streaming-transparency) | Voluntary UK framework, not U.S. law |
+| Learn about artist advocacy | [Artist Rights Alliance](https://made-sick.org/directory.html#resource-artist-rights-alliance) | Independent advocacy; no project endorsement or participation implied |
+| Contact an elected office | [USAGov](https://made-sick.org/directory.html#resource-us-elected-officials) | Officeholders, not a candidate directory |
+
+Before asking for action, identify whether the concern involves a recording agreement, publishing agreement, distribution arrangement or another relationship. Separate the artist's account, documents, established findings and unanswered questions. Keep contracts and identifying financial records private for qualified review. Do not describe an unfavorable agreement as fraud without supporting evidence.
+
+### Questions to take to professionals and public officials
+
+- What minimum royalty reporting should show deductions and recoupment balances?
+- What access to records and affordable independent audits should creators have?
+- How should duration, renewal, rights-return and dispute procedures be explained and reviewed?
+- Which existing protections apply, what gap remains, and which jurisdiction or office can address it?
+
+Use the same questions across offices. Record the source, date and exact scope of each public response; label no response as no response, not opposition. These questions do not endorse a party or candidate. No enquiries have been sent.
+
+PIXIE can help organise a source list, timeline and questions for human review. Made-Sick remains the resource directory; 50 Ways supplies the creative and educational context. The next step is an independent musician/royalty specialist and entertainment-law review of these questions before presenting specific rules as a settled proposal.
+
 ## Integration rule
 
 Professional resources are treated as **named external nodes** in the project architecture.
