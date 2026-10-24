@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Synthetic professional classroom | 50 Ways</title>
+<link rel="stylesheet" href="../../assets/site.css"></head>
+<body class="classroom"><a class="skip" href="#main">Skip to main content</a>
+<header class="site-header"><a class="wordmark" href="../../index.html">50 Ways to Leave Another</a></header>
+<main id="main" class="document-page"><article>
+<p class="eyebrow">Synthetic demonstration only</p><h1>Professional classroom pilot</h1>
+<p>No real learner records, educators, credentials, grants, invitations or publications are used. Governance is <strong>LOCKED</strong>. This page does not authenticate anyone or protect confidential information.</p>
+<p><a href="../../exercises/fictional-capstone.html">Read the existing fictional capstone</a> · <a href="../../CURRICULUM.html">Curriculum</a> · <a href="../../ASSESSMENT-RUBRIC.html">Assessment rubric</a></p>
+<h2>Choose a simulated role</h2><label for="role">Persona</label>
+<select id="role"><option value="visitor">Public visitor</option><option value="learner">Learner</option><option value="professional">Educator A (fictional)</option><option value="editor">Editor</option><option value="owner">Project steward</option></select>
+<h2>Actions</h2><div class="classroom-actions">
+<button type="button" data-action="review-credential">Review credential (synthetic)</button>
+<button type="button" data-action="grant">Grant case access (synthetic)</button>
+<button type="button" data-action="correct">Correct case (synthetic)</button>
+<button type="button" data-action="submit">Submit seminar (synthetic)</button>
+<button type="button" data-action="request-changes">Request changes (synthetic)</button>
+<button type="button" data-action="save">Save</button>
+<button type="button" data-action="approve">Approve</button>
+<button type="button" data-action="publish">Publish</button>
+<button type="button" data-action="invite">Invite</button>
+<button type="button" data-action="share">Share</button>
+<button type="button" data-action="upload">Upload</button>
+<button type="button" data-action="record">Record</button>
+<button type="button" data-action="connect">Connect identity</button>
+<button type="button" data-action="revoke">Revoke synthetic access</button>
+</div>
+<p id="result" role="status" aria-live="polite" aria-atomic="true">No action has executed.</p>
+<h2>Current simulated state</h2><p id="state">draft</p>
+<p>This preview makes no network calls or local storage writes. Refresh resets the scenario. Approval and publication cannot occur.</p>
+</article></main>
+<script src="index.js"></script>
+<script>
+(function(){const demo=window.PixieClassroom.create();const out=document.getElementById("result"),state=document.getElementById("state");
+document.querySelectorAll("[data-action]").forEach(button=>button.addEventListener("click",()=>{const op=button.dataset.action;const actor=document.getElementById("role").value;const r=demo.act(op,actor);out.textContent=r.ok?"Synthetic step acknowledged; nothing was published.":r.reason;state.textContent=demo.state.seminar;}));})();
+</script></body></html>
