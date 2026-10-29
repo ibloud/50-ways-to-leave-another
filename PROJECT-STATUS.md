@@ -134,3 +134,8 @@ adaptive, component selection, color, accessibility and anti-pattern references.
 Official JavaScript documentation was not fully retrieved; no full conformance
 claim is made. Root guidelines were added to Made-Sick PR #68 and PIXIE guide
 PR #9 with AGENTS/README links; those PRs are documentation-only and unmerged.
+
+
+29 October 2026 homepage title preview: self-hosted Fraunces applies only to
+.home-title, in response to the owner's request for a more playful title. Body
+and controls unchanged. License retained; no visitor font-service request added.

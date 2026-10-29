@@ -136,3 +136,14 @@ make AI compliance automatic; AGENTS/README links and review enforce its use.
 29 October 2026: consolidated approved direction from owner corrections, existing
 AGENTS, brand-strategy, source and PR #82. This replaces scattered instructions as
 the repository's brand entry point; it does not erase historical records.
+
+## Homepage display-font amendment — preview, 29 October 2026
+
+Dominique requested a more playful front-page font, distinct from reading text.
+The homepage title previews self-hosted Fraunces, a soft old-style display serif
+by Phaedra Charles and Flavia Zimbardi. Only .home-title uses it; body, labels,
+controls, other headings and document typography are preserved. Normal tracking,
+responsive size and selectable text remain. Source: Google Fonts ofl/fraunces;
+assets/fonts/Fraunces-variable.ttf with adjacent Fraunces-OFL.txt (SIL OFL 1.1).
+Softness/wonky axes express this proposed display treatment; they are not a change
+to the owner-approved body typography. Owner preview acceptance remains pending.
