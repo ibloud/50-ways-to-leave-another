@@ -1,3 +1,11 @@
+# Required brand authority
+
+Read [brand-guidelines.md](brand-guidelines.md) before any design, copy, image or
+CSS change. The owner's 29 October correction supersedes the old homepage-layout
+freeze below for PR #82 only. Preserve original art and graded background; preview
+before publication. Do not substitute icons or invent approvals. Read relevant
+Material 3 skill references before claiming alignment, and document blocked checks.
+
 # Site presentation and completion requirements
 
 Dominique's direction, 18 October 2026: preserve the existing visual style of

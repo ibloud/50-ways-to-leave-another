@@ -1,5 +1,9 @@
 # 50 Ways to Leave Another
 
+## Brand authority
+
+Read [brand-guidelines.md](brand-guidelines.md) and [maintainer instructions](https://github.com/ibloud/50-ways-to-leave-another/blob/main/AGENTS.md) before editing. The owner-authorized PR #82 correction supersedes the earlier layout freeze below; original artwork and the graded background stay. Implementation requires preview approval.
+
 ## Website presentation and review status
 
 Preserve the existing visual style: palette, typography, artwork and homepage

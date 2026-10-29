@@ -2,14 +2,16 @@
 
 Designed for self-paced, offline-friendly study.
 
+Start with Module 1 and keep each output for the [fictional capstone](exercises/fictional-capstone.md). Use the linked guides as references. Check the finished package with the [assessment rubric](ASSESSMENT-RUBRIC.md); do not treat a completed worksheet as permission to release real material.
+
 | Module | Learn | Produce | Gate |
 | --- | --- | --- | --- |
-| 1. Define | Roles, scope, audience, evidence classes | One-page project charter | Function is clear; proposals are labeled |
-| 2. Design | Music-first story structure and creative briefs | Track/episode map and brief | No third-party material treated as cleared |
-| 3. Organize | Credits, files, versions, metadata, backups | Folder map, naming rules, contribution log | Private evidence stays private |
-| 4. Budget | Costs, milestones, cash timing, recoupment | Budget plus three planning cases | Contingent income equals $0 in operating plan |
-| 5. Protect | Rights, consent, AI, publicity, youth safety; choice-and-consequence issue spotting through *Battle the Beast* | Rights envelope, split draft, pathway decision record, risk list | Professional review where required |
-| 6. Deliver | Technical package, public page, owned distribution | Fictional capstone package | Rubric passed; unresolved items visible |
+| [1. Define](docs/INDEPENDENT-CREATOR-GUIDE.md#2-build-the-minimum-professional-package) | Roles, scope, audience, evidence classes | One-page project charter | Function is clear; proposals are labeled |
+| [2. Design](docs/creative-brief.md) | Music-first story structure and creative briefs | Track/episode map and brief | No third-party material treated as cleared |
+| [3. Organize](templates/contribution-record.md) | Credits, files, versions, metadata, backups | Folder map, naming rules, contribution log | Private evidence stays private |
+| [4. Budget](docs/financial-waterfall-and-cash-timing.md) | Costs, milestones, cash timing, recoupment | Budget plus three planning cases; use the [capital worksheet](templates/career-capital-allocation-model.md) | Contingent income equals $0 in operating plan |
+| [5. Protect](docs/battle-the-beast-legal-pathways.md) | Rights, consent, AI, publicity, youth safety; choice-and-consequence issue spotting through *Battle the Beast* | [Rights envelope](templates/rights-envelope.md), [split draft](templates/split-sheet.md), pathway decision record, risk list | Professional review where required |
+| [6. Deliver](templates/delivery-checklist.md) | Technical package, public page, owned distribution | Fictional capstone package | [Rubric](ASSESSMENT-RUBRIC.md) passed; unresolved items visible |
 
 ## Choose-your-path legal practice
 

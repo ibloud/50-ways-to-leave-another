@@ -7,12 +7,12 @@
 
 ## Overview of How You Get Paid
 
-This project uses two systems depending on your role:
+The proposed payment route depends on the signed role and agreement. This guide does not show a working payment integration:
 
 | If you are a… | You are paid via… |
 |---|---|
 | Master royalty split holder | **Proposed: Stem or another agreed distributor/accounting system**; verify current terms before contracting |
-| Session contributor (flat fee) | **Stripe invoice** or **PayPal** |
+| Session contributor (flat fee) | An agreed payment method with receipt evidence |
 | Both | Both systems |
 
 Your role and split percentage are documented in the Split Sheet for each track you contributed to. You must countersign the split sheet before any payment can be processed.
@@ -37,22 +37,16 @@ Return your signed copy to Dominique Devereaux / Loptr Lab before the distributi
 
 Stem is the project’s current proposed master-royalty routing platform. Its availability, eligibility, fees, payout timing, thresholds, tax requirements, and collaboration workflow must be verified from Stem’s current written terms before the agreement names it. If another system is selected, replace this section with that provider’s verified instructions.
 
-### How to sign up
+### Confirm setup with the selected provider
 
-1. Go to **[stem.is](https://stem.is)** on any browser or device.
-2. Tap **Get Started** or **Sign Up**.
-3. Create your account using the **same email address you provided on your split sheet**. This is how Stem matches you to the correct track.
-4. Complete your profile: legal name, address, and tax information (W-9 for US residents; W-8BEN for international).
-5. Add your payout method:
-   - **Bank account (ACH)** — recommended for US contributors. Fastest and no fees.
-   - **PayPal** — accepted for international contributors.
-6. Complete identity verification when prompted (government-issued ID required).
+After the parties choose a provider in writing:
 
-### Accept the collaboration invite
+1. Use its official account-opening instructions and confirm eligibility and current fees.
+2. Confirm the required contributor identifier and accepted payout methods directly with the provider. Keep bank, identity and tax records out of the public learning package.
+3. Confirm whether contributor invitations are supported, who sends them and how acceptance is recorded.
+4. Keep the agreement, account confirmation and payout evidence in protected storage.
 
-Once your account is active, Loptr Lab will send you a Stem collaboration invite for each track you hold a master split on. You must accept this invite before Stem can route payments to you.
-
-Check your email (including spam/junk) for an invitation from Stem after your split sheet is countersigned.
+**Verification gap — 29 October 2026:** the public [Stem homepage](https://stem.is/) did not expose usable account or payout terms to this review, and the attempted `/splits/` page could not be retrieved. Free account creation, ACH/PayPal support, identity requirements and invitation behavior are unverified here. Use current provider instructions rather than the earlier assumed click-by-click steps.
 
 ### Payment-timing boundary
 
@@ -78,8 +72,8 @@ Register this song with your PRO as soon as the final title and ISRC are confirm
 
 Register before this split sheet is countersigned.
 
-- **ASCAP** — [ascap.com/register](https://www.ascap.com/music-creators/register) · Free to join as a writer
-- **BMI** — [bmi.com/join](https://www.bmi.com/join) · Free to join as a writer
+- **ASCAP** — [ascap.com/register](https://www.ascap.com/music-creators/register) · Check current eligibility and fees
+- **BMI** — [bmi.com/join](https://www.bmi.com/join) · Check current eligibility and fees
 - **SESAC** — invitation-based; contact SESAC directly if you are already established
 
 Once registered, you will receive an **IPI/CAE number** — a unique identifier tied to your publishing rights. Add it to your split sheet row before signing.
@@ -90,12 +84,9 @@ Once registered, you will receive an **IPI/CAE number** — a unique identifier 
 
 ## Step 4 — Confirm Receipt Details for Session Fees (Flat Fee Contributors)
 
-If you are receiving a flat session fee, Loptr Lab will send payment within **14 days of final approved delivery** of your contribution via:
+The proposed flat-fee term is payment within **14 days of final approved delivery**, subject to the signed agreement. Record the payer, recipient, amount, method, approval trigger and due date before work starts. An invoice or payment link requesting money is not proof that a contributor has been paid.
 
-- **Stripe** — you will receive a payment link or invoice by email. No account required to receive funds.
-- **PayPal** — provide your PayPal email address to Loptr Lab. Ensure your account can receive funds in USD.
-
-Specify your preference when you return your signed split sheet, or contact Dominique Devereaux directly.
+Confirm the chosen provider's current receiving-funds instructions. Keep payment details private and retain a receipt; do not ask learners to open real financial accounts for the fictional exercise.
 
 ---
 
@@ -104,13 +95,13 @@ Specify your preference when you return your signed split sheet, or contact Domi
 Before the track goes live, confirm you have completed:
 
 - [ ] Split sheet countersigned and returned
-- [ ] Stem account created at stem.is using the correct email
-- [ ] Identity verification and payout method added in Stem
-- [ ] Stem collaboration invite accepted (check email)
+- [ ] Selected provider, eligibility and current terms confirmed in writing
+- [ ] Provider-required identity and payout setup completed privately
+- [ ] Any required contributor invitation accepted and recorded (check email)
 - [ ] PRO registration completed and IPI/CAE number on file (if songwriter)
-- [ ] PayPal email or Stripe preference confirmed (if session fee applies)
+- [ ] Agreed receiving-payment method and due date recorded (if session fee applies)
 
-If anything is missing as the distribution date approaches, Loptr Lab may need to hold your share in reserve until your account is fully active. This is rare but worth avoiding — complete setup early.
+If setup is incomplete, record the issue and resolve it with the payer/provider. Any reserve or hold must follow the signed agreement and applicable provider terms; this guide does not establish a right to withhold payment.
 
 ---
 
