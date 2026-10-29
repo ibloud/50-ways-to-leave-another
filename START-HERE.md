@@ -1,6 +1,10 @@
 # Start here: independent junior producer pathway
 
-This package teaches a creator-producer how to move a music-first screen concept from idea to a reviewable, rights-aware development package without depending on YouTube.
+For independent music, screen and community creators. Learn to turn an idea into a documented project: a clear brief, budget, credits, rights record and delivery plan. You can work at your own pace without depending on YouTube.
+
+**Do this first:** open [Module 1: Define](CURRICULUM.md). Write a one-page project charter: who the project serves, what it will make, what is outside its scope, what is known and what is still proposed. Start with [The Last Bus Home](exercises/fictional-capstone.md), the existing fictional practice scenario.
+
+The original 50 Ways song, EP and proposed screen series are an applied example. Their development status is separate from your progress through the curriculum. See [Project Status](PROJECT-STATUS.md).
 
 ## Choose a track
 
@@ -13,13 +17,19 @@ This package teaches a creator-producer how to move a music-first screen concept
 
 ## Order of work
 
-1. Read the [Independent Creator Guide](docs/INDEPENDENT-CREATOR-GUIDE.md), [Curriculum](CURRICULUM.md), and [Glossary](GLOSSARY.md).
+1. Follow the six modules in the [Curriculum](CURRICULUM.md). Use the [Independent Creator Guide](docs/INDEPENDENT-CREATOR-GUIDE.md) and [Glossary](GLOSSARY.md) when you need an explanation; you do not need to read the whole archive before starting.
 2. Use the [Battle the Beast legal pathways](docs/battle-the-beast-legal-pathways.md) to practice seeing how creative choices change rights, evidence, agreement, and professional-review requirements.
 3. Use the fictional [capstone exercise](exercises/fictional-capstone.md); do not begin with private or disputed material.
-4. Complete the creative brief, contribution record, rights envelope, split sheet, delivery checklist, financial waterfall, and capital worksheet.
+4. Complete the [creative brief](docs/creative-brief.md), [contribution record](templates/contribution-record.md), [rights envelope](templates/rights-envelope.md), [split sheet](templates/split-sheet.md), [delivery checklist](templates/delivery-checklist.md), [cash plan](docs/financial-waterfall-and-cash-timing.md), and [capital worksheet](templates/career-capital-allocation-model.md). Use fictional names and numbers; a draft is not a signed agreement.
 5. Follow [Accessibility](ACCESSIBILITY.md), [Youth safety](YOUTH-SAFETY-AND-ACCESS.md), and [Platform independence](docs/platform-independence.md).
 6. Score the work with the [assessment rubric](ASSESSMENT-RUBRIC.md).
 7. Stop at every legal, tax, safeguarding, rights, or consent gate and obtain qualified help.
+
+## What you will hand in
+
+Keep one public-safe fictional package: charter, story/music map, budget and cash plan, contribution and rights records, delivery plan, accessibility check, platform-exit plan and unresolved questions. Keep a separate evidence index; do not upload private contracts or personal records.
+
+Check it with the [existing rubric](ASSESSMENT-RUBRIC.md): 20 of 24 points and no failed stop condition. That measures the package, not a promise of employment, professional approval or a cleared release.
 
 ## Minimum tools
 

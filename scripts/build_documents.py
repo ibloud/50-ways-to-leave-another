@@ -41,30 +41,45 @@ def render(path):
     engine = markdown.Markdown(extensions=['tables', 'fenced_code', 'toc', 'sane_lists'])
     body = web_links(engine.convert(source), path.parent)
     body = body.replace('<table>', '<div class="table-scroll" role="region" aria-label="Scrollable data table" tabindex="0"><table>').replace('</table>', '</table></div>')
+    body = re.sub(r'style="text-align: (right|center);"', r'class="align-\1"', body)
     title_match = re.search(r'^#\s+(.+)$', source, re.M)
     title = title_match.group(1) if title_match else path.stem
     title = re.sub(r'[*`]', '', title)
     prefix = os.path.relpath(ROOT, path.parent).replace(os.sep, '/') + '/'
     esc = html.escape
+    # Preserve the excluded PIXIE module's existing document wrapper.
+    pixie_document = path.relative_to(ROOT).parts[0] == 'pixie'
+    styles = f'<link rel="stylesheet" href="{prefix}assets/site.css">'
+    navigation = f'<a href="{prefix}START-HERE.html">Learning path</a><a href="{prefix}index.html#documents">Documents</a>'
+    breadcrumbs = ''
+    if pixie_document:
+        styles += f'\n<link rel="stylesheet" href="{prefix}assets/documents.css">'
+    else:
+        navigation = ''.join(
+            f'<a href="{prefix}{target}"' + (' aria-current="page"' if path.relative_to(ROOT).with_suffix('.html').as_posix() == target else '') + f'>{label}</a>'
+            for target, label in [('START-HERE.html', 'Start here'), ('CURRICULUM.html', 'Modules'), ('exercises/fictional-capstone.html', 'Practice'), ('ASSESSMENT-RUBRIC.html', 'Check your work')]
+        ) + f'<a href="{prefix}index.html#documents">Documents</a>'
+        breadcrumbs = f'<nav class="document-breadcrumbs" aria-label="Breadcrumb"><a href="{prefix}index.html">50 Ways</a><span aria-hidden="true">/</span><a href="{prefix}START-HERE.html">Learning path</a><span aria-hidden="true">/</span><span aria-current="page">{esc(title)}</span></nav>'
+    source_download = '' if pixie_document else ' download'
+    source_label = 'View Markdown source' if pixie_document else 'Download Markdown source'
     return f'''<!DOCTYPE html>
 {MARKER}
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} | 50 Ways to Leave Another</title>
-<link rel="stylesheet" href="{prefix}assets/site.css">
-<link rel="stylesheet" href="{prefix}assets/documents.css">
+{styles}
 <link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml">
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site-header document-header">
 <a class="wordmark" href="{prefix}index.html"><span class="number" aria-hidden="true">50</span><span>Ways to Leave Another</span></a>
-<nav aria-label="Document navigation"><a href="{prefix}START-HERE.html">Learning path</a><a href="{prefix}index.html#documents">Documents</a></nav>
+<nav aria-label="Document navigation">{navigation}</nav>
 </header>
-<main id="main" class="document-page"><article>
+<main id="main" class="document-page">{breadcrumbs}<article>
 {body}
-<p class="document-source"><a data-source-link="true" href="{esc(path.name, quote=True)}">View Markdown source</a> · Presentation does not indicate legal review or clearance. See the document's stated status.</p>
+<p class="document-source"><a data-source-link="true" href="{esc(path.name, quote=True)}"{source_download}>{source_label}</a> · Presentation does not indicate legal review or clearance. See the document's stated status.</p>
 </article></main>
 <footer><span><a href="{prefix}privacy.html">Privacy</a> · <a href="{prefix}terms.html">Terms</a> · <a href="{prefix}AI-DISCLOSURE.html">AI disclosure</a></span><span>&copy; 2026 Dominique Devereaux / Loptr Lab</span><span>Open development record · Not legal advice</span></footer>
 </body></html>

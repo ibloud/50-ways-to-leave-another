@@ -52,3 +52,13 @@ The complaint, exhibits and underlying creative records were not obtained. No in
 ## DistroKid research thread — 19 October 2026
 
 The [case note](research/distrokid-distribution-accountability.md) links the filed complaint, dated third-party docket snapshot, DistroKid's reported denial, three decision texts, Copyright Office inquiry and official DistroKid guidance. It states which sources were retrieved and which remain unverified. Dominique's reported Skinner Brothers Instagram observation is research provenance, not independently verified nonpayment or evidence of a connection to UMG's suit. The video summary supplied by Dominique is not a reviewed full video. See the note for source-specific limits and correction procedure.
+
+## Curriculum verification — 29 October 2026
+
+| Source | Lesson or correction | Author / date / jurisdiction | Review and limits |
+| --- | --- | --- | --- |
+| [What Musicians Should Know about Copyright](https://www.copyright.gov/engage/musicians/) | Module 5 and the split sheet: distinguish a musical work from its sound recording; PRO registration is not the only rights/registration question | U.S. Copyright Office; publication date not displayed; United States | Retrieved 29 October 2026. Educational explanation, not project-specific advice or review of the template. |
+| [The MLC: How It Works](https://www.themlc.com/how-it-works) | Module 4 cash planning and Module 5 rights records: qualifying U.S. digital audio mechanical royalties are a specific stream; monthly distribution does not promise the learner's first payment date | The Mechanical Licensing Collective; publication date not displayed; United States | Retrieved 29 October 2026. Does not replace PROs, SoundExchange, contracts, matching or eligibility checks. |
+| [Stem](https://stem.is/) | Split sheet and payment setup: provider remains proposed | Provider; publication date unavailable; applicable contract/jurisdiction unverified | Homepage exposed no usable account/payout terms; attempted https://stem.is/splits/ was inaccessible. Free account, methods, invitations and timing not verified; unsupported promises removed. |
+
+Other source entries keep their historical review dates. This focused review did not obtain the complaint/exhibits in the demo-authorship case, independently verify all marketplace fees, or establish retained professional review, endorsements or new integrations.

@@ -15,3 +15,27 @@
 ## Code Integration
 * **Document Reference:** Linked in site archive as creative strategy documentation.
 * **Metadata Alignment:** Informs track creative briefs and lore asset management.
+
+## 50 Ways site presentation principles
+
+**Direction approved for this review — Dominique, 29 October 2026.** Preserve the existing work, artwork, music/story project, six-module curriculum and voice. Adapt Material 3's semantic type, component and state roles to that identity; do not replace it with another brand or framework.
+
+The established source is `assets/site.css`, governed by the repository's `AGENTS.md`. Its existing palette is retained: ink `#100d14`, surfaces `#18131e` / `#211727`, cream `#f5ecdc`, muted text `#c8bac7`, coral `#f06a4d`, violet `#9c3cf1` and gold `#d7a84c`. Georgia remains the display face; the existing Inter/system sans-serif stack remains the reading face. This is 50 Ways' identity, not PIXIE's palette.
+
+Use one authoritative stylesheet, shared tokens first, then type and controls, then narrow page exceptions. Give display, headline, title, body and label text distinct roles. Keep normal heading letter spacing, readable body text, comfortable line height, balanced gutters, visible keyboard focus and responsive navigation. Keep reading text around 72–78 characters wide; data tables may scroll inside a labelled, keyboard-accessible region. Do not hide essential reading links on small screens or use tiny all-caps labels instead of headings.
+
+Navigation follows the existing learning architecture: Start here → Define, Design, Organize, Budget, Protect, Deliver → fictional capstone → assessment. Project examples, research, external resources and templates remain available in their existing locations. Use short instructions with concrete verbs. Keep the original project as an applied example, without implying a Netflix relationship or completed production.
+
+Preserve image originals, captions, source boundaries, media consent and intentional event expiry. A source link is not professional review, a provider proposal is not an active integration, and a completed exercise is not clearance. Put necessary boundaries next to the decision they qualify rather than repeating them throughout the page.
+
+### Proposed implementation — not published
+
+On the review branch, consolidate document, listening, platform and scoped artist-concept styles into `assets/site.css`. Old CSS URLs may remain import-only compatibility paths for excluded content; they must contain no competing theme. Move static presentation and bespoke map/case-note rules into the same source. Keep essential dynamic behavior; use the hidden state for expired events and their unavailable navigation route.
+
+Generate reading pages through the existing `scripts/build_documents.py`, with consistent document navigation, breadcrumbs and numeric-cell alignment classes. Preserve Markdown as editable source and a clearly labelled download, and preserve the separately scoped artist concept's existing visual identity. Do not modify PIXIE module source or any other project.
+
+### Change record — 29 October 2026
+
+- **Approved principles:** the review direction above; preservation, curriculum-led navigation, central styles, accessible roles and source-grounded language.
+- **Proposed implementation:** review-branch navigation, style consolidation, linked module outputs, and payment/provider wording corrections. Requires Dominique's review of the Vercel preview before merge or publication.
+- **Verification limits:** baseline `5c15ca71393520827b15607b1317f930ce17796c`; local Chromium rendering is distinct from the network-blocked public-domain browser check. Physical iPad Safari, VoiceOver and retained professional review are not established. Keep detailed results and remaining source gaps in the draft PR and existing project status record.
