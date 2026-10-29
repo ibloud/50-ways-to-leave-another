@@ -82,6 +82,7 @@ def render(path):
 <p class="document-source"><a data-source-link="true" href="{esc(path.name, quote=True)}"{source_download}>{source_label}</a> · Presentation does not indicate legal review or clearance. See the document's stated status.</p>
 </article></main>
 <footer><span><a href="{prefix}privacy.html">Privacy</a> · <a href="{prefix}terms.html">Terms</a> · <a href="{prefix}AI-DISCLOSURE.html">AI disclosure</a></span><span>&copy; 2026 Dominique Devereaux / Loptr Lab</span><span>Open development record · Not legal advice</span></footer>
+<a class="pixie-launcher" href="https://pixie-project-companion-production.up.railway.app/" aria-label="Open PIXIE Project Companion"><img src="{prefix}assets/pixie-companion-sigil.png" alt="" width="40" height="40"> PIXIE</a>
 </body></html>
 '''
 

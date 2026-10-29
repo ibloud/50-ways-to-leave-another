@@ -15,6 +15,8 @@
 </header>
 <main id="main" class="document-page"><nav class="document-breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">50 Ways</a><span aria-hidden="true">/</span><a href="../START-HERE.html">Learning path</a><span aria-hidden="true">/</span><span aria-current="page">Neighborhood Art Supply Strategy Framework</span></nav><article>
 <h1 id="neighborhood-art-supply-strategy-framework">Neighborhood Art Supply Strategy Framework</h1>
+<p>Current site brand authority: <a href="../brand-guidelines.html">../brand-guidelines.md</a>.
+Historical strategy and dated implementation notes follow; conflicting older layout instructions yield to that file.</p>
 <blockquote>
 <p>Reference guide mapping narrative plot archetypes, fan engagement models, and visual identity systems to project architecture.</p>
 </blockquote>
@@ -51,7 +53,20 @@
 <p>The implementation amends the existing artist-concept grid rules in <code>assets/site.css</code>: zero-minimum grid tracks, shrinkable/wrapping hero children, and space inside the mobile gutters for the rotated signal card and its shadow. No blanket overflow clipping is added. Shared semantic type roles, larger reading text, normal tracking, existing contrast tokens and focus styles remain unchanged. This is a proposed layout correction within the existing 50 Ways concept page, not a new artist website or an approved visual redesign.</p>
 <p><strong>Isolated styling exception:</strong> <code>pixie/demo/index.html</code> has its own embedded demo stylesheet. It is an excluded PIXIE prototype, not a competing stylesheet for the learning site. This PR does not consolidate or redesign that demo; its styling and behavior remain untouched. Existing reading/theme controls are not changed by this amendment.</p>
 <p><strong>Evidence correction:</strong> Independent review reported 320px overflow in the artist concept. The earlier document-wide scroll-width check did not detect it, so the earlier blanket no-overflow statement is not sufficient evidence for that page. With a simulated larger 20px root reading size at 320px, the prior implementation grew to 356px; the amended page stays at 320px. At the normal reading size, all 44 local combinations pass the page-width and sampled contrast checks; artist hero/card bounds also pass at 320, 390, 820 and 1440px. Exact commit, deployed-access limitations and CI results belong in the PR record. Professional validation of project-specific rights, payment terms and final media accessibility remains outstanding. The capstone's 21/24 is a synthetic worked example only.</p>
+<h3 id="owner-requested-layout-amendment-29-october-2026-preview-pending">Owner-requested layout amendment — 29 October 2026 (preview pending)</h3>
+<p>Preserve the graded background and artwork. Use stacked section headings and
+body copy instead of empty editorial columns, a smaller display scale and shared
+section gutters. The splash uses a compact introduction beside supporting art, with the disclosure below both columns; the first local centered draft was not approved.
+PIXIE moves out of homepage navigation into a persistent bottom-right labelled
+launcher on the homepage and generated reading pages. Its destination is the
+existing Project Companion; this is a link, not an embedded assistant. Reserve
+footer space and respect device safe areas. All presentation remains in assets/site.css.
+Material 3 references: https://m3.material.io/styles/typography/applying-type ,
+https://m3.material.io/styles/spacing/overview ,
+https://m3.material.io/components/floating-action-button/overview .
+These references inform the brand adaptation; no full compliance certification is claimed.</p>
 <p class="document-source"><a data-source-link="true" href="brand-strategy.md" download>Download Markdown source</a> · Presentation does not indicate legal review or clearance. See the document's stated status.</p>
 </article></main>
 <footer><span><a href="../privacy.html">Privacy</a> · <a href="../terms.html">Terms</a> · <a href="../AI-DISCLOSURE.html">AI disclosure</a></span><span>&copy; 2026 Dominique Devereaux / Loptr Lab</span><span>Open development record · Not legal advice</span></footer>
+<a class="pixie-launcher" href="https://pixie-project-companion-production.up.railway.app/" aria-label="Open PIXIE Project Companion"><img src="../assets/pixie-companion-sigil.png" alt="" width="40" height="40"> PIXIE</a>
 </body></html>

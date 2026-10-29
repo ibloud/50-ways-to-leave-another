@@ -1,5 +1,8 @@
 # Neighborhood Art Supply Strategy Framework
 
+Current site brand authority: [../brand-guidelines.md](../brand-guidelines.md).
+Historical strategy and dated implementation notes follow; conflicting older layout instructions yield to that file.
+
 > Reference guide mapping narrative plot archetypes, fan engagement models, and visual identity systems to project architecture.
 
 ---
@@ -50,3 +53,18 @@ The implementation amends the existing artist-concept grid rules in `assets/site
 **Isolated styling exception:** `pixie/demo/index.html` has its own embedded demo stylesheet. It is an excluded PIXIE prototype, not a competing stylesheet for the learning site. This PR does not consolidate or redesign that demo; its styling and behavior remain untouched. Existing reading/theme controls are not changed by this amendment.
 
 **Evidence correction:** Independent review reported 320px overflow in the artist concept. The earlier document-wide scroll-width check did not detect it, so the earlier blanket no-overflow statement is not sufficient evidence for that page. With a simulated larger 20px root reading size at 320px, the prior implementation grew to 356px; the amended page stays at 320px. At the normal reading size, all 44 local combinations pass the page-width and sampled contrast checks; artist hero/card bounds also pass at 320, 390, 820 and 1440px. Exact commit, deployed-access limitations and CI results belong in the PR record. Professional validation of project-specific rights, payment terms and final media accessibility remains outstanding. The capstone's 21/24 is a synthetic worked example only.
+
+
+### Owner-requested layout amendment — 29 October 2026 (preview pending)
+
+Preserve the graded background and artwork. Use stacked section headings and
+body copy instead of empty editorial columns, a smaller display scale and shared
+section gutters. The splash uses a compact introduction beside supporting art, with the disclosure below both columns; the first local centered draft was not approved.
+PIXIE moves out of homepage navigation into a persistent bottom-right labelled
+launcher on the homepage and generated reading pages. Its destination is the
+existing Project Companion; this is a link, not an embedded assistant. Reserve
+footer space and respect device safe areas. All presentation remains in assets/site.css.
+Material 3 references: https://m3.material.io/styles/typography/applying-type ,
+https://m3.material.io/styles/spacing/overview ,
+https://m3.material.io/components/floating-action-button/overview .
+These references inform the brand adaptation; no full compliance certification is claimed.
