@@ -1,6 +1,6 @@
 # Start here: independent junior producer pathway
 
-For independent music, screen and community creators. Learn to turn an idea into a documented project: a clear brief, budget, credits, rights record and delivery plan. You can work at your own pace without depending on YouTube.
+For independent music, screen and community creators. Learn to take a creative project from idea to a reviewable production package—with clear budgets, credits, permissions and questions for professional help. Work at your own pace; use the guides when you need them.
 
 **Do this first:** open [Module 1: Define](CURRICULUM.md). Write a one-page project charter: who the project serves, what it will make, what is outside its scope, what is known and what is still proposed. Start with [The Last Bus Home](exercises/fictional-capstone.md), the existing fictional practice scenario.
 

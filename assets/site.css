@@ -1295,10 +1295,15 @@ html:has(.artist-concept){
 
 :where(.artist-concept) .hero{
   display: grid;
-  grid-template-columns: 1.4fr .6fr;
+  grid-template-columns: minmax(0,1.4fr) minmax(0,.6fr);
   gap: 5rem;
   min-height: 650px;
   align-items: center;
+}
+
+:where(.artist-concept) .hero > *{
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 :where(.artist-concept) .eyebrow, :where(.artist-concept) .work-grid span{
@@ -1623,11 +1628,14 @@ html:has(.artist-concept){
 }
 
 :where(.artist-concept) .hero{
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0,1fr);
   gap: 2rem;
 }
 
 :where(.artist-concept) .signal{
+  /* Reserve room for the rotation and 12px shadow inside the hero gutters. */
+  width: calc(100% - 2rem);
+  margin-inline: auto;
   max-width: 520px;
 }
 
