@@ -11,7 +11,7 @@ Start with Module 1 and keep each output for the [fictional capstone](exercises/
 | [3. Organize](templates/contribution-record.md) | Credits, files, versions, metadata, backups | Folder map, naming rules, contribution log | Private evidence stays private |
 | [4. Budget](docs/financial-waterfall-and-cash-timing.md) | Costs, milestones, cash timing, recoupment | Budget plus three planning cases; use the [capital worksheet](templates/career-capital-allocation-model.md) | Contingent income equals $0 in operating plan |
 | [5. Protect](docs/battle-the-beast-legal-pathways.md) | Rights, consent, AI, publicity, youth safety; choice-and-consequence issue spotting through *Battle the Beast* | [Rights envelope](templates/rights-envelope.md), [split draft](templates/split-sheet.md), pathway decision record, risk list | Professional review where required |
-| [6. Deliver](templates/delivery-checklist.md) | Technical package, public page, owned distribution | Fictional capstone package | [Rubric](ASSESSMENT-RUBRIC.md) passed; unresolved items visible |
+| [6. Deliver](templates/delivery-checklist.md) | Technical package, public page, owned distribution; separate musical fit from release evidence | Fictional capstone package plus [AI-assisted release decision](exercises/fictional-capstone.md#ai-assisted-release-decision) | [Rubric](ASSESSMENT-RUBRIC.md) passed; unresolved items visible |
 
 ## Choose-your-path legal practice
 

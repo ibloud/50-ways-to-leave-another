@@ -62,3 +62,12 @@ The [case note](research/distrokid-distribution-accountability.md) links the fil
 | [Stem](https://stem.is/) | Split sheet and payment setup: provider remains proposed | Provider; publication date unavailable; applicable contract/jurisdiction unverified | Homepage exposed no usable account/payout terms; attempted https://stem.is/splits/ was inaccessible. Free account, methods, invitations and timing not verified; unsupported promises removed. |
 
 Other source entries keep their historical review dates. This focused review did not obtain the complaint/exhibits in the demo-authorship case, independently verify all marketplace fees, or establish retained professional review, endorsements or new integrations.
+
+
+## AI-assisted release reading
+
+Mateusz Modrzejewski, Joanna Kurkowska, and Dorien Herremans, *A Tutorial on Generative Models for Music Audio*, **arXiv preprint**, arXiv:2610.38252v1, submitted October 28, 2026. [Pinned v1 citation](https://arxiv.org/abs/2610.38252v1). The title page is dated October 26; the arXiv version banner is dated October 28.
+
+Source checked November 3, 2026 against the owner-supplied v1 PDF. Direct arXiv retrieval was blocked by the verification environment (HTTP 403); public link rendering remains unverified. Selected reading: Sections 11.2–11.4 on human evaluation, learned judges, listening-test design, and reporting limits; Section 12, especially the opening provenance discussion and 12.2–12.3 on memorization and watermarking/detection. Section 11.3's protocol appears on printed pages 77–78; Section 12's key takeaways appear on printed page 86.
+
+The paper distinguishes the available documentation from conclusions about consent, licensing, credit, and compensation. Evaluation metrics and output identification do not establish permission. The exercise uses this distinction to assess evidence; it does not reproduce a controlled listening study or endorse a tool. All candidate/tool records are synthetic. For an actual release, use current first-party documentation and applicable terms, with source/version/date recorded separately for training disclosures and output-use permissions.
