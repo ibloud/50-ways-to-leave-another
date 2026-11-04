@@ -35,3 +35,7 @@ A charter, creative brief, story/music map, budget, cash ledger, contributor rec
 ## Interactive narrative writer path
 
 The curriculum now includes an interactive-narrative specialization using **[Inpatient Corridors: The Yellow Door](https://github.com/ibloud/inpatient-corridors-review)** as a concrete case study. See [Interactive Narrative Writer Path](docs/interactive-narrative-writer-path.md) for the Ink → compiled story → inkjs/browser workflow, source tracing exercise, controlled narrative modifications, playtesting, and original-story capstone. The case study is educational and independent; it does not imply third-party affiliation, endorsement, participation, or permission.
+
+## Module 6 promotional campaign discussion
+
+Use the optional [story/video/lyric campaign example](exercises/fictional-capstone.md#promotional-campaign-example-a-story-reference-is-not-lyric-clearance) to separate source links or embeds, limited quotation for commentary, and lyric adaptation. Record evidence and a proceed/hold decision before promotional release. This supplements the existing rights-envelope practice without changing rubric points or claiming legal approval.

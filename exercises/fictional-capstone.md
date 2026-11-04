@@ -71,3 +71,27 @@ Add this copyable record to the existing [rights envelope](../templates/rights-e
 - **Release decision, for each candidate:** **proceed**, **hold**, or **choose another option**; supporting evidence, any limits, and the specific evidence or action needed next. Explain separately whether it meets the musical brief.
 
 Done means you have made both judgments, referenced the records, and named what would resolve any hold. Passing the learning exercise does not clear a track for release. Use [Check your work](../ASSESSMENT-RUBRIC.md#ai-assisted-release-check-your-work).
+
+## Promotional campaign example: a story reference is not lyric clearance
+
+Optional discussion for Module 6; this does not add points or change the existing rubric.
+
+**Scenario.** A creator promotes a release through a short browser story, as in the review work for [Sewers & Shadows: A Night in Derry](https://github.com/ibloud/sewers-and-shadows-bot/pull/3). The creator supplies a lyric transcription, video references and merchandise. Violet is a separate character cosplaying Pennywise, not the same character. These facts do not establish rights clearance, artist participation or endorsement.
+
+Compare three proposed uses:
+
+| Proposed campaign use | Evidence to record | Defensible next step |
+| --- | --- | --- |
+| Link to a video, or offer a click-to-load provider embed without autoplay | Source URL/uploader, date checked, embedding availability, applicable terms, third-party data/accessibility implications | Verify the destination and embedding conditions; retain a source-link alternative. Embedding does not clear a separate lyric adaptation. |
+| Quote a short passage to discuss that specific passage | Exact purpose, necessary excerpt, amount and significance, attribution/source, applicable law and effect on the original market | Assess the particular use; reduce the excerpt or seek permission/professional advice when unresolved. There is no universally safe word count. |
+| Turn lyrics into scene atmosphere, character dialogue or repeated game responses | Proposed adaptation, composition/lyric rightsholders, exact permission scope; recording rights if audio is used | Hold that adaptation until the necessary evidence is reviewed; use original prose meanwhile. A public demo is still a public use. |
+
+**Worked decision.** Proceed with original story prose and responses. Keep lyric transcription out of the build. Offer source links and only conditionally load embeds after a deliberate player action, subject to verified provider conditions. Hold lyric-derived dialogue pending permission or qualified review. Do not label the whole campaign “fair use” simply because it is promotional, attributed, noncommercial, or “demo only.”
+
+For a U.S. fair-use analysis, examine purpose/character, nature of the work, amount/substantiality, and market effect. Other jurisdictions may apply different exceptions. These are assessment questions, not a legal opinion or a clearance certificate. See the [U.S. Copyright Office fair-use overview](https://www.copyright.gov/fair-use/) and record the actual law and advice relevant to the release.
+
+**Check your work.** Can you distinguish linking/embedding from copying lyrics and from using a recording? Identify what is documented, what remains unknown, and the evidence that would resolve the hold. A visible printed quotation in a product photograph is not blanket permission to turn those words into story dialogue. Buying merchandise does not grant music or adaptation rights. Purchases, sign-in and shop visits must stay outside story progression.
+
+**Disclosure example.** “This independent story uses original drafted prose and scripted game responses. Optional source videos load only on request and are subject to the host's terms and data practices. No song lyrics or downloaded music are included in the story. Product photographs may display printed artwork; no artist affiliation, endorsement or adaptation permission is implied.” Use this only when it accurately describes the actual campaign build.
+
+**Evidence limit, 4 November 2026.** This is an implementation/review example, not a legally cleared or independently accepted release. Owner-supplied video references are `eBwec9gtuCI` and `H1wA4kTFC3g`; official uploader status, playback, captions and embedding availability remain unverified in this review. The supplied transcript is not reproduced here; advertisement material is excluded. Distinguish intended embed behavior, automated local checks and a verified public experience.
