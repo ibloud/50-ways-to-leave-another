@@ -1,5 +1,7 @@
 # Series Bible & Cross-Repository Continuity Record
 
+> **Current cinematic-pitch direction, November 9, 2026:** the owner supplies a contract-killer/lover-betrayal thriller whose protagonist refuses retaliation and the assignment. See the [current treatment](cinematic-series-treatment.md). The five-part map below remains a development reference, not a finalized episode order, character cast or industry attachment. Collaborative correction governs the separate real-world production case.
+
 **Release:** v1.0 demonstration baseline  
 **Status:** public-safe educational / legal-review demonstration  
 **Source of truth:** this document defines cross-repository continuity; operative contracts and signed rights documents control any real transaction.

@@ -82,3 +82,9 @@ Continue with the [split sheet](split-sheet.md), [rights envelope](rights-envelo
 and [assessment rubric](../ASSESSMENT-RUBRIC.md). Bring unresolved questions to
 qualified help before a rights-dependent action. A completed worksheet alone does
 not authorize use of someone's work.
+
+## Clarification and correction record
+
+Record the shared goal; exact brief/version; proposed material change and needed approval; each participant's response and source; qualifying evidence; agreed correction/scope/fee/date; acceptance or remaining hold. Preserve prior entries. Do not infer motive from a missing file or a disputed interpretation.
+
+**Synthetic example:** a mixer reports a source-derived drum layer; the creator asks for source identification and a comparison render. Both review the session, agree the investigation scope and any fee, and hold release while permission remains unknown. This is not an account of a real response. See [PRODUCTION-001](../research/production-collaboration-history.md).

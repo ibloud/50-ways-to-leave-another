@@ -111,3 +111,13 @@ The proposed rights-contract v0.3 draft and rule catalog were developed through 
 - **Merge provenance:** If PR #58 is merged, record it as a maintainer-bypass merge of AI work authored before the identity split; do not describe repository protections as having independently enforced review for this PR.
 
 Material mistakes are corrected additively and remain part of the provenance trail.
+
+## Collaborative correction before adversarial escalation
+
+Loptr Lab's creative systems are designed to identify misunderstandings early, preserve accurate records, support informed consent and give participants reasonable opportunities to correct mistakes. Evidence protects everyone; it does not assign blame automatically. The production history is a learning opportunity in creative communication, professional development, rights awareness and fair compensation. Do not characterize a participant as incompetent, dishonest or intentionally harmful without independently established evidence.
+
+Preserve complete responses and qualifying evidence, separate source facts from interpretations, and offer reasonable clarification/correction before escalation where appropriate. This does not require waiving rights or delaying legal deadlines. See the [sanitized production case](research/production-collaboration-history.md) and its private-evidence limitations.
+
+## Portfolio pitch and separate production model — owner clarification
+
+The show pitch lives in the existing portfolio entry at https://ibloud.github.io/ecosystem/projects/50-ways/ . The 50 Ways site remains the behind-the-scenes development, education and review record: how the work can be used, promoted and monetized, including its waterfall, rights management and royalty collection. The two destinations are distinct and cross-linked, not interchangeable preview/production versions. Gods of Mayhem names the people, professionals, experienced practitioners and thought leaders with capacity to contribute for the ecosystem. Participation does not automatically establish credentials, approval, endorsement or an engagement.

@@ -1,0 +1,23 @@
+{
+  "status": "Prepared for review-branch publication; main remains unchanged",
+  "professional_review": "PENDING",
+  "portfolio_pitch": "https://ibloud.github.io/ecosystem/projects/50-ways/",
+  "checks": {
+    "generated_documents": "PASS: 84 generated documents; 90 HTML pages checked",
+    "pixie": "PASS: 10 tests",
+    "rubric_and_capstone": "Unchanged by relocation"
+  },
+  "production_record": "https://50ways.loptrlab.com/",
+  "limitations": [
+    "Professional review PENDING; music exploitation HOLD",
+    "No private evidence published",
+    "No live deployment claimed"
+  ],
+  "reconciled_remote_main": "0b2787587e010d6672849e4af66fdb95272816a7",
+  "release_boundaries": {
+    "review": "PENDING",
+    "music_exploitation": "HOLD",
+    "gods_of_mayhem": "Contributors, professionals, experienced practitioners and thought leaders",
+    "excluded": "Ren media and private evidence"
+  }
+}

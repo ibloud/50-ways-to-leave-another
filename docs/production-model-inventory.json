@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0.0",
+  "review_date": "2026-11-09",
+  "professional_review": "PENDING",
+  "proposal": "Independent unsolicited development; no named artist, studio, label or platform affiliation",
+  "publication": "Prepared locally for coordinated review-branch push; not published",
+  "sources": [
+    {
+      "id": "P1",
+      "source": "Owner cinematic assignment and collaborative-correction direction, received 2026-11-09",
+      "scope": "Fictional premise, desired learning outcome and sanitized correspondence/cost summary",
+      "limit": "Private original correspondence, contracts, recordings, receipts and sessions not inspected.",
+      "evidence_class": "owner_supplied_foundation"
+    },
+    {
+      "id": "P2",
+      "source": "ibloud/50-ways-to-leave-another at 0b2787587e010d6672849e4af66fdb95272816a7",
+      "scope": "Creative brief, series bible, provenance, capstone and rights/contribution workflow",
+      "limit": "Source inspection does not verify actual title chains or make older proposals current canon.",
+      "evidence_class": "project_source_verified"
+    },
+    {
+      "id": "D1",
+      "source": "https://github.com/ibloud/violets-revenge/blob/2564a53716e78dca8062ec03a078739552b3e822/pitch/index.html",
+      "scope": "Hook, optional detail, status and review presentation principles",
+      "limit": "No copied art, characters, game UI or commercial figures.",
+      "evidence_class": "design_reference"
+    },
+    {
+      "id": "I1",
+      "source": "https://www.republicrecords.com/pages/about",
+      "version": "undated current page",
+      "verified_on": "2026-11-09",
+      "scope": "Republic/UMG, OVO/Drake, Young Money/Lil Wayne and Federal Films public description",
+      "limit": "Public description, not current contract, clearance, approval or project participation.",
+      "evidence_class": "official_source_context"
+    },
+    {
+      "id": "I2",
+      "source": "https://www.universalmusic.com/julie-adam-promoted-to-president-ceo-universal-music-canada-jeffrey-remedios-appointed-president-strategic-development-for-republic-collective/",
+      "version": "2025-02-07",
+      "verified_on": "2026-11-09",
+      "scope": "Dated Federal Films organizational context",
+      "limit": "Public description, not current contract, clearance, approval or project participation.",
+      "evidence_class": "official_source_context"
+    },
+    {
+      "id": "I3",
+      "source": "https://www.universalmusic.com/label/polygram-enertainment/",
+      "version": "undated current page",
+      "verified_on": "2026-11-09",
+      "scope": "Music-driven screen division description",
+      "limit": "Public description, not current contract, clearance, approval or project participation.",
+      "evidence_class": "official_source_context"
+    },
+    {
+      "id": "I4",
+      "source": "https://www.ovosound.com/",
+      "version": "undated current page",
+      "verified_on": "2026-11-09",
+      "scope": "Founder description; not artist-contract chain",
+      "limit": "Public description, not current contract, clearance, approval or project participation.",
+      "evidence_class": "official_source_context"
+    },
+    {
+      "id": "I5",
+      "source": "https://www.universalmusic.com/republic-records-names-jim-roppo-executive-vice-president-general-manager/",
+      "version": "2018-01-05",
+      "verified_on": "2026-11-09",
+      "scope": "Historical associations only",
+      "limit": "Public description, not current contract, clearance, approval or project participation.",
+      "evidence_class": "official_source_context"
+    },
+    {
+      "id": "I6",
+      "source": "https://youngmoney.com/",
+      "version": "retrieved 2026-11-09, redirected to https://shoplilwayne.com/",
+      "verified_on": "2026-11-09",
+      "scope": "Retail context; current authority unresolved",
+      "limit": "Public description, not current contract, clearance, approval or project participation.",
+      "evidence_class": "official_source_context"
+    },
+    {
+      "id": "I7",
+      "source": "https://help.netflix.com/en/node/100386",
+      "version": "undated current policy",
+      "verified_on": "2026-11-09",
+      "scope": "Unsolicited submissions and intermediary requirement",
+      "limit": "Public description, not current contract, clearance, approval or project participation.",
+      "evidence_class": "official_source_context"
+    },
+    {
+      "id": "I8",
+      "source": "https://www.universalmusic.com/terms/",
+      "verified_on": "2026-11-09",
+      "limit": "Web retrieval failed; no submission permission inferred.",
+      "evidence_class": "unretrieved"
+    },
+    {
+      "id": "L1",
+      "source": "https://suno.com/terms/",
+      "revision": "2026-08-10",
+      "effective_date": "2026-09-03",
+      "verified_on": "2026-11-09",
+      "scope": "Conditional output rights, input authority, approved Downloads and Remix restrictions",
+      "limit": "No private account/plan/feature/version or buyer acceptance verified. Existing AI-MUSIC-001 retained.",
+      "evidence_class": "verified_platform_source"
+    }
+  ],
+  "rights": [
+    {
+      "option": "existing human-recorded master/mix",
+      "status": "Hold",
+      "fact_status": "Unresolved",
+      "scope": "Proposed sync/commercial exploitation",
+      "needed": "Private title/contribution/agreement evidence; source-session and per-version sampling investigation; exact licenses and technical acceptance"
+    },
+    {
+      "option": "existing Suno interpretation/remix",
+      "status": "Hold",
+      "fact_status": "Unresolved",
+      "scope": "Proposed sync/commercial exploitation",
+      "needed": "Exact inputs, generation dates, model/plan/feature/Download evidence and underlying permissions; actual result and buyer acceptance"
+    },
+    {
+      "option": "new human-authored production",
+      "status": "Hold",
+      "fact_status": "Unresolved",
+      "scope": "Proposed sync/commercial exploitation",
+      "needed": "Accepted paid scope; independent/licensed inputs, new contribution/ownership records and use-specific authorization"
+    },
+    {
+      "option": "independent AI-assisted composition",
+      "status": "Hold",
+      "fact_status": "Unresolved",
+      "scope": "Proposed sync/commercial exploitation",
+      "needed": "Documented independent inputs and human expression, exact provider conditions, actual result and buyer review"
+    }
+  ],
+  "assets": [
+    {
+      "asset": "Typographic/line/space artwork",
+      "origin": "Original HTML/CSS composition for this draft; no generated image or celebrity media"
+    },
+    {
+      "asset": "Existing fonts",
+      "origin": "Georgia/system stack and existing Fraunces; assets/fonts/Fraunces-OFL.txt"
+    },
+    {
+      "asset": "PIXIE sigil",
+      "origin": "Existing unmodified project asset; provenance in brand-guidelines.md"
+    }
+  ],
+  "privacy": "No protected audio, raw correspondence, private file locator, identity/financial/health record or negotiation supplied to the public build.",
+  "open_questions": [
+    "Owner creative/visual acceptance",
+    "Authorized exact sanitized chronology and cost wording",
+    "Original correspondence and qualifying responses privately inspected before stronger historical assertions",
+    "Version-specific rights and professional review",
+    "Correct authorized business entity and submission policy before outreach"
+  ],
+  "held_candidates": [
+    "PIXIE PR #12 unchanged/unmerged",
+    "Training PR #55 unchanged/unmerged"
+  ],
+  "portfolio_pitch": "https://ibloud.github.io/ecosystem/projects/50-ways/",
+  "production_record": "https://50ways.loptrlab.com/",
+  "role": "Behind-the-scenes development, learning and review record"
+}

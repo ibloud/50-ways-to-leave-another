@@ -1,4 +1,6 @@
 # Creative Brief Addendum — Track-by-Track Artist Brief
+
+> **Development-history status, November 9, 2026:** the named characters, five-track/episode assignments and prospective performers below are earlier proposals. The [current thriller treatment](cinematic-series-treatment.md) leaves episode count, biographies and collaborator commitments open. No named artist is attached.
 ## 50 Ways to Leave Another · Loptr Lab / Dominique Devereaux
 ### For: Lead artist and production coordinator
 ### Format: Feelings-not-functions (per John August / The Nines methodology)
