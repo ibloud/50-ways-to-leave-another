@@ -1,7 +1,8 @@
-const {chromium}=require('playwright');const AxeBuilder=require('/workspace/work/browser/node_modules/@axe-core/playwright').default;const fs=require('fs');const path=require('path');const assert=require('assert/strict');
+// Development browser test; requires Playwright and axe-core/playwright, not site runtime dependencies.
+const {chromium}=require('playwright');const AxeBuilder=require(process.env.AXE_PLAYWRIGHT_MODULE || '@axe-core/playwright').default;const fs=require('fs');const path=require('path');const assert=require('assert/strict');
 const base=(process.env.PITCH_TEST_BASE || 'http://127.0.0.1:8765').replace(/\/$/,'');
 const artifacts=process.env.ARTIFACT_DIR || '/tmp/cinematic-pitch-review';fs.mkdirSync(artifacts,{recursive:true});
-(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});const c=await b.newContext();const p=await c.newPage();const errors=[],external=[];p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>{if(!r.url().startsWith(base+'/'))external.push(r.url())});const results=[];
+(async()=>{const b=await chromium.launch({executablePath:process.env.CHROMIUM_EXECUTABLE || '/usr/bin/chromium',args:['--no-sandbox']});const c=await b.newContext();const p=await c.newPage();const errors=[],external=[];p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>{if(!r.url().startsWith(base+'/'))external.push(r.url())});const results=[];
 await p.goto(base+'/pitch/');assert.equal(await p.locator('audio,video,iframe').count(),0);assert.equal(await p.locator('h1').count(),1);
 for(const light of [false,true]){
  if(light)await p.locator('#pitch-theme').click();

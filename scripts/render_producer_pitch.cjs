@@ -10,7 +10,7 @@ const { chromium } = require('playwright');
   if (!content) throw new Error('Generated producer-pitch article not found.');
   // Resolve only document links in the exported PDF. No remote media is fetched.
   const article = content[1].replace(/href="([^":]+)"/g, (_, target) => {
-    const absolute = new URL(target, 'https://50ways.loptrlab.com/docs/cinematic-series-pitch.html');
+    const absolute = new URL(target, process.env.PITCH_DOCUMENT_BASE || 'https://50ways.loptrlab.com/docs/cinematic-series-pitch.html');
     return `href="${absolute.href}"`;
   });
   const browser = await chromium.launch({headless:true, ...(process.env.CHROMIUM_EXECUTABLE ? {executablePath:process.env.CHROMIUM_EXECUTABLE} : {}), args:['--no-sandbox']});

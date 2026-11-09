@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "review_date": "2026-11-09",
-  "status": "Local validation complete; Vercel draft preview and owner review pending",
+  "status": "Local validation complete; initial Vercel draft preview READY and HTTP 200 through authenticated fetch; final preview re-verification pending",
   "base_main": "0b2787587e010d6672849e4af66fdb95272816a7",
   "branch": "review/cinematic-series-collaboration",
   "professional_review": "PENDING",
@@ -10,7 +10,7 @@
     "regressions": "PASS: existing PIXIE v0.1/ATProto/classroom 10/10 tests; rubric, capstone, AI-MUSIC-001, .github and pixie sources unchanged",
     "pitch_browser": "PASS: Chromium axe WCAG A/AA in both reading modes; 320/390/479/480/799/800/801/820/1440; 200% text and larger-text toggle; keyboard skip/focus/disclosure; PDF download; no-JS; reduced motion; no external requests or playable media",
     "document_browser": "PASS: seven supporting new/extended documents, axe A/AA and 320/390/820/1440 reflow",
-    "pdf": "PASS: 2 pages visually inspected; selectable text, English language, tagged structure, H1/H2, outline/bookmarks and section order; no PDF/UA certification",
+    "pdf": "PASS: 2 pages, selectable text, en language, MarkInfo/StructTreeRoot, H1/H2 and outline; both pages visually inspected. PDF document links point to branch preview for pre-merge review. No PDF/UA certification.",
     "download_integrity": "PDF and source-download SHA-256 values in download-manifest.json",
     "privacy": "No recording, raw email, private file locator, contact identity, private financial/medical/benefit record or account ingestion included"
   },
@@ -131,7 +131,7 @@
       "reducedScroll": "auto"
     }
   ],
-  "pdf_sha256": "7bf8bf7e420039d739b2e2b11f2a20868442037e9c9c886fb9b9786cd691e452",
+  "pdf_sha256": "2e197154db5cc8aca038369cbbaab7dcfb7af67be6dd1fc2fa24adf4abac8fe8",
   "files": [
     "PROVENANCE.html",
     "PROVENANCE.md",
@@ -196,7 +196,13 @@
     "No named partner contacted; no submission route or approval inferred",
     "No main merge/production publication without owner review after preview"
   ],
-  "preview": "Automatic existing Vercel preview to be verified; no new Vercel project or paid resource requested",
+  "preview": {
+    "branch_url": "https://50-ways-to-leave-another-git-review-cinematic-86949b-loptr-lab.vercel.app/pitch/",
+    "initial_deployment": "dpl_ALYdwL4mZkgGCpphMMDf6HiKJf5q",
+    "initial_commit": "64d2b95788fffa5ff75ee99701f3992c88cf92d0",
+    "verified": "Authenticated Vercel tool returned pitch HTML HTTP 200; direct request redirects to Vercel sign-in. Existing protection retained.",
+    "pdf_links": "Relative document links in PDF resolve through the existing branch preview; production path remains pending owner acceptance."
+  },
   "commands": [
     "python3 scripts/build_documents.py --check",
     "node --test pixie/v0.1/index.test.js pixie/v0.1/atproto-public.test.js pixie/classroom/index.test.js",
