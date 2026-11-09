@@ -20,7 +20,7 @@ A collection society, distributor, payment processor, private contract and split
 
 ## Gods of Mayhem: the human review community
 
-Gods of Mayhem means the people, professionals, experienced practitioners and thought leaders who have the time, resources and capacity to participate for the sake of the ecosystem. Their contribution is experience, questions, practical judgment and scoped review—not automatic authority granted by a symbol or software.
+Gods of Mayhem means the contributors, professionals, experienced practitioners and thought leaders who have the time, resources and capacity to participate for the sake of the ecosystem. Their contribution is experience, questions, practical judgment and scoped review—not automatic authority granted by a symbol or software.
 
 Participants choose what they can contribute and the scope they can sustain. Agree recognition, attribution, confidentiality, time and any compensation before work begins. Voluntary ecosystem contribution is a choice, not a requirement that everyone work without pay. Professional engagements, credentials and review scope are established separately where relevant.
 

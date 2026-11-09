@@ -1,5 +1,5 @@
 {
-  "status": "Ready for owner review and push; local only, not pushed",
+  "status": "Prepared for review-branch publication; main remains unchanged",
   "professional_review": "PENDING",
   "portfolio_pitch": "https://ibloud.github.io/ecosystem/projects/50-ways/",
   "checks": {
@@ -12,5 +12,12 @@
     "Professional review PENDING; music exploitation HOLD",
     "No private evidence published",
     "No live deployment claimed"
-  ]
+  ],
+  "reconciled_remote_main": "0b2787587e010d6672849e4af66fdb95272816a7",
+  "release_boundaries": {
+    "review": "PENDING",
+    "music_exploitation": "HOLD",
+    "gods_of_mayhem": "Contributors, professionals, experienced practitioners and thought leaders",
+    "excluded": "Ren media and private evidence"
+  }
 }
