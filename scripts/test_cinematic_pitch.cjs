@@ -1,0 +1,20 @@
+const {chromium}=require('playwright');const AxeBuilder=require('/workspace/work/browser/node_modules/@axe-core/playwright').default;const fs=require('fs');const path=require('path');const assert=require('assert/strict');
+const base=(process.env.PITCH_TEST_BASE || 'http://127.0.0.1:8765').replace(/\/$/,'');
+const artifacts=process.env.ARTIFACT_DIR || '/tmp/cinematic-pitch-review';fs.mkdirSync(artifacts,{recursive:true});
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});const c=await b.newContext();const p=await c.newPage();const errors=[],external=[];p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>{if(!r.url().startsWith(base+'/'))external.push(r.url())});const results=[];
+await p.goto(base+'/pitch/');assert.equal(await p.locator('audio,video,iframe').count(),0);assert.equal(await p.locator('h1').count(),1);
+for(const light of [false,true]){
+ if(light)await p.locator('#pitch-theme').click();
+ for(const width of [320,390,479,480,799,800,801,820,1440]){await p.setViewportSize({width,height:1000});results.push({theme:light?'light':'dark',width,overflow:await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1)});}
+ await p.setViewportSize({width:320,height:900});
+ let a=await new AxeBuilder({page:p}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();results.push({theme:light?'light':'dark',violations:a.violations.map(v=>({id:v.id,targets:v.nodes.map(n=>n.target)}))});
+ await p.evaluate(()=>document.documentElement.style.fontSize='200%');results.push({theme:light?'light':'dark',text200overflow:await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1)});await p.evaluate(()=>document.documentElement.style.fontSize='');
+ await p.locator('#pitch-size').click();results.push({largerTextOverflow:await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1)});await p.locator('#pitch-size').click();
+}
+await p.goto(base+'/pitch/');await p.keyboard.press('Tab');assert.equal(await p.locator(':focus').innerText(),'Skip to main content');assert.notEqual(await p.locator(':focus').evaluate(e=>getComputedStyle(e).outlineStyle),'none');await p.keyboard.press('Enter');assert.equal(await p.evaluate(()=>location.hash),'#main');
+const summary=p.locator('.pitch-disclosure summary').first();await summary.focus();await p.keyboard.press('Enter');assert(await summary.locator('..').evaluate(e=>e.open));await p.keyboard.press('Enter');assert.equal(await summary.locator('..').evaluate(e=>e.open),false);
+const dl=await Promise.all([p.waitForEvent('download'),p.locator('a[download]').click()]);assert.equal(dl[0].suggestedFilename(),'producer-pitch.pdf');
+await p.emulateMedia({reducedMotion:'reduce'});results.push({reducedScroll:await p.locator('body').evaluate(e=>getComputedStyle(e).scrollBehavior)});
+await p.setViewportSize({width:1440,height:1000});await p.screenshot({path:path.join(artifacts,'pitch-desktop.png'),fullPage:true});await p.setViewportSize({width:320,height:900});await p.screenshot({path:path.join(artifacts,'pitch-mobile.png'),fullPage:true});
+const nojs=await b.newContext({javaScriptEnabled:false,viewport:{width:320,height:900}});const np=await nojs.newPage();await np.goto(base+'/pitch/');await np.locator('.pitch-disclosure summary').first().click();assert(await np.locator('.pitch-disclosure').first().evaluate(e=>e.open));assert(await np.locator('a[download]').isVisible());assert(await np.locator('.pitch-reading').isHidden());
+assert.deepEqual(errors,[]);assert.deepEqual(external,[]);await b.close();fs.writeFileSync(path.join(artifacts,'browser-results.json'),JSON.stringify(results,null,2));console.log(JSON.stringify(results.filter(r=>r.overflow||r.text200overflow||r.largerTextOverflow||r.violations?.length),null,2));if(results.some(r=>r.overflow||r.text200overflow||r.largerTextOverflow||r.violations?.length))process.exit(1);console.log('PASS: pitch widths/breakpoints, two reading themes, 200% text, axe A/AA, skip/focus, keyboard disclosure, PDF download, reduced motion, no-JS, no external requests or media')})();

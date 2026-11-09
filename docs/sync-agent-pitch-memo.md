@@ -1,12 +1,14 @@
 # SYNC AGENT PITCH MEMO
+
+> **Superseded pitch assurances — November 9, 2026:** use the [current producer pitch](cinematic-series-pitch.md) and [rights checklist](../templates/series-rights-checklist.md). This earlier draft does not establish blanket master ownership, one-stop clearance, a completed rights chain, an active negotiation or a clearance deadline. Existing human-recorded and Suno versions remain separate and unresolved. A newly recorded master does not itself remove third-party composition/sample/AI-input dependencies. Historical reference ranges below are not a budget or earnings forecast. No Netflix/label/artist relationship is implied.
 ## 50 Ways to Leave Another — Title Track + EP
-### Submitted on behalf of: Dominique Devereaux / Loptr Lab
-### Prepared for: Music Supervisor, Netflix Original Series Development
+### Earlier draft for: Dominique Devereaux / Loptr Lab
+### Intended reader: a prospective music supervisor; not submitted to or requested by Netflix
 ### Date: September 2026
 
 ---
 
-**From:** [Sync Agent / sus3-style one-stop representation]
+**Draft role placeholder:** prospective music-supervision/representation role; no agent engaged
 **Re:** Original EP + Series Bible — Co-production pitch, not a traditional sync submission
 
 ---
@@ -25,24 +27,7 @@ The EP is **50 Ways to Leave Another** by Dominique Devereaux / Loptr Lab. The t
 
 ### Clearance status
 
-This project is structured for one-stop clearance. Dominique Devereaux is the composition originator and the master owner (via Loptr Lab). There is no label. There is no publisher holding co-ownership. The rights architecture is documented publicly at:
-
-**`github.com/ibloud/50-ways-to-leave-another`**
-
-The repo contains: provenance records, rights-clearance framework, AI-use disclosure, contributor policy, split-sheet templates, and delivery checklists. Every rights question a music supervisor would ask in a clearance call is pre-answered in writing. This is what one-stop looks like before a deal is signed.
-
-**Current clearance status per RIGHTS-AND-CLEARANCE.md:**
-
-| Layer | Status |
-|---|---|
-| Composition copyright | Pre-registration; filing in progress |
-| Master recording | Pre-production — commercial master not yet recorded |
-| Lead artist agreement | In negotiation |
-| Beat / instrumental | Requires upgrade to SVOD/worldwide/perpetuity scope before sync |
-| AI disclosure | Documented — Suno demo is the concept draft only, not the commercial master |
-| Split sheet | Pending lead artist agreement execution |
-
-**Honest timeline to clearance-ready:** 8–10 weeks from agreement execution with a lead artist. This is a development-stage pitch, not a delivery-ready catalog submission.
+**Current status: HOLD for any rights-dependent music pitch or sync exploitation.** The creator's account of origin and the documented development framework are not verified title chains. Do not infer master ownership, a transfer or permission from payment, possession or repository publication. Independently verify both composition and master records, samples, collaborators and exact versions privately. No executed agreement or clearance timeline was inspected for this correction.
 
 ### What exists right now that a supervisor can evaluate
 
@@ -82,9 +67,9 @@ The delivery spec for each track in this EP includes: stereo master, TV mix (dia
 
 <cite index="21-1">Before a music supervisor even falls in love with your song, they need to know it can actually be used. That means clean splits, no unresolved publishing issues, and stems available if needed. No AI music. No YouTube or BeatStars beats. A great song with bad business will get passed over every time.</cite>
 
-The commercial master will be recorded to clear all AI-origin elements from the Suno demo. The beat/instrumental license will be upgraded to SVOD/worldwide/perpetuity scope before any pitch conversation involving a specific track. The split sheet will be executed before delivery. The AI-use disclosure will accompany every deliverable.
+A proposed new human recording would require its own contribution and clearance review; it does not automatically clear any composition, sample or AI-input dependency. The beat/instrumental license will be upgraded to SVOD/worldwide/perpetuity scope before any pitch conversation involving a specific track. The split sheet will be executed before delivery. The AI-use disclosure will accompany every deliverable.
 
-The GitHub repo exists precisely because of this requirement: every business question a supervisor needs answered is documented before the music is finished. The repo is the clearance architecture, built in advance.
+The GitHub repo exists precisely because of this requirement: the required questions and missing evidence can be recorded before music is licensed. The repo is the clearance architecture, built in advance.
 
 ---
 
