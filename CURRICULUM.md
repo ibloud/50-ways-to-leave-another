@@ -39,3 +39,7 @@ The curriculum now includes an interactive-narrative specialization using **[Inp
 ## Module 6 promotional campaign discussion
 
 Use the optional [story/video/lyric campaign example](exercises/fictional-capstone.md#promotional-campaign-example-a-story-reference-is-not-lyric-clearance) to separate source links or embeds, limited quotation for commentary, and lyric adaptation. Record evidence and a proceed/hold decision before promotional release. This supplements the existing rights-envelope practice without changing rubric points or claiming legal approval.
+
+## Legal & Rights research extensions
+
+Use [Loptr Lab Legal & Rights](https://ibloud.github.io/legal-rights/) for the cross-project source index. Module 5 adds the [brand-stewardship exercise](research/brand-stewardship.md); Modules 4–6 may use [ENTERPRISE-001: The $1 Founder and Paid Team](research/enterprise-001.md) to compare fictional governance, compensation and separate benefits/housing reporting questions. These extend the existing capstone and 24-point rubric. Professional review remains PENDING; personal evidence stays private.

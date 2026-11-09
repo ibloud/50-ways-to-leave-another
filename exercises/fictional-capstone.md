@@ -99,3 +99,7 @@ For a U.S. fair-use analysis, examine purpose/character, nature of the work, amo
 ## AI-MUSIC-001 legal evaluation
 
 Extend the Module 5/6 rights work with [Who Owns the Continuation?](../research/ai-music-001.md), a proposed AI-music use with real platform-source checks and unresolved rights. This separate case is not part of the synthetic candidate packet above. Complete its eight evidence records in the existing rights envelope and delivery package. Use its worked HOLD example and the unchanged 24-point rubric; no audio, upload or artist approval is required or asserted.
+
+## Optional stewardship and enterprise records
+
+Extend the same rights envelope with [BRAND-001](../research/brand-stewardship.md) or [ENTERPRISE-001](../research/enterprise-001.md). Separate legal ownership, proposed economics, program reporting and evidence provenance. Use the [portable synthetic sample](https://loptr-lab.github.io/training/legal-rights/) to inspect a PDF/JSON/CSV package without submitting private data. The existing rubric and stop conditions remain unchanged; no personal benefit determination is made.
