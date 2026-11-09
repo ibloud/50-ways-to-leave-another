@@ -11,7 +11,7 @@ The 50 Ways to Leave Another production history is presented as a learning oppor
 
 The preferred learning outcome is a better collaboration process in which creators and technical professionals understand their responsibilities, limitations, approval boundaries and available support before problems become expensive or legally consequential.
 
-[Read the series pitch](../pitch/index.html) · [Sources and evidence inventory](../docs/cinematic-pitch-sources.md) · [Existing collaboration discussion, issue #47](https://github.com/ibloud/50-ways-to-leave-another/issues/47)
+[Read the show pitch in the portfolio](https://ibloud.github.io/ecosystem/projects/50-ways/) · [Sources and evidence inventory](../docs/cinematic-pitch-sources.md) · [Existing collaboration discussion, issue #47](https://github.com/ibloud/50-ways-to-leave-another/issues/47)
 
 ## Evidence available for this draft
 

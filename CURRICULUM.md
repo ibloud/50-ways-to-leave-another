@@ -43,3 +43,7 @@ Use the optional [story/video/lyric campaign example](exercises/fictional-capsto
 ## Legal & Rights research extensions
 
 Use [Loptr Lab Legal & Rights](https://ibloud.github.io/legal-rights/) for the cross-project source index. Module 5 adds the [brand-stewardship exercise](research/brand-stewardship.md); Modules 4–6 may use [ENTERPRISE-001: The $1 Founder and Paid Team](research/enterprise-001.md) to compare fictional governance, compensation and separate benefits/housing reporting questions. These extend the existing capstone and 24-point rubric. Professional review remains PENDING; personal evidence stays private.
+
+## Work through the production model
+
+Use the [production-model review](docs/production-model-review.md) to prepare and examine waterfall/cash timing, rights management, royalty collection, promotion and collaboration decisions. Gods of Mayhem is the human review community contributing capacity and experience for the ecosystem. The [portfolio pitch](https://ibloud.github.io/ecosystem/projects/50-ways/) presents the show; this site holds the separate development and learning record. Existing scoring and professional-review boundaries remain unchanged.

@@ -3,7 +3,7 @@
   "review_date": "2026-11-09",
   "professional_review": "PENDING",
   "proposal": "Independent unsolicited development; no named artist, studio, label or platform affiliation",
-  "publication": "Draft PR and Vercel review preview; main merge requires owner review",
+  "publication": "Prepared locally for coordinated review-branch push; not published",
   "sources": [
     {
       "id": "P1",
@@ -162,5 +162,8 @@
   "held_candidates": [
     "PIXIE PR #12 unchanged/unmerged",
     "Training PR #55 unchanged/unmerged"
-  ]
+  ],
+  "portfolio_pitch": "https://ibloud.github.io/ecosystem/projects/50-ways/",
+  "production_record": "https://50ways.loptrlab.com/",
+  "role": "Behind-the-scenes development, learning and review record"
 }

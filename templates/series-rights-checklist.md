@@ -2,7 +2,7 @@
 
 **50 Ways to Leave Another · Review draft · Independent professional review: PENDING**
 
-Use the existing [rights envelope](rights-envelope.md), [contribution record](contribution-record.md) and [delivery checklist](delivery-checklist.md). This checklist structures review; it grants no rights and adds no rubric points. [Pitch](../pitch/index.html) · [Sources](../docs/cinematic-pitch-sources.md).
+Use the existing [rights envelope](rights-envelope.md), [contribution record](contribution-record.md) and [delivery checklist](delivery-checklist.md). This checklist structures review; it grants no rights and adds no rubric points. [Pitch](https://ibloud.github.io/ecosystem/projects/50-ways/) · [Sources](../docs/cinematic-pitch-sources.md).
 
 ## Evidence-status legend
 

@@ -2,7 +2,7 @@
 
 **Review date: November 9, 2026 · Independent professional review: PENDING**
 
-[Pitch](../pitch/index.html) · [Treatment](cinematic-series-treatment.md) · [Collaboration case](../research/production-collaboration-history.md) · [Machine-readable inventory](../pitch/inventory.json)
+[Pitch](https://ibloud.github.io/ecosystem/projects/50-ways/) · [Treatment](cinematic-series-treatment.md) · [Collaboration case](../research/production-collaboration-history.md) · [Machine-readable inventory](production-model-inventory.json)
 
 ## Source classes
 
@@ -16,7 +16,7 @@
 | P2 | `docs/creative-brief.md`, `docs/track-creative-brief.md`, `docs/series-bible.md`, `PROVENANCE.md`, `PROJECT-STATUS.md`, contribution/rights/delivery templates at main `0b2787587e010d6672849e4af66fdb95272816a7` | Existing music-first development and role/approval discipline. Five-part map and named prospective collaborators remain proposals; no executed agreements inferred |
 | P3 | `docs/sync-agent-pitch-memo.md` at the same baseline | Earlier pitch entry reused through correction and current treatment. Its blanket ownership/one-stop and “new recording clears AI” assurances are superseded; no unsupported clearance deadline or earnings ranges carried forward |
 | D1 | [Violet pitch source](https://github.com/ibloud/violets-revenge/blob/2564a53716e78dca8062ec03a078739552b3e822/pitch/index.html), current checkout short SHA `2564a53` | Presentation reference only: hook, optional detail, evidence/status, separate review destinations. Local Chromium screenshot inspected. No art, characters, game UI, code or commercial assumptions copied. Source pin inspected for this draft |
-| D2 | Existing `brand-guidelines.md`, `assets/site.css`, canonical portfolio navigation/CSS and Legal & Rights at `d9eab7796a80192186f32a0de2db641f3ab306b0` | Own 50 Ways palette/type and single shared CSS preserved; canonical portfolio unchanged. Its open PR #46 also touches legal-page styling and is left untouched |
+| D2 | Existing `brand-guidelines.md`, the project-specific shared CSS rules, canonical portfolio navigation/CSS and Legal & Rights at `d9eab7796a80192186f32a0de2db641f3ab306b0` | Own 50 Ways palette/type and single shared CSS preserved; canonical portfolio unchanged. Its open PR #46 also touches legal-page styling and is left untouched |
 | D3 | [Material 3 accessibility](https://m3.material.io/foundations/accessible-design/overview); [repository-linked implementation reference](https://github.com/skydashnet/material-design-3-ui-skill) | Official accessibility page returned a JavaScript shell; attempted interaction overview returned 404. Read third-party skill references for typography, color, spacing, navigation, adaptive design, accessibility and anti-patterns. No claim of official M3 certification or pixel-standard conformance |
 
 ## Official industry and submission sources
@@ -44,7 +44,7 @@ The proposed Paul Simon source question needs authorized session and version inv
 
 ## Asset and rights inventory
 
-- **Pitch artwork:** original typographic/line/space composition authored in HTML/CSS for this review. No portraits, artist logos, third-party performance, soundtrack, footage or AI-generated celebrity imagery.
+- **Pitch artwork:** original typographic/line/space composition authored in HTML/CSS for the portfolio review. No portraits, artist logos, third-party performance, soundtrack, footage or AI-generated celebrity imagery.
 - **Fonts:** existing Georgia/system reading stack and self-hosted Fraunces already in this repository; [existing SIL OFL license](../assets/fonts/Fraunces-OFL.txt). No new font download or dependency.
 - **PIXIE:** existing [companion sigil](../assets/pixie-companion-sigil.png), unchanged, with provenance in `brand-guidelines.md`; link to the existing Companion/guide, no new character or assistant.
 - **Real recording/master, Suno interpretation and all new music options:** unresolved for specified commercial/sync use; **Hold** until version-specific evidence and competent review. “Verified” in the inventory is a fact-check label, not clearance.
@@ -53,4 +53,4 @@ The proposed Paul Simon source question needs authorized session and version inv
 
 ## Review and publication boundaries
 
-Draft Vercel preview and draft PR only. Owner visual, premise and public-history acceptance are still required before merging. Legal/technical holds are in the [checklist](../templates/series-rights-checklist.md); [validation record](../pitch/validation.json) distinguishes automated/local/preview evidence from physical-device and legal acceptance. PIXIE OAuth PR #12 and Training Library PR #55 remain open at their existing held commits; no capability is activated.
+The show pitch belongs to the existing portfolio entry at https://ibloud.github.io/ecosystem/projects/50-ways/. This site retains source, rights, economic and learning records. The user clarified this ownership boundary before push; the corrected two-repository changes are prepared locally, not published. Owner visual, premise and public-history acceptance are still required before merging. Legal/technical holds are in the [checklist](../templates/series-rights-checklist.md); [validation record](production-model-validation.json) distinguishes automated/local/preview evidence from physical-device and legal acceptance. PIXIE OAuth PR #12 and Training Library PR #55 remain open at their existing held commits; no capability is activated.
