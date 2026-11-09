@@ -95,3 +95,7 @@ For a U.S. fair-use analysis, examine purpose/character, nature of the work, amo
 **Disclosure example.** “This independent story uses original drafted prose and scripted game responses. Optional source videos load only on request and are subject to the host's terms and data practices. No song lyrics or downloaded music are included in the story. Product photographs may display printed artwork; no artist affiliation, endorsement or adaptation permission is implied.” Use this only when it accurately describes the actual campaign build.
 
 **Evidence limit, 4 November 2026.** This is an implementation/review example, not a legally cleared or independently accepted release. Owner-supplied video references are `eBwec9gtuCI` and `H1wA4kTFC3g`; official uploader status, playback, captions and embedding availability remain unverified in this review. The supplied transcript is not reproduced here; advertisement material is excluded. Distinguish intended embed behavior, automated local checks and a verified public experience.
+
+## AI-MUSIC-001 legal evaluation
+
+Extend the Module 5/6 rights work with [Who Owns the Continuation?](../research/ai-music-001.md), a proposed AI-music use with real platform-source checks and unresolved rights. This separate case is not part of the synthetic candidate packet above. Complete its eight evidence records in the existing rights envelope and delivery package. Use its worked HOLD example and the unchanged 24-point rubric; no audio, upload or artist approval is required or asserted.

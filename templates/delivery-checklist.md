@@ -47,3 +47,10 @@
 - [ ] Record the source, date, proposed use, applicable terms/law, permission evidence and unresolved holds; “demo only” is not clearance.
 - [ ] Describe actual AI assistance, source-video loading and rights limits accurately; keep purchases optional.
 - [ ] Review the [worked campaign example](../exercises/fictional-capstone.md#promotional-campaign-example-a-story-reference-is-not-lyric-clearance). Do not copy its disclosure if it does not match your build.
+
+## AI-MUSIC-001 release gate
+
+- [ ] Link all eight [legal evaluation records](../research/ai-music-001.md#module-6-legal-evaluation) from the rights envelope.
+- [ ] Separate composition/master evidence, human authorship and platform permission; record terms and feature dates.
+- [ ] Retain PENDING attorney-review status; do not interpret public comments or a passing score as clearance.
+- [ ] Keep the proposed continuation on HOLD while permissions are absent; publish no protected media or private evidence.

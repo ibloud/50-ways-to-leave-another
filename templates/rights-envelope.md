@@ -48,3 +48,7 @@
 - Approval:
 - Credit:
 - Remaining questions:
+
+## AI-MUSIC-001 evidence record
+
+For the [legal evaluation](../research/ai-music-001.md#module-6-legal-evaluation), copy and complete: chain map; composition holder/evidence; master holder/evidence; human/AI inventory; dated plan/feature/terms comparison; permission checklist; unresolved question/owner/next action; attribution and revenue proposal subject to agreement; decision and change-of-decision evidence. Keep private contracts in the private evidence index. Worked example: both holders unknown; permission absent; shares unagreed; HOLD source processing and release until verified authority and applicable platform conditions are reviewed.
