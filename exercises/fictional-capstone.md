@@ -103,3 +103,14 @@ Extend the Module 5/6 rights work with [Who Owns the Continuation?](../research/
 ## Optional stewardship and enterprise records
 
 Extend the same rights envelope with [BRAND-001](../research/brand-stewardship.md) or [ENTERPRISE-001](../research/enterprise-001.md). Separate legal ownership, proposed economics, program reporting and evidence provenance. Use the [portable synthetic sample](https://loptr-lab.github.io/training/legal-rights/) to inspect a PDF/JSON/CSV package without submitting private data. The existing rubric and stop conditions remain unchanged; no personal benefit determination is made.
+
+
+## Applied production-budget example: Mayhem
+
+This real-project discussion is separate from the fictional packet above. Read the [Mayhem production-cost comparison](https://ibloud.github.io/provenance/#music-production-cost), an owner-review draft based on a supplied summary rather than independently inspected source files. The link becomes available publicly only after owner-approved publication.
+
+For your fictional EP’s artwork, merchandise and physical edition, separate three budget lines: **quote preparation**, **production-art labor**, and **physical proofing**. Mayhem’s founder reports an AI scope in under 15 minutes; its 24 / 48 / 60-hour production options are planning estimates, not commissioned work or confirmed delivery dates. Vendor intake and refund correspondence does not establish an equivalent itemized assessment.
+
+Record what each stage gives you, cash already paid versus proposed costs, the evidence still needed, and the likely correction work. Keep USD and GBP separate. Do not assign the separate Veiled Dominion OpenAI spend to Mayhem or calculate savings from unknown founder hours.
+
+Decide what you would pay for next and why: a specialist’s source-file inspection, specified artwork variants, embroidery digitizing, or a physical proof. Explain what would change that decision. Test the mark at card-index size and on the intended material; concept and placement feedback alone is not print approval. Keep private evidence in your private index and use aggregate figures in the review copy.
