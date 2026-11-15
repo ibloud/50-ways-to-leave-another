@@ -103,3 +103,19 @@ Extend the Module 5/6 rights work with [Who Owns the Continuation?](../research/
 ## Optional stewardship and enterprise records
 
 Extend the same rights envelope with [BRAND-001](../research/brand-stewardship.md) or [ENTERPRISE-001](../research/enterprise-001.md). Separate legal ownership, proposed economics, program reporting and evidence provenance. Use the [portable synthetic sample](https://loptr-lab.github.io/training/legal-rights/) to inspect a PDF/JSON/CSV package without submitting private data. The existing rubric and stop conditions remain unchanged; no personal benefit determination is made.
+
+## Adaptive production: opportunity is not permission
+
+Optional Module 5/6 extension; the existing rubric and rights-review gates remain unchanged. This is a research exercise, not a demonstrated hardware integration or an actual job offer.
+
+**Fictional brief:** an animator wants to contribute through keyboard-based editing rather than wearing a capture suit. A producer proposes reusing contest motion in a robotics demo and calling the equipment a Medicare-funded workplace accommodation. No rights, employment relationship, coverage or compatibility have been verified.
+
+Use the existing [rights envelope](../templates/rights-envelope.md) and [contribution record](../templates/contribution-record.md). Write: task and authorship; functional barrier and participant-chosen adaptation; training/voluntary/paid status; proposed fee and timing; source/date; permitted uses; consent; unresolved question; proceed/hold decision. Use fictional names, not medical records or real movement data.
+
+**Worked decision: HOLD the reuse and coverage claim.** The [Xsens contest record and terms](https://made-sick.org/directory.html#resource-xsens-animation-contest-2026) permit a contest entry, not redistribution, outside-contest reuse or AI training/fine-tuning/evaluation of the data or derivatives. Generative AI cannot produce submitted characters, environments, animation or final imagery; ordinary denoising, upscaling and motion cleanup remain permitted when the creative work is yours. The published deadline is December 10, 2026, 23:59 GMT; recheck current terms before any entry. This lesson creates or submits no entry. Use original fictional notes for this exercise.
+
+**Ask:** Who authored the new work, and what underlying data licence limits it? What does the participant want to test? Is this paid production or optional learning? What employment relationship and law could establish an accommodation duty? What separate evidence would establish medical coverage? What authorisation would a new movement-data use require? Corporate sponsorship is voluntary and cannot replace an applicable legal duty.
+
+**Check your work:** distinguish authorship from a commercial technology licence; employment accommodations from assistive technology and Medicare; consent to participate from permission for secondary data use. [EEOC guidance](https://www.eeoc.gov/laws/guidance/enforcement-guidance-reasonable-accommodation-and-undue-hardship-under-ada) allows effective alternatives rather than an automatic right to a preferred device. [Medicare](https://www.medicare.gov/coverage/artificial-eyes-limbs) covers qualifying medically necessary prostheses, not a verified commercial mocap-suit benefit. [PSYONIC](https://www.psyonic.io/) reports Ability Hand Medicare coverage; an individual decision remains separate. No Xsens–PSYONIC integration or ecosystem affiliation is established.
+
+Done means the two existing records identify what is known, what is held and the evidence needed next. Source check: November 15, 2026. Independent legal review remains pending. Professional work requires fair compensation and written terms; no disability disclosure, biometric recording, purchase or public submission is required.

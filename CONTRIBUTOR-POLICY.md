@@ -18,3 +18,7 @@ A contributor must know what is being requested, whether the role is paid under 
 ## Naming prospective collaborators
 
 Public sources may be analyzed, but this repository must not imply that a prospective collaborator accepted, endorsed, performed on, or co-owns the project. Named participation requires review and consent.
+
+## Adaptive participation
+
+Ask about functional barriers at the start and agree accessible alternatives, including text-first or asynchronous work. Technology should adapt to the participant. Participation must not require disability disclosure or biometric movement data. Movement data has its own permissions: no secondary use or AI training without appropriate rights and explicit authorisation. Preserve fair compensation for commissioned professional work and distinguish it from optional learning or voluntary playtesting. Use the existing contribution and rights records; no new assessment or certification is created.
