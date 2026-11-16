@@ -1,5 +1,14 @@
 # 50 Ways to Leave Another
 
+## Repository instructions and contribution entry
+
+Start with [AGENTS.md](https://github.com/ibloud/50-ways-to-leave-another/blob/docs/ecosystem-instruction-entry/AGENTS.md), explicitly read the
+[shared ecosystem instructions](https://github.com/ibloud/ibloud.github.io/blob/docs/agent-design-continuity/docs/ECOSYSTEM_INSTRUCTIONS.md), then follow the local sources and existing
+issues/PRs identified there. The shared update is under review in portfolio PR #59;
+a link does not load instructions automatically. Project-specific canon, privacy,
+security, licensing and release gates remain in this repository.
+
+
 ## Brand authority
 
 Read [brand-guidelines.md](brand-guidelines.md) and [maintainer instructions](https://github.com/ibloud/50-ways-to-leave-another/blob/main/AGENTS.md) before editing. The owner-authorized PR #82 correction supersedes the earlier layout freeze below; original artwork and the graded background stay. Implementation requires preview approval.
