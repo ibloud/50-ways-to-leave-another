@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build committed static reading pages without changing Markdown source content."""
 import argparse
+import json
 import html
 import os
 from pathlib import Path
@@ -60,6 +61,14 @@ def render(path):
             for target, label in [('START-HERE.html', 'Start here'), ('CURRICULUM.html', 'Modules'), ('exercises/fictional-capstone.html', 'Practice'), ('ASSESSMENT-RUBRIC.html', 'Check your work')]
         ) + f'<a href="{prefix}index.html#documents">Documents</a>'
         breadcrumbs = f'<nav class="document-breadcrumbs" aria-label="Breadcrumb"><a href="{prefix}index.html">50 Ways</a><span aria-hidden="true">/</span><a href="{prefix}START-HERE.html">Learning path</a><span aria-hidden="true">/</span><span aria-current="page">{esc(title)}</span></nav>'
+    public_url = 'https://50ways.loptrlab.com/' + path.relative_to(ROOT).with_suffix('.html').as_posix()
+    trail = [('50 Ways', 'https://50ways.loptrlab.com/')]
+    if not pixie_document and path.relative_to(ROOT).as_posix() != 'START-HERE.md':
+        trail.append(('Learning path', 'https://50ways.loptrlab.com/START-HERE.html'))
+    trail.append((title, public_url))
+    breadcrumb_data = json.dumps({'@context': 'https://schema.org', '@type': 'BreadcrumbList',
+        'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': label, 'item': url}
+            for i, (label, url) in enumerate(trail)]}, ensure_ascii=False).replace('<', '\\u003c')
     source_download = '' if pixie_document else ' download'
     source_label = 'View Markdown source' if pixie_document else 'Download Markdown source'
     return f'''<!DOCTYPE html>
@@ -70,6 +79,7 @@ def render(path):
 <title>{esc(title)} | 50 Ways to Leave Another</title>
 {styles}
 <link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json" id="site-breadcrumbs">{breadcrumb_data}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
