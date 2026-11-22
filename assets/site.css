@@ -2056,3 +2056,5 @@ body.discovery-demo form>button {margin:.75rem 0 0}
 body.discovery-demo .tool-link.primary { color:var(--ink); }
 body.discovery-demo .pixie-launcher { background:var(--cream);color:var(--ink); }
 }
+
+.site-breadcrumb{max-width:var(--max);margin:0 auto;padding:.7rem 1.25rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:center;font-size:.9rem;color:var(--muted)}.site-breadcrumb a{color:var(--cream);text-decoration:underline;text-underline-offset:3px}.site-breadcrumb [aria-current=page]{color:var(--gold)}.site-footer{max-width:var(--max);margin:2rem auto 0;padding:1.5rem 1.25rem 2rem;border-top:1px solid var(--line);display:grid;gap:.85rem;color:var(--muted);font-size:.95rem}.site-footer nav{line-height:1.9}.site-footer a{color:var(--cream);text-underline-offset:3px}.site-footer p{margin:0}.footer-directory strong{display:block;color:var(--cream);margin-bottom:.25rem}
