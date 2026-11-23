@@ -52,6 +52,16 @@ Every material assertion should be classed as one of:
 
 The same title-track lyric can function as an intentionally repeated narrative object: Track 1 is an early state; Track 5 is a later production/performance state. The words alone do not establish a real-world event or relationship.
 
+### One cue, two cuts
+
+Enter through [the PLAY IT FORWARD listening trail](https://loptr-lab.github.io/pay-it-forward/adventure/#whats-your-story) and you hear a fan following a song into a remix and a live set. Enter through the treatment and the first thing you know is that the protagonist refuses an assignment. Each route leaves you with a different question about the same decision.
+
+For the proposed [Mayhem handoff](https://loptrlab.com/mayhem/#archive-handoff), two editors receive the same studio-owned scene and fifteen seconds of cleared music. One places the cue before the refusal. The other lets the refusal play in silence and brings the cue in afterward. Screen both cuts, ask what each viewer thought the character wanted, then reveal what changed. A participant chooses whether their response or edit enters the archive and how they are credited.
+
+**Could we use this cut in a trailer?** Follow the selected version back to its editor, cue, recording and contributors. Check the agreed screening scope against the proposed trailer outlets, term and promotional use. Budget any new edit, approvals and negotiated fees, then schedule delivery around those decisions. Record approved uses and payments against that version. A public artist link supplies the discovery trail. The exercise uses studio-controlled material; artist participation and commercial music use remain contingent on separate agreement.
+
+[Read the portfolio treatment](https://ibloud.github.io/ecosystem/projects/50-ways/treatment.html) or [explore Pitch My Project’s public development resources](https://www.pitchmyproject.com/resources) for the relationship between a pitch, budget and production schedule.
+
 ## 5. Social-network DJ continuity
 
 The DJ is a **fictional/in-world role** within the demonstration. Her job is to monitor public network signals, prepare music and sets, and use PIXIE as her operational workspace.
