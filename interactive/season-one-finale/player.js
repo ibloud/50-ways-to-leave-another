@@ -2,6 +2,7 @@ const player = document.querySelector('#player');
 const title = document.querySelector('#scene-title');
 const scene = document.querySelector('#scene');
 const choices = document.querySelector('#choices');
+const teaser = document.querySelector('#season-two-teaser');
 const status = document.querySelector('#player-status');
 
 async function startPlayer() {
@@ -36,7 +37,8 @@ async function startPlayer() {
         render(choice.text === 'See what happens next' ? 'The request' : choice.text.replace('Start with the ', 'The '));
       });
     }
-    if (!story.currentChoices.length) {
+    teaser.hidden = story.currentChoices.length > 0;
+    if (!teaser.hidden) {
       addButton('Replay and choose the other cut', () => restart(true));
     }
     if (moveFocus) title.focus();
