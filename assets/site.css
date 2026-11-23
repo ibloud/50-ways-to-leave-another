@@ -2056,3 +2056,24 @@ body.discovery-demo form>button {margin:.75rem 0 0}
 body.discovery-demo .tool-link.primary { color:var(--ink); }
 body.discovery-demo .pixie-launcher { background:var(--cream);color:var(--ink); }
 }
+
+.finale-demo #choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-block: 1rem;
+}
+
+.finale-demo #choices button {
+  font: inherit;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.finale-demo #credits dt {
+  font-weight: bold;
+}
+
+.finale-demo #credits dd {
+  margin: 0 0 .75rem;
+}
