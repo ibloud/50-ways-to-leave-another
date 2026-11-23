@@ -2058,30 +2058,43 @@ body.discovery-demo .pixie-launcher { background:var(--cream);color:var(--ink); 
 }
 
 .finale-demo #choices {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .75rem;
+  display: grid;
+  justify-items: start;
+  gap: 1rem;
   margin-block: 1rem;
 }
 
-.finale-demo #choices button {
-  background: #f5ecdc;
+.finale-demo #choices button,
+.finale-demo .document-page a.finale-next {
+  appearance: none;
+  background-color: #f5ecdc;
   color: #100d14;
-  border-color: #f5ecdc;
+  border: 2px solid #f5ecdc;
+  border-radius: 12px;
+  padding: .75rem 1rem;
+  min-height: 48px;
+  max-width: 100%;
   font: inherit;
+  font-size: 1.25rem;
   font-weight: 700;
-  min-height: 44px;
+  text-align: left;
   cursor: pointer;
 }
 
-.finale-demo #choices button:hover {
-  background: #fff;
-  border-color: #fff;
+.finale-demo #choices button:hover,
+.finale-demo .document-page a.finale-next:hover {
+  background-color: #fff;
 }
 
-.finale-demo #choices button:focus-visible {
+.finale-demo #choices button:focus-visible,
+.finale-demo .document-page a.finale-next:focus-visible {
   outline: 3px solid #f5ecdc;
   outline-offset: 3px;
+}
+
+.finale-demo .document-page a.finale-next {
+  display: inline-block;
+  text-decoration: underline;
 }
 
 .finale-demo #credits dt {

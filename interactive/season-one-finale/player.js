@@ -14,7 +14,6 @@ async function startPlayer() {
   function addButton(label, action) {
     const button = document.createElement('button');
     button.type = 'button';
-    button.className = 'button secondary';
     button.textContent = label;
     button.addEventListener('click', action);
     choices.append(button);
