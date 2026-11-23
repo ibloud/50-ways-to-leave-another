@@ -2065,9 +2065,23 @@ body.discovery-demo .pixie-launcher { background:var(--cream);color:var(--ink); 
 }
 
 .finale-demo #choices button {
+  background: #f5ecdc;
+  color: #100d14;
+  border-color: #f5ecdc;
   font: inherit;
+  font-weight: 700;
   min-height: 44px;
   cursor: pointer;
+}
+
+.finale-demo #choices button:hover {
+  background: #fff;
+  border-color: #fff;
+}
+
+.finale-demo #choices button:focus-visible {
+  outline: 3px solid #f5ecdc;
+  outline-offset: 3px;
 }
 
 .finale-demo #credits dt {
